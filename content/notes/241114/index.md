@@ -43,4 +43,4 @@ cover:
 晚上8點整到台南，我就先去買我最期待已久的東西。
 
 
-<img src="public/images/IMG_4900.HEIC_compressed.JPEG" width="500">
+<img src="/images/IMG_4900.HEIC_compressed.JPEG" width="500">
