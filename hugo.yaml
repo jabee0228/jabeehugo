@@ -47,6 +47,10 @@ params:
   EnableInstantClick: false
   EnableImageZoom: true
 
+  mainSections:
+    - posts
+    - notes
+
   assets:
     # disableFingerprinting: true
     favicon: "<link / abs url>"

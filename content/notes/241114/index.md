@@ -3,9 +3,8 @@ date: '2024-11-14T17:02:07+08:00'
 draft: false
 title: '極限22小時快閃台南之旅-就是吃吃喝喝'
 
-weight: 1
 tags: ["旅遊"]
-author: "Me"
+author: "Jabee姜"
 
 showToc: true
 TocOpen: true
@@ -23,13 +22,6 @@ ShowPostNavLinks: true
 ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: false
-
-cover:
-    image: "<image path/url>" # image path/url
-    alt: "<alt text>" # alt text
-    caption: "<text>" # display caption under cover
-    relative: false # when using page bundles set this to true
-    hidden: true # only hide on current single page
 ---
 
 大約三個星期前，收到實驗室教授的通知，問我們要不要去比賽，剛好實驗室的進度也有了些進展，就答應了下來。原本想說剛好衝到期中考，就算進決賽也不用去了。結果，考試時間改了，我們也進決賽了，所以最終決定去台南。
@@ -42,4 +34,5 @@ cover:
 
 晚上8點整到台南，我就先去買我最期待已久的東西。
 
-<img title="" src="images/IMG_4900.HEIC_compressed.JPEG" alt="" data-align="inline">
+
+![](images/IMG_4900.HEIC_compressed.JPEG)
