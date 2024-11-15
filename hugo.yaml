@@ -1,4 +1,4 @@
-baseURL: "https://jabee.blog/"
+baseURL: "https://jabeehugo.netlify.app/"
 title: Jabee's Blog
 paginate: 5
 theme: PaperModX
