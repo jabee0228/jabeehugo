@@ -1,0 +1,119 @@
+title: Jabee's Blog
+baseURL: "https://jabee.blog/"
+theme: PaperModX
+
+enableRobotsTXT: true
+enableEmoji: true
+
+languageCode: "zh-tw"
+
+hasCJKLanguage: true
+
+params:
+  description: "Jabee's Blog - 人生不只寫code，還有很多有趣的事等我發現"
+  author: Reorx
+  images:
+    - cover.png
+  favicon: favicon.ico
+  #logo:
+  #  icon: images/logo.svg
+  DateFormat: "2006-01-02"
+  useCustomAnalytics: true
+  mainSections:
+    - posts
+    - notes
+
+  # theme params
+  DisableLanguageSwitch: true
+  TocOpen: true
+  TocSide: right
+  EnableInstantClick: false
+  EnableImageZoom: true
+  ShowShareButtons: true
+  ShareButtons:
+    - twitter
+    - telegram
+  ShowReadingTime: true
+  ShowWordCount: true
+  ShowCodeCopyButtons: true
+  ShowPostNavLinks: true
+  Email: james930228@gmail.com
+
+  socialIcons:
+    - name: github-simple
+      url: "https://github.com/reorx"
+    - name: gmail
+      url: email
+
+  homeInfoParams:
+    Title: "Jabee's Blog - 人生不只寫code\U0001F44B"
+    Content: |
+      歡迎來到我的 Blog
+
+      這邊會分享各種我學習到的新知、旅遊和科技等等
+
+      有問題歡迎寄信給我！
+
+  #commentSystems:
+  #  disqus:
+  #    shortname: reorx
+  #  remark42:
+  #    url: https://remark42.reorx.com
+  #    site: reorx.github.io
+  #  telegramWidget:
+  #    channel: reorx_share
+  #    accentColor: "9077e1"
+  #    limit: 20
+  #defaultCommentSystems:
+  #  remark42: true
+
+permalinks:
+  notes: /:section/:year/:month/:slugorfilename
+
+# prefer feed.xml rather than index.xml
+outputFormats:
+  RSS:
+    mediatype: "application/rss"
+    baseName: "feed"
+
+menu:
+  main:
+    - name: Posts
+      url: /posts/
+      weight: 1
+    - name: Notes
+      url: /notes/
+      weight: 2
+    - name: 科技
+      url: /tags/科技/
+      weight: 3
+    - name: 旅遊
+      url: /tags/旅遊/
+      weight: 4
+    - name: About
+      url: /About/
+      weight: 5
+    - name: Archives
+      url: /archives/
+      weight: 6
+    - name: Tag
+      url: /tags/
+      weight: 7
+    - name: search
+      url: /search/
+      weight: 8
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    style: dracula
+    lineNos: false
+    noClasses: false
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
