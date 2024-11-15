@@ -7,6 +7,7 @@ tags:
   - privacy
   - example
 ShowToc: true
+draft: true
 cover:
   image: images/post-cover.jpg
   caption: a post cover
