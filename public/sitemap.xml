@@ -2,66 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/notes/2024/11/241114/</loc>
+    <loc>https://jabee.blog/notes/241114/</loc>
     <lastmod>2024-11-14T17:02:07+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://jabee.blog/</loc>
     <lastmod>2024-11-14T17:02:07+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/</loc>
+    <loc>https://jabee.blog/notes/</loc>
     <lastmod>2024-11-14T17:02:07+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://jabee.blog/tags/</loc>
     <lastmod>2024-11-14T17:02:07+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E6%97%85%E9%81%8A/</loc>
+    <loc>https://jabee.blog/tags/%E6%97%85%E9%81%8A/</loc>
     <lastmod>2024-11-14T17:02:07+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/2024/11/a2224/</loc>
+    <loc>https://jabee.blog/notes/a2224/</loc>
     <lastmod>2024-11-14T17:02:07+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/a2223/</loc>
+    <loc>https://jabee.blog/posts/</loc>
     <lastmod>2024-11-14T15:10:36+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/example/</loc>
-    <lastmod>2024-11-14T15:10:36+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-11-14T15:10:36+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/privacy/</loc>
-    <lastmod>2024-11-14T15:10:36+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/shortcodes/</loc>
-    <lastmod>2024-11-14T15:10:36+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/notes/2023/01/lorem-ipsum/</loc>
+    <loc>https://jabee.blog/notes/lorem-ipsum/</loc>
     <lastmod>2023-01-27T00:15:38+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/lorem/</loc>
+    <loc>https://jabee.blog/tags/lorem/</loc>
     <lastmod>2023-01-27T00:15:38+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/newsletter/</loc>
-    <lastmod>2022-09-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/newsletter/001-hello-world/</loc>
-    <lastmod>2022-09-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/notes/2019/03/rich-content/</loc>
+    <loc>https://jabee.blog/tags/example/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://jabee.blog/tags/privacy/</loc>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://jabee.blog/notes/rich-content/</loc>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/newsletter/archives/</loc>
+    <loc>https://jabee.blog/tags/shortcodes/</loc>
+    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/1/01/archives/</loc>
+    <loc>https://jabee.blog/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/archives/</loc>
+    <loc>https://jabee.blog/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>https://jabee.blog/notes/archives/</loc>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>https://jabee.blog/posts/archives/</loc>
+  </url><url>
+    <loc>https://jabee.blog/search/</loc>
+  </url><url>
+    <loc>https://jabee.blog/archives/</loc>
   </url>
 </urlset>

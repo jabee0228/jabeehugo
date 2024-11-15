@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Notes on Jabee&#39;s Blog</title>
+    <link>https://jabee.blog/notes/</link>
+    <description>Recent content in Notes on Jabee&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Thu, 14 Nov 2024 17:02:07 +0800</lastBuildDate><atom:link href="https://jabee.blog/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>極限22小時快閃台南之旅-就是吃吃喝喝</title>
+      <link>https://jabee.blog/notes/241114/</link>
+      <pubDate>Thu, 14 Nov 2024 17:02:07 +0800</pubDate>
+      
+      <guid>https://jabee.blog/notes/241114/</guid>
+      <description>&lt;p&gt;大約三個星期前，收到實驗室教授的通知，問我們要不要去比賽，剛好實驗室的進度也有了些進展，就答應了下來。原本想說剛好衝到期中考，就算進決賽也不用去了。結果，考試時間改了，我們也進決賽了，所以最終決定去台南。&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>大約三個星期前，收到實驗室教授的通知，問我們要不要去比賽，剛好實驗室的進度也有了些進展，就答應了下來。原本想說剛好衝到期中考，就算進決賽也不用去了。結果，考試時間改了，我們也進決賽了，所以最終決定去台南。</p>
+<h1 id="day-1">Day 1</h1>
+<p>因為當天還要考試，所以下午才出發。下午5點30分，從桃園高鐵站到台南高鐵站。台南高鐵站可以再轉台鐵火車支線，大約再搭乘半小時就可以進到台南市區。</p>
+<p>但要注意，因為班次不多，實際最多可能要等半小時才會有車。所以其實如果住離火車站近的話，中壢以南其實搭乘自強號就好了，不然實際加下來的時間不會差太多，頂多差半小時多而已。如果害怕火車不好坐，可以乘坐新自強，不比高鐵差，車子還新。</p>
+<p>晚上8點整到台南，我就先去買我最期待已久的東西。</p>
+<img src="images/IMG_4900.HEIC_compressed.JPEG" alt="图片描述" width="500">
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>極限22小時快閃台南之旅-就assa是吃吃喝喝</title>
+      <link>https://jabee.blog/notes/a2224/</link>
+      <pubDate>Thu, 14 Nov 2024 17:02:07 +0800</pubDate>
+      
+      <guid>https://jabee.blog/notes/a2224/</guid>
+      <description>&lt;p&gt;jnjnjnk&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>jnjnjnk</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>A Note of Lorem Ipsum</title>
+      <link>https://jabee.blog/notes/lorem-ipsum/</link>
+      <pubDate>Fri, 27 Jan 2023 00:15:38 +0800</pubDate>
+      
+      <guid>https://jabee.blog/notes/lorem-ipsum/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Me non paenitet nullum festiviorem excogitasse ad hoc. Ambitioni dedisse scripsisse iudicaretur. Unam incolunt Belgae, aliam Aquitani, tertiam. Morbi fringilla convallis sapien, id pulvinar odio volutpat. A communi observantia non est recedendum.&lt;/p&gt;
+&lt;p&gt;Nihilne te nocturnum praesidium Palati, nihil urbis vigiliae. Salutantibus vitae elit libero, a pharetra augue. Quam diu etiam furor iste tuus nos eludet? Fabio vel iudice vincam, sunt in culpa qui officia. Quam temere in vitiis, legem sancimus haerentia. Quisque ut dolor gravida, placerat libero vel, euismod.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipisici elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Me non paenitet nullum festiviorem excogitasse ad hoc. Ambitioni dedisse scripsisse iudicaretur. Unam incolunt Belgae, aliam Aquitani, tertiam. Morbi fringilla convallis sapien, id pulvinar odio volutpat. A communi observantia non est recedendum.</p>
+<p>Nihilne te nocturnum praesidium Palati, nihil urbis vigiliae. Salutantibus vitae elit libero, a pharetra augue. Quam diu etiam furor iste tuus nos eludet? Fabio vel iudice vincam, sunt in culpa qui officia. Quam temere in vitiis, legem sancimus haerentia. Quisque ut dolor gravida, placerat libero vel, euismod.</p>
+<p>Cum sociis natoque penatibus et magnis dis parturient. Curabitur blandit tempus ardua ridiculus sed magna. Salutantibus vitae elit libero, a pharetra augue.</p>
+]]></content:encoded>
+    </item>
+    
+    <item>
+      <title>Rich Content</title>
+      <link>https://jabee.blog/notes/rich-content/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jabee.blog/notes/rich-content/</guid>
+      <description>A brief description of Hugo Shortcodes</description>
+      <content:encoded><![CDATA[<h2 id="image">Image</h2>
+<p>internal image:</p>
+<p><img loading="lazy" src="/notes/rich-content/images/post-image.jpg" type="" alt=""  /></p>
+<p>third party image:</p>
+<p>
+  <img loading="lazy" src="https://images.unsplash.com/photo-1662141978148-2eeb2afb3837?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=772&amp;q=80" alt=""  /></p>
+<h2 id="twitter-simple-shortcode">Twitter Simple Shortcode</h2>
+<br>
+<h2 id="youtube-privacy-enhanced-shortcode">YouTube Privacy Enhanced Shortcode</h2>
+
+
+    
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/ZJthWmvUzzc?autoplay=0&controls=1&end=0&loop=0&mute=0&start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+      ></iframe>
+    </div>
+
+<p>saaa</p>
+<p>sdad</p>
+]]></content:encoded>
+    </item>
+    
+  </channel>
+</rss>
