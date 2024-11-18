@@ -25,8 +25,8 @@ ShowRssButtonInSectionTermList: true
 UseHugoToc: false
 
 cover:
-  image: images/post-cover.jpg
-  caption: a post cover
+  image: images/cover.jpg
+  caption: 
 
 ---
 

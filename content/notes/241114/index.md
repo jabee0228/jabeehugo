@@ -24,8 +24,8 @@ ShowRssButtonInSectionTermList: true
 UseHugoToc: false
 
 cover:
-  image: images/post-cover.jpg
-  caption: a post cover
+  image: images/IMG_4890.HEIC_compressed.JPEG
+  caption: 好久沒搭高鐵了
 
 
 ---
