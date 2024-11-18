@@ -2,37 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jabeehugo.netlify.app/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2024-11-18T21:31:42+08:00</lastmod>
   </url><url>
-    <loc>https://jabeehugo.netlify.app/posts/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2024-11-18T21:31:42+08:00</lastmod>
   </url><url>
-    <loc>https://jabeehugo.netlify.app/posts/241116/</loc>
+    <loc>http://localhost:1313/posts/241116/</loc>
     <lastmod>2024-11-16T15:03:54+08:00</lastmod>
   </url><url>
-    <loc>https://jabeehugo.netlify.app/notes/</loc>
+    <loc>http://localhost:1313/notes/</loc>
     <lastmod>2024-11-14T17:02:07+08:00</lastmod>
   </url><url>
-    <loc>https://jabeehugo.netlify.app/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-11-14T17:02:07+08:00</lastmod>
   </url><url>
-    <loc>https://jabeehugo.netlify.app/tags/%E6%97%85%E9%81%8A/</loc>
+    <loc>http://localhost:1313/tags/%E6%97%85%E9%81%8A/</loc>
     <lastmod>2024-11-14T17:02:07+08:00</lastmod>
   </url><url>
-    <loc>https://jabeehugo.netlify.app/notes/241114/</loc>
+    <loc>http://localhost:1313/notes/241114/</loc>
     <lastmod>2024-11-14T17:02:07+08:00</lastmod>
   </url><url>
-    <loc>https://jabeehugo.netlify.app/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
   </url><url>
-    <loc>https://jabeehugo.netlify.app/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://jabeehugo.netlify.app/notes/archives/</loc>
+    <loc>http://localhost:1313/notes/archives/</loc>
   </url><url>
-    <loc>https://jabeehugo.netlify.app/posts/archives/</loc>
+    <loc>http://localhost:1313/posts/archives/</loc>
   </url><url>
-    <loc>https://jabeehugo.netlify.app/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
   </url><url>
-    <loc>https://jabeehugo.netlify.app/archives/</loc>
+    <loc>http://localhost:1313/archives/</loc>
   </url>
 </urlset>

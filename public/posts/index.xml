@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Jabee&#39;s Blog</title>
-    <link>https://jabeehugo.netlify.app/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on Jabee&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Mon, 18 Nov 2024 21:31:42 +0800</lastBuildDate><atom:link href="https://jabeehugo.netlify.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Nov 2024 21:31:42 +0800</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>我為什麼不太吵架 &amp;&amp; 原來兩個人互補是如此的重要</title>
-      <link>https://jabeehugo.netlify.app/posts/241116/</link>
+      <link>http://localhost:1313/posts/241116/</link>
       <pubDate>Sat, 16 Nov 2024 15:03:54 +0800</pubDate>
       
-      <guid>https://jabeehugo.netlify.app/posts/241116/</guid>
+      <guid>http://localhost:1313/posts/241116/</guid>
       <description>&lt;p&gt;最近在學校我的朋友A和朋友B吵架了，覺得真的很有趣，所以一定要來分享一下。&lt;/p&gt;
 &lt;h2 id=&#34;前情提要&#34;&gt;前情提要&lt;/h2&gt;
 &lt;p&gt;有一天 A 和 B 出門覓食，A關心了B的事情，B無心之過回了一句：「關你屁事」&lt;/p&gt;</description>
