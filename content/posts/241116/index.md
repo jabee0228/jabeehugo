@@ -25,7 +25,7 @@ ShowRssButtonInSectionTermList: true
 UseHugoToc: false
 
 cover:
-  image: images/cover.jpg
+  image: /images/cover.jpg
   caption: 
 
 ---
@@ -60,7 +60,7 @@ A 就擺臭臉離開，兩人再也不講話。
 
 # 原來互補是如此的重要
 
-我以前確實已為兩個人個性相似會很合，畢竟兩人會更能理解對方的想法。
+我以前確實以為兩個人個性相似會很合，畢竟兩人會更能理解對方的想法。
 
 但似乎互補也很重要。應用在這種場景上，兩個人的內向，似乎造就了兩人的怨念。
 

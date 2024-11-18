@@ -56,7 +56,13 @@ cover:
 
 ### 鬍鬚忠牛肉湯
 
-![](images/IMG_4896.HEIC_compressed.JPEG)
+
+<figure>
+  <img src="images/IMG_4896.HEIC_compressed.JPEG" height="500">
+  <figcaption>
+    <p>一口冬瓜茶，一口牛肉湯！</p>
+  </figcaption>
+</figure>
 
 ![](images/IMG_4897.HEIC_compressed.JPEG)
 
@@ -95,9 +101,9 @@ cover:
 - 不提供毛巾和牙刷，還好我自己有準備
 
 - 付款方式走漏洞
-  
+
   - 我從 booking 上訂房，他們只能選現場付款（我是想刷卡），結果後來 mail 告知我要去匯款給他們，一開始以為是詐騙，但後來確認了一下不是才匯款。
-  
+
   - 感受不好，不知道是不是避免信用卡公司 or booking.com 抽成，不允許 booking 付款。
 
 ![](images/IMG_4906.HEIC_compressed.JPEG)

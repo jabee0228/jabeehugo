@@ -36,5 +36,4 @@
 
 期待身為讀者你的來信！
 
-
-{{ partial "heatmap" . }}
+![](IMG_0577.HEIC_compressed.JPEG)
