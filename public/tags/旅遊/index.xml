@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>旅遊 on Jabee&#39;s Blog</title>
-    <link>http://localhost:1313/tags/%E6%97%85%E9%81%8A/</link>
+    <link>https://jabeehugo.netlify.app/tags/%E6%97%85%E9%81%8A/</link>
     <description>Recent content in 旅遊 on Jabee&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Thu, 14 Nov 2024 17:02:07 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E6%97%85%E9%81%8A/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 14 Nov 2024 17:02:07 +0800</lastBuildDate><atom:link href="https://jabeehugo.netlify.app/tags/%E6%97%85%E9%81%8A/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>極限22小時快閃台南之旅-就是吃吃喝喝</title>
-      <link>http://localhost:1313/notes/241114/</link>
+      <link>https://jabeehugo.netlify.app/notes/241114/</link>
       <pubDate>Thu, 14 Nov 2024 17:02:07 +0800</pubDate>
       
-      <guid>http://localhost:1313/notes/241114/</guid>
+      <guid>https://jabeehugo.netlify.app/notes/241114/</guid>
       <description>&lt;p&gt;大約三個星期前，收到實驗室教授的通知，問我們要不要去比賽，剛好實驗室的進度也有了些進展，就答應了下來。原本想說剛好衝到期中考，就算進決賽也不用去了。結果，考試時間改了，我們也進決賽了，所以最終決定去台南。&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>大約三個星期前，收到實驗室教授的通知，問我們要不要去比賽，剛好實驗室的進度也有了些進展，就答應了下來。原本想說剛好衝到期中考，就算進決賽也不用去了。結果，考試時間改了，我們也進決賽了，所以最終決定去台南。</p>
 <h1 id="day-1">Day 1</h1>
@@ -27,8 +27,12 @@
 <p>晚餐其實在上高鐵前就吃了摩斯，畢竟一整天都沒有吃東西。但到了台南，我怎能不喝個牛肉湯？</p>
 <p>這次主要不是來玩，所以就沒特別安排行程，在高鐵上稍微查了一下夜間有開，且離住的地方近的，應該就只有<strong>鬍鬚忠牛肉湯</strong>。</p>
 <h3 id="鬍鬚忠牛肉湯">鬍鬚忠牛肉湯</h3>
-<p><img loading="lazy" src="/notes/241114/images/IMG_4896.HEIC_compressed.JPEG" type="" alt="&ldquo;aaa&rdquo;"  /></p>
-<img src="images/IMG_4896.HEIC_compressed.JPEG" alt="描述图片内容" width="500" height="600">
+<figure>
+  <img src="images/IMG_4896.HEIC_compressed.JPEG" height="500">
+  <figcaption>
+    <p>一口冬瓜茶，一口牛肉湯！</p>
+  </figcaption>
+</figure>
 <p><img loading="lazy" src="/notes/241114/images/IMG_4897.HEIC_compressed.JPEG" type="" alt=""  /></p>
 <p>個人覺得牛肉湯，只要肉不柴基本上都不會太差，所以基本上就是價錢跟份量去評價。</p>
 <p>這家大概就是：</p>

@@ -2,37 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-11-18T21:31:42+08:00</lastmod>
+    <loc>https://jabeehugo.netlify.app/</loc>
+    <lastmod>2024-11-19T13:34:08+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2024-11-18T21:31:42+08:00</lastmod>
+    <loc>https://jabeehugo.netlify.app/notes/</loc>
+    <lastmod>2024-11-19T13:34:08+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/241116/</loc>
+    <loc>https://jabeehugo.netlify.app/tags/</loc>
+    <lastmod>2024-11-19T13:34:08+08:00</lastmod>
+  </url><url>
+    <loc>https://jabeehugo.netlify.app/notes/241119/</loc>
+    <lastmod>2024-11-19T13:34:08+08:00</lastmod>
+  </url><url>
+    <loc>https://jabeehugo.netlify.app/tags/%E7%A7%91%E6%8A%80/</loc>
+    <lastmod>2024-11-19T13:34:08+08:00</lastmod>
+  </url><url>
+    <loc>https://jabeehugo.netlify.app/posts/</loc>
     <lastmod>2024-11-16T15:03:54+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/</loc>
+    <loc>https://jabeehugo.netlify.app/posts/241116/</loc>
+    <lastmod>2024-11-16T15:03:54+08:00</lastmod>
+  </url><url>
+    <loc>https://jabeehugo.netlify.app/tags/%E6%97%85%E9%81%8A/</loc>
     <lastmod>2024-11-14T17:02:07+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://jabeehugo.netlify.app/notes/241114/</loc>
     <lastmod>2024-11-14T17:02:07+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E6%97%85%E9%81%8A/</loc>
-    <lastmod>2024-11-14T17:02:07+08:00</lastmod>
+    <loc>https://jabeehugo.netlify.app/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/notes/241114/</loc>
-    <lastmod>2024-11-14T17:02:07+08:00</lastmod>
+    <loc>https://jabeehugo.netlify.app/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://jabeehugo.netlify.app/notes/archives/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://jabeehugo.netlify.app/posts/archives/</loc>
   </url><url>
-    <loc>http://localhost:1313/notes/archives/</loc>
+    <loc>https://jabeehugo.netlify.app/search/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/archives/</loc>
-  </url><url>
-    <loc>http://localhost:1313/search/</loc>
-  </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>https://jabeehugo.netlify.app/archives/</loc>
   </url>
 </urlset>
