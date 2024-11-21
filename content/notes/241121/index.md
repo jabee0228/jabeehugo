@@ -1,6 +1,6 @@
 ---
 date: '2024-11-21T12:17:53+08:00'
-draft: true
+draft: false
 title: '我平常會使用的應用程式'
 lastmod: 2024-11-21
 
