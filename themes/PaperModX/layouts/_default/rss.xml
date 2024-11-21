@@ -41,7 +41,7 @@
       <guid>{{ .Permalink }}</guid>
       <description>{{ with .Description | html }}{{ . }}{{ else }}{{ .Summary | html }}{{ end -}}</description>
       {{- if not site.Params.RSSNoContent}}
-      <content:encoded>{{ .Content | replaceRE "src=\"(/(notes|posts)[^\"]*)\"" "src=\"https://https://jabeehugo.netlify.app$1\"" | html }}</content:encoded>
+      <content:encoded>{{ .Content | replaceRE "src=\"(/(notes|posts)[^\"]*)\"" "src=\"https://jabeehugo.netlify.app$1\"" | html }}</content:encoded>
       {{- end }}
     </item>
     {{- end }}
