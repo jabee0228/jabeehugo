@@ -2,7 +2,7 @@
 
 # Navigate to your project directory, ensure to replace with your project path
 
-
+hugo
 # Add all changes to the staging area
 git add *
 

@@ -53,7 +53,8 @@ cover:
 
 ## 不是只有 Mac mini 這樣設計
 
-![](DSC00202.jpg_compressed.JPEG)
+
+![](DSC00202.jpg_compressed.JPEG  )
 
 其實不止 Mac mini，我有在使用的包含 google nest hub 2、nest mini，都有同樣的設計，更跨張的是，他們甚至沒有開機按鍵，這樣的設計我想就是除了你需要移除裝置之外，不希望你關機。
 
