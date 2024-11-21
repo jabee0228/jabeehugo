@@ -92,6 +92,8 @@ params:
   socialIcons:
     - name: github
       url: "https://github.com/jabee0228"
+    - name: rss-simple
+      url: "index.xml"
 
   analytics:
     google:
