@@ -38,7 +38,7 @@
       <description>
         &lt;h2 id=&#34;image&#34;&gt;Image&lt;/h2&gt;
 &lt;p&gt;internal image:&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://yourdomain.com/notes/rich-content/images/post-image.jpg&#34; type=&#34;&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313//notes/rich-content/images/post-image.jpg&#34; type=&#34;&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
 &lt;p&gt;third party image:&lt;/p&gt;
 &lt;p&gt;
   &lt;img loading=&#34;lazy&#34; src=&#34;https://images.unsplash.com/photo-1662141978148-2eeb2afb3837?ixlib=rb-1.2.1&amp;amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;amp;auto=format&amp;amp;fit=crop&amp;amp;w=772&amp;amp;q=80&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
@@ -57,6 +57,7 @@
 &lt;p&gt;sdad&lt;/p&gt;
 
       </description>
+
     </item>
     
   </channel>

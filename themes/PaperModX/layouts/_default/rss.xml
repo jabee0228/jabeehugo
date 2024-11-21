@@ -43,9 +43,8 @@
       {{- if not site.Params.RSSNoContent}}
       <content:encoded>{{ (printf "<![CDATA[%s]]>" .Content) | safeHTML }}</content:encoded>
       {{- end }}
-
       <description>
-        {{ .Content | replaceRE "src=\"(/(notes|posts)[^\"]*)\"" (printf "src=\"%s$1\"" site.BaseURL) | html }}
+        {{ .Content | replaceRE "src=\"(/(notes|posts)[^\"]*)\"" "src=\"https://https://jabeehugo.netlify.app$1\"" | html }}
       </description>
 
     </item>
