@@ -43,6 +43,11 @@
       {{- if not site.Params.RSSNoContent}}
       <content:encoded>{{ (printf "<![CDATA[%s]]>" .Content) | safeHTML }}</content:encoded>
       {{- end }}
+
+      <description>
+        {{ .Content | replaceRE "src=\"(/(notes|posts)[^\"]*)\"" (printf "src=\"%s$1\"" site.BaseURL) | html }}
+      </description>
+
     </item>
     {{- end }}
     {{ end }}
