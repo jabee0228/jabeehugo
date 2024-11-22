@@ -16,7 +16,7 @@
       <description>A brief description of Hugo Shortcodes</description>
       <content:encoded>&lt;h2 id=&#34;image&#34;&gt;Image&lt;/h2&gt;
 &lt;p&gt;internal image:&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://https://jabeehugo.netlify.app/notes/rich-content/images/post-image.jpg&#34; type=&#34;&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/notes/rich-content/images/post-image.jpg&#34; type=&#34;&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
 &lt;p&gt;third party image:&lt;/p&gt;
 &lt;p&gt;
   &lt;img loading=&#34;lazy&#34; src=&#34;https://images.unsplash.com/photo-1662141978148-2eeb2afb3837?ixlib=rb-1.2.1&amp;amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;amp;auto=format&amp;amp;fit=crop&amp;amp;w=772&amp;amp;q=80&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
@@ -33,6 +33,12 @@
 
 &lt;p&gt;saaa&lt;/p&gt;
 &lt;p&gt;sdad&lt;/p&gt;
+&lt;figure class=&#34;align-center &#34;&gt;&lt;a href=&#34;https://unsplash.com/photos/Z0lL0okYjy0&#34; target=&#34;_blank&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://source.unsplash.com/Z0lL0okYjy0#center&#34;/&gt; &lt;/a&gt;&lt;figcaption&gt;
+            &lt;p&gt;Photo by &lt;a href=&#34;https://unsplash.com/@adityatelange?utm_content=creditCopyText&amp;amp;utm_medium=referral&amp;amp;utm_source=unsplash&#34;&gt;Aditya Telange&lt;/a&gt; on &lt;a href=&#34;https://unsplash.com/photos/Z0lL0okYjy0?utm_content=creditCopyText&amp;amp;utm_medium=referral&amp;amp;utm_source=unsplash&#34;&gt;Unsplash&lt;/a&gt;&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
 </content:encoded>
     </item>
     
