@@ -32,7 +32,7 @@ cover:
 
 今天天氣好好啊！！
 
-![](IMG 5081 from Synology Photos.JPEG)
+![](IMG_5081.HEIC_compressed.JPEG)
 
 今天一早就到圖書館報到，因為下禮拜考計算機網路 0.0
 中午吃我很愛的中原附近的早午餐店-元氣小豬。
