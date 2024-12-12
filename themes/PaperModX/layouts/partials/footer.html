@@ -3,9 +3,6 @@
 
 {{- if not (.Param "hideFooter") }}
 <footer class="footer" >
-  <div class="heatmap" style=" height: 250px; width: 100%; padding: 20px; margin: 0px auto; text-align: center; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); position: relative;">
-    {{ partial "heatmap" . }}
-  </div>
   {{- if site.Copyright }}
   <span>{{ site.Copyright | markdownify }}</span>
   {{- else }}
