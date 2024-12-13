@@ -1,45 +1,27 @@
 {{- with .cxt}} {{/* Apply proper context from dict */}}
 {{- if (and .Params.cover.image (not $.isHidden)) }}
 {{- $alt := (.Params.cover.alt | default .Params.cover.caption | plainify) }}
+{{- $loading := cond $.IsSingle "eager" "lazy" }}
 <figure class="entry-cover">
     {{- $responsiveImages := (.Params.cover.responsiveImages | default site.Params.cover.responsiveImages) | default true }}
-    {{- $addLink := (and site.Params.cover.linkFullImages (not $.IsHome)) }}
-    {{- $cover := (.Resources.ByType "image").GetMatch (printf "*%s*" (.Params.cover.image)) }}
-    {{- if $cover -}}
-    {{- $sizes := (slice "360" "480" "720" "1080" "1500") }}
-    {{- $processableFormats := (slice "jpg" "jpeg" "png" "webp") }}
-    {{- if (in $processableFormats $cover.MediaType.SubType) -}}
-    <img loading="lazy"
-         srcset="{{- range $size := $sizes -}}
-                             {{- if (ge $cover.Width $size) -}}
-                                 {{ printf "%s %sw," (($cover.Resize (printf "%sx" $size)).Permalink) $size -}}
-    {{ end -}}
-    {{- end }}{{$cover.Permalink}} {{printf "%dw" $cover.Width}}"
-    sizes="(min-width: 768px) 720px, 100vw"
-    src="{{ $cover.Permalink }}"
-    alt="{{ $alt }}"
-    width="{{ $cover.Width }}"
-    height="{{ $cover.Height }}"
-    style="color-profile: prophoto-rgb; image-rendering: auto;">
-    {{- else }}
-    <img loading="lazy"
-         src="{{ $cover.Permalink }}"
-         alt="{{ $alt }}"
-         width="{{ $cover.Width }}"
-         height="{{ $cover.Height }}"
-         style="color-profile: prophoto-rgb; image-rendering: auto;">
-    {{- end }}
-    {{- else }}{{/* For absolute URLs and external links */}}
+    {{- $addLink := (and site.Params.cover.linkFullImages $.IsSingle) }}
+    {{- $pageBundleCover     := (.Resources.ByType "image").GetMatch (printf "*%s*" (.Params.cover.image)) }}
+    {{- $globalResourcesCover := (resources.ByType "image").GetMatch (printf "*%s*" (.Params.cover.image)) }}
+    {{- $cover := (or $pageBundleCover $globalResourcesCover)}}
+    {{- if $cover -}}{{/* i.e it is present in page bundle */}}
+    {{- if $addLink }}<a href="{{ (path.Join .RelPermalink .Params.cover.image) | absURL }}" target="_blank"
+                         rel="noopener noreferrer">{{ end -}}
+    <img loading="{{$loading}}" src="{{ $cover.Permalink }}" alt="{{ $alt }}"
+         width="{{ $cover.Width }}" height="{{ $cover.Height }}">
+    {{- else }}{{/* For absolute urls and external links, no img processing here */}}
     {{- if $addLink }}<a href="{{ (.Params.cover.image) | absURL }}" target="_blank"
                          rel="noopener noreferrer">{{ end -}}
-    {{- $cover := (.Params.cover.image | absURL) }}
-    {{- if (in (slice "jpg" "jpeg" "png" "webp") (lower (path.Ext $cover))) }}
-    <img loading="lazy" src="{{ $cover }}" alt="{{ $alt }}"
-         style="color-profile: prophoto-rgb; image-rendering: auto;">
-    {{- else }}
-    <img loading="lazy" src="{{ $cover }}" alt="{{ $alt }}">
-    {{- end }}
-    {{- if $addLink }}</a>{{ end -}}
+        <img loading="{{$loading}}" src="{{ (.Params.cover.image) | absURL }}" alt="{{ $alt }}">
+        {{- end }}
+        {{- if $addLink }}</a>{{ end -}}
+    {{/*  Display Caption  */}}
+    {{- if $.IsSingle }}
+    {{ with .Params.cover.caption }}<p>{{ . | markdownify }}</p>{{- end }}
     {{- end }}
 </figure>
 {{- end }}{{/* End image */}}
