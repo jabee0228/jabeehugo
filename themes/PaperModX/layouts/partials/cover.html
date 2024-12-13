@@ -6,19 +6,36 @@
     {{- $addLink := (and site.Params.cover.linkFullImages (not $.IsHome)) }}
     {{- $cover := (.Resources.ByType "image").GetMatch (printf "*%s*" (.Params.cover.image)) }}
     {{- if $cover -}}
+    {{- $sizes := (slice "360" "480" "720" "1080" "1500") }}
+    {{- $processableFormats := (slice "jpg" "jpeg" "png" "webp") }}
+    {{- if (in $processableFormats $cover.MediaType.SubType) -}}
+    <img loading="lazy"
+         srcset="{{- range $size := $sizes -}}
+                             {{- if (ge $cover.Width $size) -}}
+                                 {{ printf "%s %sw," (($cover.Resize (printf "%sx" $size)).Permalink) $size -}}
+    {{ end -}}
+    {{- end }}{{$cover.Permalink}} {{printf "%dw" $cover.Width}}"
+    sizes="(min-width: 768px) 720px, 100vw"
+    src="{{ $cover.Permalink }}"
+    alt="{{ $alt }}"
+    width="{{ $cover.Width }}"
+    height="{{ $cover.Height }}"
+    style="color-profile: prophoto-rgb; image-rendering: auto;">
+    {{- else }}
     <img loading="lazy"
          src="{{ $cover.Permalink }}"
          alt="{{ $alt }}"
          width="{{ $cover.Width }}"
          height="{{ $cover.Height }}"
-         style="color-profile: srgb; image-rendering: auto;">
+         style="color-profile: prophoto-rgb; image-rendering: auto;">
+    {{- end }}
     {{- else }}{{/* For absolute URLs and external links */}}
     {{- if $addLink }}<a href="{{ (.Params.cover.image) | absURL }}" target="_blank"
                          rel="noopener noreferrer">{{ end -}}
     {{- $cover := (.Params.cover.image | absURL) }}
     {{- if (in (slice "jpg" "jpeg" "png" "webp") (lower (path.Ext $cover))) }}
     <img loading="lazy" src="{{ $cover }}" alt="{{ $alt }}"
-         style="color-profile: srgb; image-rendering: auto;">
+         style="color-profile: prophoto-rgb; image-rendering: auto;">
     {{- else }}
     <img loading="lazy" src="{{ $cover }}" alt="{{ $alt }}">
     {{- end }}
