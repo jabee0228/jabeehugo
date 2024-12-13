@@ -45,4 +45,3 @@
 - [極限22小時快閃台南之旅-就是吃吃喝喝](/notes/241114/)
 
 ![](IMG_0577.HEIC_compressed.JPEG)
-{{<heatmap>}}
