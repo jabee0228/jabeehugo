@@ -173,6 +173,3 @@ markup:
     lineNos: false
     noClasses: false
 
-imaging:
-  resample_filter = "lanczos"
-  color_space = "ProPhoto"

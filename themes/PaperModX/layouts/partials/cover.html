@@ -26,16 +26,19 @@
          alt="{{ $alt }}">
     {{- end }}
 
-    {{- else }}{{/* For absolute urls and external links, no img processing here */}}
-        {{- if $addLink }}<a href="{{ (.Params.cover.image) | absURL }}" target="_blank"
-            rel="noopener noreferrer">{{ end -}}
-            <img loading="lazy" src="{{ (.Params.cover.image) | absURL }}" alt="{{ $alt }}">
+    {{- else }}{{/* For absolute URLs and external links */}}
+    {{- if $addLink }}<a href="{{ (.Params.cover.image) | absURL }}" target="_blank"
+                         rel="noopener noreferrer">{{ end -}}
+    {{- $cover := (.Params.cover.image | absURL) }}
+    {{- if (in (slice "jpg" "jpeg" "png" "webp") (lower (path.Ext $cover))) }}
+    <img loading="lazy" src="{{ $cover }}" alt="{{ $alt }}"
+         style="color-profile: srgb; image-rendering: auto;">
+    {{- else }}
+    <img loading="lazy" src="{{ $cover }}" alt="{{ $alt }}">
     {{- end }}
     {{- if $addLink }}</a>{{ end -}}
-    {{/*  Display Caption  */}}
-    {{- if not $.IsHome }}
-        {{ with .Params.cover.caption }}<p>{{ . | markdownify }}</p>{{- end }}
     {{- end }}
+
 </figure>
 {{- end }}{{/* End image */}}
 {{- end -}}{{/* End context */ -}}
