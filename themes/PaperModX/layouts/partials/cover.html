@@ -1,27 +1,26 @@
 {{- with .cxt}} {{/* Apply proper context from dict */}}
 {{- if (and .Params.cover.image (not $.isHidden)) }}
 {{- $alt := (.Params.cover.alt | default .Params.cover.caption | plainify) }}
-{{- $loading := cond $.IsSingle "eager" "lazy" }}
 <figure class="entry-cover">
     {{- $responsiveImages := (.Params.cover.responsiveImages | default site.Params.cover.responsiveImages) | default true }}
-    {{- $addLink := (and site.Params.cover.linkFullImages $.IsSingle) }}
-    {{- $pageBundleCover     := (.Resources.ByType "image").GetMatch (printf "*%s*" (.Params.cover.image)) }}
-    {{- $globalResourcesCover := (resources.ByType "image").GetMatch (printf "*%s*" (.Params.cover.image)) }}
-    {{- $cover := (or $pageBundleCover $globalResourcesCover)}}
-    {{- if $cover -}}{{/* i.e it is present in page bundle */}}
-    {{- if $addLink }}<a href="{{ (path.Join .RelPermalink .Params.cover.image) | absURL }}" target="_blank"
-                         rel="noopener noreferrer">{{ end -}}
-    <img loading="{{$loading}}" src="{{ $cover.Permalink }}" alt="{{ $alt }}"
-         width="{{ $cover.Width }}" height="{{ $cover.Height }}">
-    {{- else }}{{/* For absolute urls and external links, no img processing here */}}
+    {{- $addLink := (and site.Params.cover.linkFullImages (not $.IsHome)) }}
+    {{- $cover := (.Resources.ByType "image").GetMatch (printf "*%s*" (.Params.cover.image)) }}
+    {{- if $cover -}}
+    <img loading="lazy"
+         src="{{ $cover.Permalink }}"
+         alt="{{ $alt }}"
+         width="{{ $cover.Width }}"
+         height="{{ $cover.Height }}">
+    {{- else }}{{/* For absolute URLs and external links */}}
     {{- if $addLink }}<a href="{{ (.Params.cover.image) | absURL }}" target="_blank"
                          rel="noopener noreferrer">{{ end -}}
-        <img loading="{{$loading}}" src="{{ (.Params.cover.image) | absURL }}" alt="{{ $alt }}">
-        {{- end }}
-        {{- if $addLink }}</a>{{ end -}}
-    {{/*  Display Caption  */}}
-    {{- if $.IsSingle }}
-    {{ with .Params.cover.caption }}<p>{{ . | markdownify }}</p>{{- end }}
+    {{- $cover := (.Params.cover.image | absURL) }}
+    {{- if (in (slice "jpg" "jpeg" "png" "webp") (lower (path.Ext $cover))) }}
+    <img loading="lazy" src="{{ $cover }}" alt="{{ $alt }}">
+    {{- else }}
+    <img loading="lazy" src="{{ $cover }}" alt="{{ $alt }}">
+    {{- end }}
+    {{- if $addLink }}</a>{{ end -}}
     {{- end }}
 </figure>
 {{- end }}{{/* End image */}}
