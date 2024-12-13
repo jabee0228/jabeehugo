@@ -1,8 +1,8 @@
 ---
-date: '{{ .Date }}'
+date: '2024-12-12T16:52:17+08:00'
 draft: true
-title: '{{ replace .File.ContentBaseName "-" " " | title }}'
-lastmod: {{ now.Format "2006-01-02" }}
+title: '241212'
+lastmod: 2024-12-12
 
 tags: [""]
 author: "Jabee姜"
