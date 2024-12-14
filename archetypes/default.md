@@ -30,4 +30,3 @@ cover:
 
 ---
 
-{{<heatmap>}}

@@ -4,7 +4,7 @@ draft: false
 title: '近況分享：為什麼這麼久沒更新？'
 lastmod: 2024-12-12
 
-tags: [""]
+tags: ["閒聊"]
 author: "Jabee姜"
 
 showToc: true
