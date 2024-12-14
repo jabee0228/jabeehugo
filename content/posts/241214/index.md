@@ -2,7 +2,7 @@
 date: '2024-12-14T19:31:11+08:00'
 draft: false
 title: '喧鬧中的安歇之處'
-lastmod: 2024-12-14
+
 
 tags: ["閒聊", "隨筆"]
 author: "Jabee姜"

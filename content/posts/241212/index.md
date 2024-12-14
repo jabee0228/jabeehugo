@@ -2,7 +2,7 @@
 date: '2024-12-12T16:52:17+08:00'
 draft: false
 title: '近況分享：為什麼這麼久沒更新？'
-lastmod: 2024-12-12
+
 
 tags: ["閒聊"]
 author: "Jabee姜"

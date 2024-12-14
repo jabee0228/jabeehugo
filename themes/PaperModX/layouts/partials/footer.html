@@ -188,12 +188,14 @@
     }
     {{- end -}}
     var allSum = 0;
+    var postSum = 0;
     var data = [];
     for (const [key, value] of dataMap.entries()) {
       var sum = 0;
       for (const v of value) {
         sum += v.wordCount;
       }
+      postSum = postSum + 1
       allSum = sum + allSum;
       data.push([key, (sum / 1000).toFixed(1)]);  // 保留一位小数的千字单位
     }
@@ -235,11 +237,17 @@
       }
     }
 
+
+
+
+    const textContent = `總字數：${allSum}  文章總篇數：${postSum}`;
+
+
     option = {
       title: {
         top: 0,
         left: 'center',
-        text: 'Jabee 今天有沒有認真寫 Blog ?' ,
+        text: textContent ,
         textStyle: {
           color: '#8a8888' // 设置视觉映射标签的文字颜色
         },
