@@ -72,3 +72,5 @@ sudo systemctl restart gdm3
 記得再重新登入的時候要在輸入密碼的右下角替換成 Wayland 的環境。
 
 這樣一來就可以使用捏合了。
+
+下次再來分享 Surface Go 3 的心得。

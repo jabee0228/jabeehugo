@@ -35,6 +35,7 @@
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo systemctl restart gdm3
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;記得再重新登入的時候要在輸入密碼的右下角替換成 Wayland 的環境。&lt;/p&gt;
 &lt;p&gt;這樣一來就可以使用捏合了。&lt;/p&gt;
+&lt;p&gt;下次再來分享 Surface Go 3 的心得。&lt;/p&gt;
 </content:encoded>
     </item>
     
