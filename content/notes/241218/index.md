@@ -26,7 +26,7 @@ ShowRssButtonInSectionTermList: true
 UseHugoToc: false
 
 cover:
-  image: cover.jpg
+  image: cover.png
   caption: 
 
 ---
