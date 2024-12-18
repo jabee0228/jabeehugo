@@ -2,7 +2,7 @@
 date: '2024-12-18T13:53:21+08:00'
 # draft: true
 draft: false
-title: '解決 Pop OS 的手勢捏合 && Scaling 問題'
+title: '解決 Pop OS 的手勢捏合 && Scaling 的問題'
 # lastmod: 2024-12-18
 
 tags: ["科技", "Linux", "Surface"]
