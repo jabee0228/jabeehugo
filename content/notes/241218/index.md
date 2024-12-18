@@ -1,8 +1,8 @@
 ---
 date: '2024-12-18T13:53:21+08:00'
 # draft: true
-draft: true
-title: '解決 Pop OS 觸控板的手勢問題'
+draft: false
+title: '解決 Pop OS 的手勢捏合 && Scaling 問題'
 # lastmod: 2024-12-18
 
 tags: ["科技", "Linux", "Surface"]
@@ -26,7 +26,7 @@ ShowRssButtonInSectionTermList: true
 UseHugoToc: false
 
 cover:
-  image: /images/cover.jpg
+  image: cover.jpg
   caption: 
 
 ---
@@ -39,7 +39,7 @@ cover:
 
 Gnome 預設 Scaling 只有 100% && 200% 可以選擇，這個對 Laptop 用戶來說就比較不友好了，不過解決方法也是比較簡單（就是很勸退剛入門的使用者）。
 
-可以用圖形介面的 xxx 來設定 org.gnome.mutter experimental-features 額外的參數： 'scale-monitor-framebuffer' ，以此開啟小數點的縮放。
+可以用圖形介面的 dcnof Editor 來設定 org.gnome.mutter experimental-features 額外的參數： 'scale-monitor-framebuffer' ，以此開啟小數點的縮放。
 
 或是在 terminal 輸入：
 
