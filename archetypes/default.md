@@ -29,5 +29,8 @@ cover:
   image: /images/cover.jpg
   caption: 
 
+# {{< figure src="/images/cover.jpg" caption="標題" height="400">}}
+# {{<video src="IMG_5251.mov" height="400">}}
+
 ---
 

@@ -1,6 +1,11 @@
 <figure>
-<video class="video-shortcode" preload="{{ .Get "preload" }}" controls>
+  <video
+          class="video-shortcode"
+          preload="{{ .Get "preload" }}"
+  controls
+  {{- with .Get "height" }} height="{{ . }}"{{ end }}
+  >
   <source src="{{ .Get "src" }}" type="{{ .Get "type" }}">
   There should have been a video here but your browser does not seem to support it.
-</video>
+  </video>
 </figure>
