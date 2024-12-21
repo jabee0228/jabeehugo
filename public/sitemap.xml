@@ -3,12 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://jabeehugo.netlify.app/</loc>
-    <lastmod>2024-12-21T14:39:30+08:00</lastmod>
+    <lastmod>2024-12-21T15:38:38+08:00</lastmod>
   </url><url>
-    <loc>https://jabeehugo.netlify.app/posts/</loc>
-    <lastmod>2024-12-21T14:39:30+08:00</lastmod>
+    <loc>https://jabeehugo.netlify.app/notes/</loc>
+    <lastmod>2024-12-21T15:38:38+08:00</lastmod>
   </url><url>
     <loc>https://jabeehugo.netlify.app/tags/</loc>
+    <lastmod>2024-12-21T15:38:38+08:00</lastmod>
+  </url><url>
+    <loc>https://jabeehugo.netlify.app/tags/%E6%94%9D%E5%BD%B1/</loc>
+    <lastmod>2024-12-21T15:38:38+08:00</lastmod>
+  </url><url>
+    <loc>https://jabeehugo.netlify.app/tags/%E6%96%B0%E8%A9%A9/</loc>
+    <lastmod>2024-12-21T15:38:38+08:00</lastmod>
+  </url><url>
+    <loc>https://jabeehugo.netlify.app/notes/241221/</loc>
+    <lastmod>2024-12-21T15:38:38+08:00</lastmod>
+  </url><url>
+    <loc>https://jabeehugo.netlify.app/posts/</loc>
     <lastmod>2024-12-21T14:39:30+08:00</lastmod>
   </url><url>
     <loc>https://jabeehugo.netlify.app/posts/241221/</loc>
@@ -21,9 +33,6 @@
     <lastmod>2024-12-21T14:39:30+08:00</lastmod>
   </url><url>
     <loc>https://jabeehugo.netlify.app/tags/linux/</loc>
-    <lastmod>2024-12-18T13:53:21+08:00</lastmod>
-  </url><url>
-    <loc>https://jabeehugo.netlify.app/notes/</loc>
     <lastmod>2024-12-18T13:53:21+08:00</lastmod>
   </url><url>
     <loc>https://jabeehugo.netlify.app/tags/surface/</loc>
