@@ -32,5 +32,9 @@ cover:
 # {{< figure src="/images/cover.jpg" caption="標題" height="400">}}
 # {{<video src="IMG_5251.mov" height="400">}}
 
+# {{< galleries >}}
+# {{< gallery src="cover.png" >}}
+# {{< gallery src="cover.png" >}}
+# {{< /galleries >}}
 ---
 
