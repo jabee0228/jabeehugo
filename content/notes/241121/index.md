@@ -35,8 +35,7 @@ cover:
 # 作業系統
 
 - macOS：世界上最好用的作業系統，沒有之一
-
-  
+- Pop!_OS：目前體感最好的 Linux distro，比 Ubuntu 不臃腫。
 
 
 
