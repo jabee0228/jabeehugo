@@ -35,7 +35,7 @@
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/notes/241224-2/image-20241224131032941.png&#34; type=&#34;&#34; alt=&#34;image-20241224131032941&#34;  /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/notes/241224-2/image-20241224131045145.png&#34; type=&#34;&#34; alt=&#34;image-20241224131045145&#34;  /&gt;&lt;/p&gt;
 &lt;p&gt;天井設計真的挺美的，整體的動線設計也挺清晰的，在建築美學和動線上的平衡我認為相當不錯。&lt;/p&gt;
-&lt;p&gt;整棟也有配備電梯，並且工作人員電梯還民眾的電梯分開。&lt;/p&gt;
+&lt;p&gt;整棟也有配備電梯，並且工作人員電梯還和民眾的電梯分開。&lt;/p&gt;
 &lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;image-20241224131312688.png&#34;
          alt=&#34;位子還不少，相當不錯&#34;/&gt; &lt;figcaption&gt;
@@ -57,6 +57,9 @@
         &lt;/figcaption&gt;
 &lt;/figure&gt;
 
+&lt;h3 id=&#34;靜音倉&#34;&gt;靜音倉&lt;/h3&gt;
+&lt;p&gt;和其他小的圖書館不同，竟然有靜音倉可以使用，只要預約去拿鑰匙就可以用。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/notes/241224-2/image-20241224155043695.png&#34; type=&#34;&#34; alt=&#34;image-20241224155043695&#34;  /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;7樓&#34;&gt;7樓&lt;/h2&gt;
 &lt;p&gt;7樓就比較特別一點了，有極靜區和電影區。從 7 樓看下去也相當的美。&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/notes/241224-2/image-20241224132107385.png&#34; type=&#34;&#34; alt=&#34;image-20241224132107385&#34;  /&gt;&lt;/p&gt;
@@ -73,11 +76,15 @@
 &lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
-          &lt;th style=&#34;text-align: left&#34;&gt;星期二&lt;/th&gt;
-          &lt;th&gt;08:30–21:00&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;日期&lt;/th&gt;
+          &lt;th&gt;開放時間&lt;/th&gt;
       &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;星期二&lt;/td&gt;
+          &lt;td&gt;08:30–21:00&lt;/td&gt;
+      &lt;/tr&gt;
       &lt;tr&gt;
           &lt;td style=&#34;text-align: left&#34;&gt;星期三&lt;/td&gt;
           &lt;td&gt;08:30–21:00&lt;/td&gt;
