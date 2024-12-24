@@ -76,4 +76,3 @@ sudo systemctl restart gdm3
 
 下次再來分享 Surface Go 3 的心得。
 
-

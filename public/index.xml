@@ -6,7 +6,30 @@
     <description>Recent content on Jabee&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Mon, 23 Dec 2024 11:29:22 +0800</lastBuildDate><atom:link href="https://jabeehugo.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Dec 2024 12:13:34 +0800</lastBuildDate><atom:link href="https://jabeehugo.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mac OS 無法連上公共網路的方法</title>
+      <link>https://jabeehugo.netlify.app/notes/241224/</link>
+      <pubDate>Tue, 24 Dec 2024 12:13:34 +0800</pubDate>
+      
+      <guid>https://jabeehugo.netlify.app/notes/241224/</guid>
+      <description>&lt;p&gt;今天在桃園圖書館，因為手機訊號不是很好，所以想連 iTaiwan 網路。結果登入的畫面始終就是連不到，相當的納悶。雖然這個情況在 Mac 上面是常態，但我今天怎麼樣就是連不上。查了一下文章，找到簡單的解法如下，以下的方法皆為自己試過可行的。我認為這個可以算是個玄學，因為每個地方 router 設計皆不同，最好的辦法就是多試試。&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;今天在桃園圖書館，因為手機訊號不是很好，所以想連 iTaiwan 網路。結果登入的畫面始終就是連不到，相當的納悶。雖然這個情況在 Mac 上面是常態，但我今天怎麼樣就是連不上。查了一下文章，找到簡單的解法如下，以下的方法皆為自己試過可行的。我認為這個可以算是個玄學，因為每個地方 router 設計皆不同，最好的辦法就是多試試。&lt;/p&gt;
+&lt;h1 id=&#34;解決不了首先重開機&#34;&gt;解決不了首先重開機&lt;/h1&gt;
+&lt;p&gt;首先最重要就是先將 cache 清掉，這邊建議直接重開機最快，有機率重開機就會自動跳出。如果重開機還是解決不了，那請繼續往下看。&lt;/p&gt;
+&lt;h1 id=&#34;可以試試看-router-的-ip--用可以跳出的裝置的-domain&#34;&gt;可以試試看 Router 的 IP &amp;amp;&amp;amp; 用可以跳出的裝置的 Domain&lt;/h1&gt;
+&lt;h2 id=&#34;router-的-ip&#34;&gt;Router 的 IP&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/notes/241224/image-20241224122232417.png&#34; type=&#34;&#34; alt=&#34;image-20241224122232417&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;打開設定後點選 wifi 的 detail，可以看到 Router 的 IP address ，有些公共網路的登入會直接設定在 Router ，不過最近比較少見到這種的。&lt;/p&gt;
+&lt;h2 id=&#34;使用其他裝置的-domain&#34;&gt;使用其他裝置的 Domain&lt;/h2&gt;
+&lt;p&gt;可以借用其他裝置，如果可以跳出登入畫面，那就用該 Domain ，paste 試看看。&lt;/p&gt;
+&lt;h1 id=&#34;清除-dns-server&#34;&gt;清除 DNS server&lt;/h1&gt;
+&lt;p&gt;以 iTaiwan 為例，若有自定義 DNS server，會導致無法連線。先將 DNS server 清除，並且將 Proxy 關閉，就可以解決。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/notes/241224/image-20241224122812679.png&#34; type=&#34;&#34; alt=&#34;image-20241224122812679&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;像我原本就有自定義一個 1.1.1.1 ，先將自定義的按 - 清除掉，接著會跳出灰色字，此為 Router 設定的 DNS Sevrers。接著按 OK 馬上就跳出登入畫面了。&lt;/p&gt;
+</content:encoded>
+    </item>
+    
     <item>
       <title>第一次學會騎腳踏車的記憶恍如昨日</title>
       <link>https://jabeehugo.netlify.app/posts/241222/</link>
