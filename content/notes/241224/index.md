@@ -26,7 +26,7 @@ ShowRssButtonInSectionTermList: true
 UseHugoToc: false
 
 cover:
-  image: /images/cover.jpg
+  image: image-20241224122232417.png
   caption: 
 
 # {{< figure src="/images/cover.jpg" caption="標題" height="400">}}
@@ -63,3 +63,4 @@ cover:
 ![image-20241224122812679](image-20241224122812679.png)
 
 像我原本就有自定義一個 1.1.1.1 ，先將自定義的按 - 清除掉，接著會跳出灰色字，此為 Router 設定的 DNS Sevrers。接著按 OK 馬上就跳出登入畫面了。
+
