@@ -2,7 +2,7 @@
 date: '2024-12-24T12:13:34+08:00'
 # draft: true
 draft: false
-title: 'Mac OS 無法連上公共網路的方法'
+title: 'Mac OS 無法連上公共網路的解決方法'
 # lastmod: 2024-12-24
 
 tags: ["科技", "Mac"]
@@ -58,7 +58,7 @@ cover:
 
 # 清除 DNS server
 
-以 iTaiwan 為例，若有自定義 DNS server，會導致無法連線。先將 DNS server 清除，並且將 Proxy 關閉，就可以解決。
+以桃園圖書館總館 iTaiwan 為例，若有自定義 DNS server，會導致無法連線。先將 DNS server 清除，並且將 Proxy 關閉，就可以解決。
 
 ![image-20241224122812679](image-20241224122812679.png)
 
