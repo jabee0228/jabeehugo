@@ -6,7 +6,261 @@
     <description>Recent content on Jabee&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 24 Dec 2024 12:46:25 +0800</lastBuildDate><atom:link href="https://jabeehugo.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Dec 2024 11:41:33 +0800</lastBuildDate><atom:link href="https://jabeehugo.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DDPM paper notes</title>
+      <link>https://jabeehugo.netlify.app/notes/241226/</link>
+      <pubDate>Thu, 26 Dec 2024 11:41:33 +0800</pubDate>
+      
+      <guid>https://jabeehugo.netlify.app/notes/241226/</guid>
+      <description>&lt;p&gt;這篇主要是參考李教授的影片，以及網路上的文章，整理的筆記。&lt;/p&gt;
+&lt;h1 id=&#34;algorithm-1-training&#34;&gt;Algorithm 1: Training&lt;/h1&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image.png&#34; type=&#34;&#34; alt=&#34;image.png&#34;  /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;第-1-行repeat&#34;&gt;&lt;strong&gt;第 1 行：&lt;code&gt;repeat&lt;/code&gt;&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;作用：&lt;/strong&gt; 開始一個迭代訓練過程，直到模型收斂&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;第-2-行&#34;&gt;&lt;strong&gt;第 2 行&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;作用：&lt;/strong&gt; 從數據分佈 中取一個樣本 (x0)（即從訓練數據集中抽取一個數據點）。
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;x0 代表 clean Image&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;q(x0)：&lt;/strong&gt; 數據分佈，即訓練集中數據的真實分佈。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;第-3-行&#34;&gt;&lt;strong&gt;第 3 行&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;作用：&lt;/strong&gt; 隨機選擇一個時間t。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;第-4-行&#34;&gt;&lt;strong&gt;第 4 行&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;作用：&lt;/strong&gt; 取一個隨機噪聲樣本 。
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;解釋：&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;擴散過程中，數據會逐步被加上噪聲，最終變成完全隨機的高斯噪聲。&lt;/li&gt;
+&lt;li&gt;在訓練過程中，需要用隨機噪聲模擬這個擴散過程。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;第-5-行梯度下降更新&#34;&gt;&lt;strong&gt;第 5 行：梯度下降更新&lt;/strong&gt;&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;∇_θ ‖ε − ε_θ(√ᾱ_t x_0 + √(1−ᾱ_t) ε, t)‖²
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;細節解釋：&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;ε 為原始噪聲&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;這篇主要是參考李教授的影片，以及網路上的文章，整理的筆記。&lt;/p&gt;
+&lt;h1 id=&#34;algorithm-1-training&#34;&gt;Algorithm 1: Training&lt;/h1&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image.png&#34; type=&#34;&#34; alt=&#34;image.png&#34;  /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;第-1-行repeat&#34;&gt;&lt;strong&gt;第 1 行：&lt;code&gt;repeat&lt;/code&gt;&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;作用：&lt;/strong&gt; 開始一個迭代訓練過程，直到模型收斂&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;第-2-行&#34;&gt;&lt;strong&gt;第 2 行&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;作用：&lt;/strong&gt; 從數據分佈 中取一個樣本 (x0)（即從訓練數據集中抽取一個數據點）。
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;x0 代表 clean Image&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;q(x0)：&lt;/strong&gt; 數據分佈，即訓練集中數據的真實分佈。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;第-3-行&#34;&gt;&lt;strong&gt;第 3 行&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;作用：&lt;/strong&gt; 隨機選擇一個時間t。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;第-4-行&#34;&gt;&lt;strong&gt;第 4 行&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;作用：&lt;/strong&gt; 取一個隨機噪聲樣本 。
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;解釋：&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;擴散過程中，數據會逐步被加上噪聲，最終變成完全隨機的高斯噪聲。&lt;/li&gt;
+&lt;li&gt;在訓練過程中，需要用隨機噪聲模擬這個擴散過程。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;第-5-行梯度下降更新&#34;&gt;&lt;strong&gt;第 5 行：梯度下降更新&lt;/strong&gt;&lt;/h3&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;∇_θ ‖ε − ε_θ(√ᾱ_t x_0 + √(1−ᾱ_t) ε, t)‖²
+&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;細節解釋：&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;ε 為原始噪聲&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;ε_θ(√ᾱ_t x_0 + √(1−ᾱ_t) ε, t) 這一段做的則是 noise predictor。&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;而 noise predictor 會有以下兩個 input&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;input 1. √ᾱ_t x_0 + √(1−ᾱ_t) ε ; input 2. t 代表第幾個回合的 回合越後面，加上的噪聲越多。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image1.png&#34; type=&#34;&#34; alt=&#34;image.png&#34;  /&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;√ᾱ_t x_0 + √(1−ᾱ_t) ε ：這邊 ᾱ_t 是根據 Unuiform 出來的 t ，如果 t 值越大，ᾱ_t 越小。 ᾱ_t 越小，代表加上的噪聲比例則越多（右邊乘上的√(1−ᾱ_t)）。&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;目標：&lt;/strong&gt; 最小化 ，即讓模型輸出的噪聲與實際加入的噪聲越接近越好。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;梯度下降：&lt;/strong&gt; 對模型的損失函數進行梯度下降，更新參數 。利用 MSE 平均平方差損失去算 梯度下降率。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;第-6-行until-converged&#34;&gt;&lt;strong&gt;第 6 行：&lt;code&gt;until converged&lt;/code&gt;&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;作用：&lt;/strong&gt; 持續迭代，直到模型訓練收斂。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;algorithm-2-sampling&#34;&gt;Algorithm 2: Sampling&lt;/h1&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image2.png&#34; type=&#34;&#34; alt=&#34;image.png&#34;  /&gt;&lt;/p&gt;
+&lt;h3 id=&#34;第一行-給訂一個-x-大-t-純雜訊圖&#34;&gt;&lt;strong&gt;第一行 給訂一個 X 大 T 純雜訊圖&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;意義&lt;/strong&gt;：從標準高斯分佈（均值為 0，方差為 1）中隨機生成一個噪聲樣本作為起始點。&lt;/li&gt;
+&lt;li&gt;X 大 T 代表的是 &lt;strong&gt;純雜訊圖&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;第二行-迴圈開始&#34;&gt;&lt;strong&gt;第二行 迴圈開始&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;從純噪聲一路 Sampling 到 生成圖&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;意義&lt;/strong&gt;：從時間t（最純的噪聲）開始，逐步回溯到 （逐漸去噪直到還原出清晰的數據）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;第三行-噪聲條件&#34;&gt;&lt;strong&gt;第三行 噪聲條件&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;意義&lt;/strong&gt;：在 Sampling 階段，會在做完減去 Noise predictor 後，再加上 z 噪聲（請看第四行）
+&lt;ul&gt;
+&lt;li&gt;但在 t == 0 時，已經完成 Sampling ，因此不再加上 z 。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;第四行&#34;&gt;&lt;strong&gt;第四行&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image3.png&#34; type=&#34;&#34; alt=&#34;image.png&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;x_{t-1} = (1 / √(a_t)) * (x_t - (1 - a_t) / √(1 - ᾱ_t) * ϵθ(x_t, t)) + σ_t * z&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;詳見：Sampling 階段 Denoise function 化簡&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;分解理解&lt;/strong&gt;：
+&lt;ol&gt;
+&lt;li&gt;ϵθ(x_t, t)：Noise predicotr 根據當前 t (哪一階段) 生成噪聲&lt;/li&gt;
+&lt;li&gt;(x_t - (1 - a_t) / √(1 - ᾱ_t) * ϵθ(x_t, t)：從當前數據中減去預測的噪聲部分。
+&lt;ol&gt;
+&lt;li&gt;x_t 代表的則是上一階段的結果，因此 = 右邊是x_{t-1} ，也就是逐步 Sample 到 x0 （clean image）。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;(1 / √(a_t))：（乘號左邊）調整信號幅度，使其回到正確的分佈範圍。&lt;/li&gt;
+&lt;li&gt;
+&lt;ul&gt;
+&lt;li&gt;σ_t * z：添加隨機噪聲 ，&lt;strong&gt;模擬反向過程的隨機性&lt;/strong&gt;。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;目的&lt;/strong&gt;：從當前的t還原到上一個t 。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image4.png&#34; type=&#34;&#34; alt=&#34;image.png&#34;  /&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;第五行-迴圈結束&#34;&gt;&lt;strong&gt;第五行 迴圈結束&lt;/strong&gt;&lt;/h3&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;第六行-最終輸出&#34;&gt;&lt;strong&gt;第六行 最終輸出&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;意義&lt;/strong&gt;：當迴圈結束時，輸出最後的結果 ，這就是還原出的清晰數據（如圖像）。
+&lt;ul&gt;
+&lt;li&gt;x0 代表 clean image，因此 return x0。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;maximum-likelihood-estimation&#34;&gt;Maximum Likelihood Estimation&lt;/h1&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image5.png&#34; type=&#34;&#34; alt=&#34;image.png&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;MLE 的目的是為了讓 Pθ 盡可能的接近於 Pdata。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pθ(x)：model 所 sample 出的 distribution 機率。&lt;/li&gt;
+&lt;li&gt;Pdata(x) : 真實世界的 dataset，和 model 的 network 無關。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image6.png&#34; type=&#34;&#34; alt=&#34;image.png&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;將每一個 sample 出來的 xi 拿 pθ 算出機率 並相乘，竟可能找出最大 θ。&lt;/p&gt;
+&lt;p&gt;所以我們要找的 θ 就是機率最高的那一個（LHY 在投影片用 θ* 代表）。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;network 的目標是學習數據的規律（真實分佈𝑞(𝑥0)q(x0)），然後模擬這些數據的機率，這就是𝑝𝜃(𝑥0)pθ(x0)。它代表模型認為數據𝑥0x0有多「合理」或「可能」。
+*from chatgpt&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image7.png&#34; type=&#34;&#34; alt=&#34;image.png&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;從log 相乘轉換成 相加log ，相加 log 這樣會近似於 從 pdata 取出的 x ，然後 pθ 算出機率 要越大越好。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image8.png&#34; type=&#34;&#34; alt=&#34;image.png&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;接著從 expectation 轉換為積分，然後可以算出就等同於 KL(Pdata||Pθ) ，所以我們要找 minimun KL。&lt;/p&gt;
+&lt;p&gt;讓 ptheta 讓 pdata的差異最小。&lt;/p&gt;
+&lt;h1 id=&#34;vae-compute-pθ&#34;&gt;VAE: Compute pθ&lt;/h1&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image9.png&#34; type=&#34;&#34; alt=&#34;image.png&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;這邊主要是在講說，因為我們不可能去直接看 pθ(x|z) ，因為不可能 sample 出完全一模一樣的圖，這樣會造成 pθ(x|z) = 0。&lt;/p&gt;
+&lt;p&gt;因此我們是去看 Mean of Gaussian (去看距離，也就是 x 和 G(z)的距離)。&lt;/p&gt;
+&lt;h1 id=&#34;vae-lower-bound-of&#34;&gt;VAE: Lower bound of&lt;/h1&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image10.png&#34; type=&#34;&#34; alt=&#34;image.png&#34;  /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;≥ 0 是因為 它可以看作 KL divergence 而完全一樣就為0，因此 ≥ 0。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;ddpm-compute--pθx&#34;&gt;DDPM: Compute  pθ(x)&lt;/h1&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image11.png&#34; type=&#34;&#34; alt=&#34;image.png&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image12.png&#34; type=&#34;&#34; alt=&#34;image.png&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;在算 DDPM 時，和 VAE 不同的是， Maximize 期望值時，原先的 Encoder 替換成 Diffusion Process，也就是在加 Noise 的那個階段。&lt;/p&gt;
+&lt;p&gt;將式子展開後為以下。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image13.png&#34; type=&#34;&#34; alt=&#34;image.png&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;從 x1 一直做到 X 大 T&lt;/p&gt;
+&lt;h1 id=&#34;單個-qxt--xt-1-算法&#34;&gt;單個 q(XT | XT-1) 算法&lt;/h1&gt;
+&lt;p&gt;我們首先要先定義一組 &lt;strong&gt;β1 ~ βT&lt;/strong&gt; ，這組數值為自定義的，類似 Learning rate，會根據修改影響 Network。 因為這會影響在每一 t 加上的噪聲&lt;/p&gt;
+&lt;p&gt;（以下李教授有筆誤，應為 Xt = √1-Bt * Xt-1 + √Bt * noise）&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image14.png&#34; type=&#34;&#34; alt=&#34;image.png&#34;  /&gt;&lt;/p&gt;
+&lt;h1 id=&#34;如果要算出-qxt--x0&#34;&gt;如果要算出 q(XT | X0)&lt;/h1&gt;
+&lt;p&gt;其實是可以不用一次一次去把它算出來（不用一步一步把它+上噪聲）。&lt;/p&gt;
+&lt;p&gt;從下方可以推導出 q(X2 | X0)&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image15.png&#34; type=&#34;&#34; alt=&#34;image.png&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image16.png&#34; type=&#34;&#34; alt=&#34;image.png&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image17.png&#34; type=&#34;&#34; alt=&#34;image.png&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image18.png&#34; type=&#34;&#34; alt=&#34;image.png&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;因此 q(Xt | X0) 就可以整理成上圖。&lt;/p&gt;
+&lt;h1 id=&#34;噪聲預測&#34;&gt;噪聲預測&lt;/h1&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image19.png&#34; type=&#34;&#34; alt=&#34;image.png&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;從上圖推導至下圖&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image20.png&#34; type=&#34;&#34; alt=&#34;image.png&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;目標就是去最大化最後一項，而為了最大化最後一項，也就是盡可能地將 KL Divergence 最小化。（看後面的：KL Divergence between 向前 and 向後）&lt;/p&gt;
+&lt;p&gt;算出 KL Divergence 向前 𝑞 ( 𝑥 𝑡 ∣ 𝑥 𝑡 − 1 ) q(x t  ∣x t−1  ) 與向後 𝑃 𝜃 ( 𝑥 𝑡 ∣ 𝑥 𝑡 − 1 ) P θ  (x t  ∣x t−1  ) 的差異。&lt;/p&gt;
+&lt;p&gt;$\sum_{t=2}^T E_{q\left(x_t \mid x_0\right)}\left[D_{K L}\left(q\left(x_{t-1} \mid x_t, x_0\right)|| p_\theta\left(x_{t-1} \mid x_t\right)\right]\right.$&lt;/p&gt;
+&lt;h2 id=&#34;算出中間xt-1到xt的分佈-qxt-1--xt-x0&#34;&gt;算出中間xt-1到xt的分佈 q(Xt-1 | Xt, X0)&lt;/h2&gt;
+&lt;p&gt;前面我們已經講過了，如何算出從 X0 到 Xt，也知道要如何算出 xt-1 到 xt-1 的分佈。&lt;/p&gt;
+&lt;p&gt;推倒公式如下&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image21.png&#34; type=&#34;&#34; alt=&#34;image.png&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image22.png&#34; type=&#34;&#34; alt=&#34;image.png&#34;  /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;kl-divergence-between-向前-and-向後&#34;&gt;KL Divergence between 向前 and 向後&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image23.png&#34; type=&#34;&#34; alt=&#34;image.png&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;因為向前的 Mean 是不可動的，所以我們唯一可動的就是 P(Xt-1|Xt) 的 Mean ，使兩者離中心點的距離最小，這樣一來，就可以使得 KL Divergence 盡可能的小。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image24.png&#34; type=&#34;&#34; alt=&#34;image.png&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;所以說以上在做的事情也就是訓練 denoise function ，使得它們兩者越相近越好。&lt;/p&gt;
+&lt;h1 id=&#34;sampling-階段-denoise-function-化簡&#34;&gt;Sampling 階段 Denoise function 化簡&lt;/h1&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image25.png&#34; type=&#34;&#34; alt=&#34;image.png&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;原先右上角的式子的 x0 可以根據我們上面已經寫好關於 x0 和 xt 的關係，在帶回去化簡。&lt;/p&gt;
+&lt;p&gt;而這邊也就回到 Algorithm Sampling 階段的第四行。&lt;/p&gt;
+&lt;h3 id=&#34;ref&#34;&gt;Ref&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.cvmart.net/community/detail/7942&#34;&gt;深入浅出扩散模型(Diffusion Model)系列：基石DDPM（人人都能看懂的数学原理篇）&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://youtube.com/playlist?list=PLJV_el3uVTsNi7PgekEUFsyVllAJXRsP-&amp;amp;si=_y39Uu28junvh9re&#34;&gt;李弘毅 DDPM&lt;/a&gt;&lt;/p&gt;
+</content:encoded>
+    </item>
+    
     <item>
       <title>目前看到最厲害的市立圖書館-桃園圖書館總館</title>
       <link>https://jabeehugo.netlify.app/notes/241224-2/</link>
@@ -315,15 +569,19 @@
       
       <guid>https://jabeehugo.netlify.app/notes/241215/</guid>
       <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/3-mQO4c80B0?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/3-mQO4c80B0?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
     &lt;/div&gt;
 
 &lt;p&gt;今天想談談賽前焦慮也如何困擾著我，所以看這篇文章建議搭配書豪的影片服用。&lt;/p&gt;
 &lt;h1 id=&#34;賽前焦慮&#34;&gt;賽前焦慮&lt;/h1&gt;
 &lt;p&gt;書豪在影片中提到，他當年終於進到夢想中的聯盟 NBA ，但他卻在每場登陸的比賽中，祈禱今天的比分不要有大比分差，因為有大比分差就會有垃圾時間，而垃圾時間板凳球員就要上場。反而終於進到 NBA 了，卻害怕上場。即使經歷了好幾個 NBA 和 CBA 的賽季，上個賽季在新北國王的 PLG 賽季，他的賽前焦慮又開始了，因為不像他第一年回台灣打球一樣，在墊底球隊，沒有任何壓力。在一支第一名球隊打球，在眾望拿冠軍的情況下，他的壓力更大，他的賽前焦慮又開始了。&lt;/p&gt;</description>
       <content:encoded>
+
+    
     &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/3-mQO4c80B0?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/3-mQO4c80B0?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
     &lt;/div&gt;
 
 &lt;p&gt;今天想談談賽前焦慮也如何困擾著我，所以看這篇文章建議搭配書豪的影片服用。&lt;/p&gt;
@@ -562,8 +820,11 @@
 &lt;p&gt;我大概兩個月前把 threads 刪了。&lt;/p&gt;
 &lt;p&gt;但我自認為，我應該早把 threads 刪了。在我刪的一個禮拜後，Joeman發了部影片，證實了我自己的決定是對的。&lt;/p&gt;
 
+
+    
     &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/pBu0f3024jw?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/pBu0f3024jw?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
     &lt;/div&gt;
 
 &lt;h1 id=&#34;可怕的時間消耗&#34;&gt;可怕的時間消耗&lt;/h1&gt;
@@ -573,8 +834,11 @@
 &lt;p&gt;我大概兩個月前把 threads 刪了。&lt;/p&gt;
 &lt;p&gt;但我自認為，我應該早把 threads 刪了。在我刪的一個禮拜後，Joeman發了部影片，證實了我自己的決定是對的。&lt;/p&gt;
 
+
+    
     &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/pBu0f3024jw?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/pBu0f3024jw?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
     &lt;/div&gt;
 
 &lt;h1 id=&#34;可怕的時間消耗&#34;&gt;可怕的時間消耗&lt;/h1&gt;
