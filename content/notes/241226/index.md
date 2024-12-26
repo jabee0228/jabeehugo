@@ -246,7 +246,7 @@ MLE 的目的是為了讓 Pθ 盡可能的接近於 Pdata。
 
 ![image.png](DDPM/image20.png)
 
-目標就是去最大化最後一項，而為了最大化最後一項，也就是盡可能地將 KL Divergence 最小化。（看後面的：KL Divergence between 向前 and 向後）
+目標就是去最大化，而為了最大化，也就是盡可能地將 KL Divergence 最小化。（看後面的：KL Divergence between 向前 and 向後）
 
 算出 KL Divergence 向前 𝑞 ( 𝑥 𝑡 ∣ 𝑥 𝑡 − 1 ) q(x t  ∣x t−1  ) 與向後 𝑃 𝜃 ( 𝑥 𝑡 ∣ 𝑥 𝑡 − 1 ) P θ  (x t  ∣x t−1  ) 的差異。
 

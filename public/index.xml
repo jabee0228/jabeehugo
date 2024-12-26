@@ -238,7 +238,7 @@
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image19.png&#34; type=&#34;&#34; alt=&#34;image.png&#34;  /&gt;&lt;/p&gt;
 &lt;p&gt;從上圖推導至下圖&lt;/p&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image20.png&#34; type=&#34;&#34; alt=&#34;image.png&#34;  /&gt;&lt;/p&gt;
-&lt;p&gt;目標就是去最大化最後一項，而為了最大化最後一項，也就是盡可能地將 KL Divergence 最小化。（看後面的：KL Divergence between 向前 and 向後）&lt;/p&gt;
+&lt;p&gt;目標就是去最大化，而為了最大化，也就是盡可能地將 KL Divergence 最小化。（看後面的：KL Divergence between 向前 and 向後）&lt;/p&gt;
 &lt;p&gt;算出 KL Divergence 向前 𝑞 ( 𝑥 𝑡 ∣ 𝑥 𝑡 − 1 ) q(x t  ∣x t−1  ) 與向後 𝑃 𝜃 ( 𝑥 𝑡 ∣ 𝑥 𝑡 − 1 ) P θ  (x t  ∣x t−1  ) 的差異。&lt;/p&gt;
 &lt;p&gt;$\sum_{t=2}^T E_{q\left(x_t \mid x_0\right)}\left[D_{K L}\left(q\left(x_{t-1} \mid x_t, x_0\right)|| p_\theta\left(x_{t-1} \mid x_t\right)\right]\right.$&lt;/p&gt;
 &lt;h2 id=&#34;算出中間xt-1到xt的分佈-qxt-1--xt-x0&#34;&gt;算出中間xt-1到xt的分佈 q(Xt-1 | Xt, X0)&lt;/h2&gt;
