@@ -6,7 +6,17 @@
     <description>Recent content in Tags on Jabee&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Thu, 26 Dec 2024 11:41:33 +0800</lastBuildDate><atom:link href="https://jabeehugo.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Dec 2024 14:53:35 +0800</lastBuildDate><atom:link href="https://jabeehugo.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>閒聊</title>
+      <link>https://jabeehugo.netlify.app/tags/%E9%96%92%E8%81%8A/</link>
+      <pubDate>Sat, 28 Dec 2024 14:53:35 +0800</pubDate>
+      
+      <guid>https://jabeehugo.netlify.app/tags/%E9%96%92%E8%81%8A/</guid>
+      <description></description>
+      <content:encoded></content:encoded>
+    </item>
+    
     <item>
       <title>Diffusion Model</title>
       <link>https://jabeehugo.netlify.app/tags/diffusion-model/</link>
@@ -73,16 +83,6 @@
       <pubDate>Mon, 23 Dec 2024 11:29:22 +0800</pubDate>
       
       <guid>https://jabeehugo.netlify.app/tags/%E5%9B%9E%E9%A1%A7/</guid>
-      <description></description>
-      <content:encoded></content:encoded>
-    </item>
-    
-    <item>
-      <title>閒聊</title>
-      <link>https://jabeehugo.netlify.app/tags/%E9%96%92%E8%81%8A/</link>
-      <pubDate>Mon, 23 Dec 2024 11:29:22 +0800</pubDate>
-      
-      <guid>https://jabeehugo.netlify.app/tags/%E9%96%92%E8%81%8A/</guid>
       <description></description>
       <content:encoded></content:encoded>
     </item>

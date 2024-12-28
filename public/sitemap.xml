@@ -2,19 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jabeehugo.netlify.app/</loc>
+    <lastmod>2024-12-28T14:53:35+08:00</lastmod>
+  </url><url>
+    <loc>https://jabeehugo.netlify.app/posts/</loc>
+    <lastmod>2024-12-28T14:53:35+08:00</lastmod>
+  </url><url>
+    <loc>https://jabeehugo.netlify.app/tags/</loc>
+    <lastmod>2024-12-28T14:53:35+08:00</lastmod>
+  </url><url>
+    <loc>https://jabeehugo.netlify.app/posts/241228/</loc>
+    <lastmod>2024-12-28T14:53:35+08:00</lastmod>
+  </url><url>
+    <loc>https://jabeehugo.netlify.app/tags/%E9%96%92%E8%81%8A/</loc>
+    <lastmod>2024-12-28T14:53:35+08:00</lastmod>
+  </url><url>
     <loc>https://jabeehugo.netlify.app/notes/241226/</loc>
     <lastmod>2024-12-26T11:41:33+08:00</lastmod>
   </url><url>
     <loc>https://jabeehugo.netlify.app/tags/diffusion-model/</loc>
     <lastmod>2024-12-26T11:41:33+08:00</lastmod>
   </url><url>
-    <loc>https://jabeehugo.netlify.app/</loc>
-    <lastmod>2024-12-26T11:41:33+08:00</lastmod>
-  </url><url>
     <loc>https://jabeehugo.netlify.app/notes/</loc>
-    <lastmod>2024-12-26T11:41:33+08:00</lastmod>
-  </url><url>
-    <loc>https://jabeehugo.netlify.app/tags/</loc>
     <lastmod>2024-12-26T11:41:33+08:00</lastmod>
   </url><url>
     <loc>https://jabeehugo.netlify.app/tags/%E5%AD%B8%E7%BF%92/</loc>
@@ -43,12 +52,6 @@
   </url><url>
     <loc>https://jabeehugo.netlify.app/tags/%E5%9B%9E%E9%A1%A7/</loc>
     <lastmod>2024-12-23T11:29:22+08:00</lastmod>
-  </url><url>
-    <loc>https://jabeehugo.netlify.app/tags/%E9%96%92%E8%81%8A/</loc>
-    <lastmod>2024-12-23T11:29:22+08:00</lastmod>
-  </url><url>
-    <loc>https://jabeehugo.netlify.app/posts/</loc>
-    <lastmod>2024-12-22T12:18:09+08:00</lastmod>
   </url><url>
     <loc>https://jabeehugo.netlify.app/posts/241222/</loc>
     <lastmod>2024-12-22T12:18:09+08:00</lastmod>
