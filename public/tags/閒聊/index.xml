@@ -6,7 +6,96 @@
     <description>Recent content in 閒聊 on Jabee&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 31 Dec 2024 13:37:50 +0800</lastBuildDate><atom:link href="https://jabeehugo.netlify.app/tags/%E9%96%92%E8%81%8A/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Jan 2025 13:57:11 +0800</lastBuildDate><atom:link href="https://jabeehugo.netlify.app/tags/%E9%96%92%E8%81%8A/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>近況分享</title>
+      <link>https://jabeehugo.netlify.app/posts/250111/</link>
+      <pubDate>Sat, 11 Jan 2025 13:57:11 +0800</pubDate>
+      
+      <guid>https://jabeehugo.netlify.app/posts/250111/</guid>
+      <description>&lt;p&gt;又是將近快兩個禮拜沒有更新文章，主要是適逢期末考中，但最慘的不是期末考。&lt;/p&gt;
+&lt;p&gt;最慘的是，我又又又被傳染了。近期的流感相當嚴重，我聽我朋友說他們班中流感的手指數不出來。我竟然在跨年後就中獎，導致我完全沒辦法讀書，真的慘！&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;又是將近快兩個禮拜沒有更新文章，主要是適逢期末考中，但最慘的不是期末考。&lt;/p&gt;
+&lt;p&gt;最慘的是，我又又又被傳染了。近期的流感相當嚴重，我聽我朋友說他們班中流感的手指數不出來。我竟然在跨年後就中獎，導致我完全沒辦法讀書，真的慘！&lt;/p&gt;
+&lt;p&gt;這次期末考可以說是準備得相當不充裕，因為少掉了幾乎一整個星期的讀書時間，真的讓我很頭痛。但往好處想，我自己每一科都在期末考之前就過了，所以歐趴也是輕輕鬆鬆。&lt;/p&gt;
+&lt;br&gt;
+&lt;h1 id=&#34;考完的休息-time&#34;&gt;考完的休息 time&lt;/h1&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&#34;en&#34;&gt;
+&lt;head&gt;
+    &lt;meta name=&#34;viewport&#34; content=&#34;user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1&#34;&gt;
+    &lt;script src=&#34;https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js&#34;&gt;&lt;/script&gt;
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdn.jsdelivr.net/npm/nanogallery2@3.0.5/dist/css/nanogallery2.min.css&#34;&gt;
+    &lt;script src=&#34;https://cdn.jsdelivr.net/npm/nanogallery2@3.0.5/dist/jquery.nanogallery2.min.js&#34;&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;div data-nanogallery2=&#39;{
+	 &#34;thumbnailDisplayTransition&#34;:          &#34;none&#34;,
+    &#34;thumbnailHeight&#34;:  &#34;400&#34;,
+      &#34;thumbnailWidth&#34;:   &#34;auto&#34;,
+    &#34;galleryMosaic&#34; :   [
+      { &#34;c&#34;: 1, &#34;r&#34;: 1, &#34;w&#34;: 2, &#34;h&#34;: 2 },
+      { &#34;c&#34;: 3, &#34;r&#34;: 1, &#34;w&#34;: 1, &#34;h&#34;: 1 },
+      { &#34;c&#34;: 3, &#34;r&#34;: 2, &#34;w&#34;: 1, &#34;h&#34;: 1 },
+      { &#34;c&#34;: 4, &#34;r&#34;: 1, &#34;w&#34;: 1, &#34;h&#34;: 1 },
+      { &#34;c&#34;: 4, &#34;r&#34;: 2, &#34;w&#34;: 1, &#34;h&#34;: 1 },
+      { &#34;c&#34;: 1, &#34;r&#34;: 3, &#34;w&#34;: 2, &#34;h&#34;: 1 },
+      { &#34;c&#34;: 3, &#34;r&#34;: 3, &#34;w&#34;: 2, &#34;h&#34;: 1 },
+      { &#34;c&#34;: 1, &#34;r&#34;: 4, &#34;w&#34;: 1, &#34;h&#34;: 1 }
+    ],
+     &#34;thumbnailDisplayTransitionDuration&#34;:  500,
+     &#34;thumbnailDisplayInterval&#34;:            30,
+     &#34;galleryDisplayTransition&#34;:            &#34;none&#34;,
+     &#34;galleryDisplayTransitionDuration&#34;:    500,
+     &#34;galleryDisplayMode&#34;: &#34;rows&#34;,
+     &#34;thumbnailDisplayOutsideScreen&#34;: &#34;false&#34;,
+     &#34;eventsDebounceDelay&#34;: 10,
+     &#34;thumbnailL1BorderHorizontal&#34;: 0,
+     &#34;thumbnailL1BorderVertical&#34;: 0,
+     &#34;thumbnailLabel&#34;: {
+        &#34;titleFontSize&#34;: &#34;0.6em&#34;
+     },
+     &#34;thumbnailHoverEffect2&#34;: &#34;image_scale_1.00_1.10|label_backgroundColor_rgba(0,0,0,0)_rgba(255,255,255,0)&#34;,
+     &#34;galleryTheme&#34;: {
+        &#34;thumbnail&#34;: {
+            &#34;borderRadius&#34;: &#34;8px&#34;
+        }
+     },
+     &#34;thumbnailToolbarImage&#34;: {
+        &#34;topLeft&#34;: &#34;&#34;,
+        &#34;topRight&#34;: &#34;&#34;,
+        &#34;bottomLeft&#34;: &#34;&#34;,
+        &#34;bottomRight&#34;: &#34;&#34;
+     },
+     &#34;viewerToolbar&#34;:   {
+        &#34;display&#34;: true,
+        &#34;standard&#34;: &#34;label&#34;
+     },
+     &#34;viewerTools&#34;:     {
+        &#34;topLeft&#34;:    &#34;pageCounter, playPauseButton&#34;,
+        &#34;topRight&#34;:   &#34;downloadButton, rotateLeft, zoomButton, fullscreenButton, closeButton&#34;
+     },
+     &#34;viewerGalleryTWidth&#34;: 40,
+     &#34;viewerGalleryTHeight&#34;: 40
+}&#39;&gt;
+    
+&lt;a href=&#34;IMG_5379.HEIC_compressed.JPEG&#34; data-ngThumb=&#34;IMG_5379.HEIC_compressed.JPEG&#34;&gt;&lt;/a&gt;
+
+&lt;a href=&#34;IMG_5380.HEIC_compressed.JPEG&#34; data-ngThumb=&#34;IMG_5380.HEIC_compressed.JPEG&#34;&gt;&lt;/a&gt;
+
+&lt;a href=&#34;IMG_5382.HEIC_compressed.JPEG&#34; data-ngThumb=&#34;IMG_5382.HEIC_compressed.JPEG&#34;&gt;&lt;/a&gt;
+
+
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+&lt;p&gt;考完就輕鬆了，晚上約了同學去吃我家附近評價很好的屋台，然後去打了網咖，買了 300 元的鹽酥雞大吃特吃。&lt;/p&gt;
+&lt;p&gt;結果我根本吃不完，快笑死，一路吃到 3 點也沒吃完xd。&lt;/p&gt;
+</content:encoded>
+    </item>
+    
     <item>
       <title>當我們被各種訂閱服務綁架</title>
       <link>https://jabeehugo.netlify.app/posts/241231/</link>
