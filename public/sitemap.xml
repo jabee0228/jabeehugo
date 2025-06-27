@@ -3,7 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://jabeehugo.netlify.app/</loc>
-    <lastmod>2025-05-01T12:06:02+08:00</lastmod>
+    <lastmod>2025-05-23T17:18:42+08:00</lastmod>
+  </url><url>
+    <loc>https://jabeehugo.netlify.app/notes/</loc>
+    <lastmod>2025-05-23T17:18:42+08:00</lastmod>
   </url><url>
     <loc>https://jabeehugo.netlify.app/posts/</loc>
     <lastmod>2025-05-01T12:06:02+08:00</lastmod>
@@ -25,9 +28,6 @@
   </url><url>
     <loc>https://jabeehugo.netlify.app/tags/%E8%BF%91%E6%B3%81/</loc>
     <lastmod>2025-03-29T11:52:06+08:00</lastmod>
-  </url><url>
-    <loc>https://jabeehugo.netlify.app/notes/</loc>
-    <lastmod>2025-01-14T14:14:09+08:00</lastmod>
   </url><url>
     <loc>https://jabeehugo.netlify.app/notes/250114/</loc>
     <lastmod>2025-01-14T14:14:09+08:00</lastmod>
@@ -147,6 +147,8 @@
     <lastmod>2024-11-14T17:02:07+08:00</lastmod>
   </url><url>
     <loc>https://jabeehugo.netlify.app/about/</loc>
+  </url><url>
+    <loc>https://jabeehugo.netlify.app/notes/250627/nas-%E5%A6%82%E4%BD%95%E8%9E%8D%E5%85%A5%E6%88%91%E7%9A%84%E7%94%9F%E6%B4%BB%E8%B6%85%E9%81%8E-1200-%E5%A4%A9%E7%9A%84%E6%B7%B1%E5%BA%A6%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97-1e70306096a980bd8177ec544420f059/</loc>
   </url><url>
     <loc>https://jabeehugo.netlify.app/categories/</loc>
   </url><url>
