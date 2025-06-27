@@ -9,10 +9,10 @@
     <lastBuildDate>Fri, 27 Jun 2025 11:18:42 +0800</lastBuildDate><atom:link href="https://jabeehugo.netlify.app/tags/%E8%B3%87%E6%96%99%E7%AE%A1%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>NAS 如何融入我的生活：超過 1200 天的深度使用心得</title>
-      <link>https://jabeehugo.netlify.app/notes/250627/nas-%E5%A6%82%E4%BD%95%E8%9E%8D%E5%85%A5%E6%88%91%E7%9A%84%E7%94%9F%E6%B4%BB%E8%B6%85%E9%81%8E-1200-%E5%A4%A9%E7%9A%84%E6%B7%B1%E5%BA%A6%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97-1e70306096a980bd8177ec544420f059/</link>
+      <link>https://jabeehugo.netlify.app/notes/250627/</link>
       <pubDate>Fri, 27 Jun 2025 11:18:42 +0800</pubDate>
       
-      <guid>https://jabeehugo.netlify.app/notes/250627/nas-%E5%A6%82%E4%BD%95%E8%9E%8D%E5%85%A5%E6%88%91%E7%9A%84%E7%94%9F%E6%B4%BB%E8%B6%85%E9%81%8E-1200-%E5%A4%A9%E7%9A%84%E6%B7%B1%E5%BA%A6%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97-1e70306096a980bd8177ec544420f059/</guid>
+      <guid>https://jabeehugo.netlify.app/notes/250627/</guid>
       <description>&lt;p&gt;Jabee我的人生座右銘就是 &lt;strong&gt;資料要備份，Format要謹慎。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;一直以來，我都把資料的儲存看作是使用電腦設備最重要也最需要注意的事情，畢竟資料就像紙本資料一樣，需要整理、存放。不同在於使用電腦儲存資料易存也易消失。&lt;/p&gt;</description>
       <content:encoded>&lt;p&gt;Jabee我的人生座右銘就是 &lt;strong&gt;資料要備份，Format要謹慎。&lt;/strong&gt;&lt;/p&gt;
@@ -67,9 +67,9 @@
 &lt;p&gt;我從 DSM 6 開始使用，當時群暉主打 Moments 相片管理系統，其實已經相當好用，一段時間後升級 DSM 7，並且同時升級成 Synology Photos。目前 DSM 7 最新版本已經不支援 H.265，用蘋果設備的讀者可能就會有點小頭痛。&lt;/p&gt;
 &lt;p&gt;2025年的今天，各家手機廠商的相片系統都在捲 AI，而群暉還在用他們用 OpenCV 研發的超級爛辨識，我只能說那個 AI 功能還不如不開（所以我現在沒有在用該功能），除此之外也沒什麼好抱怨的。&lt;/p&gt;
 &lt;p&gt;另外網頁版的功能會稍微多一點，可以篩選鏡頭、相機型號、光圈等等，還算方便。但這個功能並沒有辦法在手機上操作。&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/notes/250627/image.png&#34; type=&#34;&#34; alt=&#34;image.png&#34;  /&gt;&lt;/p&gt;
 &lt;p&gt;另外照片也可以直接分享給其他 User，這個很方便（但我這台主機也只有我跟我老爸）。&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/notes/250627/image1.png&#34; type=&#34;&#34; alt=&#34;image.png&#34;  /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;synology-drive&#34;&gt;Synology Drive&lt;/h2&gt;
 &lt;p&gt;Synology Drive 可以透過 client 的 App 幫助隨時同步本地資料。&lt;/p&gt;
 &lt;p&gt;異地備份對我來說應該是最重要的一件事，以前總是擔心重要的資料會因為硬碟撞到、甚至是主板掛掉導致資料消失，使用異地備份就可以避免這種事情發生。&lt;/p&gt;
