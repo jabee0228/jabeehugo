@@ -2,17 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>閒聊 on Jabee&#39;s Blog</title>
-    <link>https://jabeehugo.netlify.app/tags/%E9%96%92%E8%81%8A/</link>
+    <link>http://localhost:1313/tags/%E9%96%92%E8%81%8A/</link>
     <description>Recent content in 閒聊 on Jabee&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Thu, 01 May 2025 12:06:02 +0800</lastBuildDate><atom:link href="https://jabeehugo.netlify.app/tags/%E9%96%92%E8%81%8A/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Aug 2025 12:06:02 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/%E9%96%92%E8%81%8A/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>準備畢業了，然後呢？</title>
+      <link>http://localhost:1313/notes/250806/</link>
+      <pubDate>Tue, 05 Aug 2025 12:06:02 +0800</pubDate>
+      
+      <guid>http://localhost:1313/notes/250806/</guid>
+      <description>&lt;p&gt;上星期和朋友出去喝咖啡，除了家常便飯憶當年以外，我們也都開始準備要畢業了，不經意聊到未來怎麼辦。&lt;/p&gt;
+&lt;h1 id=&#34;讀研-vs-工作&#34;&gt;讀研 vs 工作&lt;/h1&gt;
+&lt;h2 id=&#34;研究所&#34;&gt;研究所&lt;/h2&gt;
+&lt;p&gt;大概你去問全台灣在科技業、WEB 相關工作的大家都會告訴你要讀研。我也不例外（被大家影響覺得要考研的部分），說實在考研確實是趨勢，但我一直在思考讀研究所的人到底有多人熱衷於 &lt;strong&gt;研究&lt;/strong&gt; 這件事情。
+事實上你去問大部分大四的同學為什麼要考研，大概率就會告訴你洗學歷啦八啦八啦，若答案是想要研究，那估計去幫他放個鞭炮我認為不為過。&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;上星期和朋友出去喝咖啡，除了家常便飯憶當年以外，我們也都開始準備要畢業了，不經意聊到未來怎麼辦。&lt;/p&gt;
+&lt;h1 id=&#34;讀研-vs-工作&#34;&gt;讀研 vs 工作&lt;/h1&gt;
+&lt;h2 id=&#34;研究所&#34;&gt;研究所&lt;/h2&gt;
+&lt;p&gt;大概你去問全台灣在科技業、WEB 相關工作的大家都會告訴你要讀研。我也不例外（被大家影響覺得要考研的部分），說實在考研確實是趨勢，但我一直在思考讀研究所的人到底有多人熱衷於 &lt;strong&gt;研究&lt;/strong&gt; 這件事情。
+事實上你去問大部分大四的同學為什麼要考研，大概率就會告訴你洗學歷啦八啦八啦，若答案是想要研究，那估計去幫他放個鞭炮我認為不為過。&lt;/p&gt;
+&lt;h2 id=&#34;工作&#34;&gt;工作&lt;/h2&gt;
+&lt;p&gt;朋友單方面認為自己考不上研究所，所以開始找解方。
+CS、中字輩 看似兩個還不錯的關鍵字，但學士學位？ 老實說這也是我一直在疑惑的點，你要說去做個 WEB 的工作吧，我自己被學長挖去在學校資訊處做開發就知道我自己不是個多強的人。說去豬屎屋工作，欸拜託大學三年也頂多學個 Verilog 而已，似乎也不怎麼行。&lt;/p&gt;
+&lt;h1 id=&#34;如果看重的是錢那下一步是&#34;&gt;如果看重的是錢，那下一步是？&lt;/h1&gt;
+&lt;p&gt;如果問我花兩年讀個中字碩，和私大五年一貫碩，再對比個中字學士，到底哪一個有優勢？
+不可否認，最保險的決定當然是中字碩，有著還不錯的學歷，出去怎麼輸？
+問題是在乎的是金錢的話呢？當然是申請美國的學校，畢業進FANNG。
+阿不是啦，如果再加一項留在亞洲甚至台灣呢？&lt;/p&gt;
+&lt;p&gt;我目前看下來真的是能越早畢業越早去工作不一定是個壞事，不論是豬屎屋或系統廠，這兩年的環境一定是缺人的，單看各國 Data center 擴建的程度來說晶片設計的發展穩穩的正成長，系統廠的訂單需求更不用說。&lt;/p&gt;
+&lt;p&gt;但兩年之後呢？ Jabee我也說不準啊xddd&lt;/p&gt;
+</content:encoded>
+    </item>
+    
     <item>
       <title>我討厭煙味 &amp;&amp; 那些尊重我不抽煙的朋友</title>
-      <link>https://jabeehugo.netlify.app/posts/250501/</link>
+      <link>http://localhost:1313/notes/250501/</link>
       <pubDate>Thu, 01 May 2025 12:06:02 +0800</pubDate>
       
-      <guid>https://jabeehugo.netlify.app/posts/250501/</guid>
+      <guid>http://localhost:1313/notes/250501/</guid>
       <description>&lt;p&gt;最近上下學的時候，運氣不好的時候有可能會遇到5個以上的人站在路邊抽菸，實在是有點受不了。&lt;/p&gt;
 &lt;h1 id=&#34;我極度討厭煙味&#34;&gt;我極度討厭煙味&lt;/h1&gt;
 &lt;p&gt;小時候我過敏很嚴重，上下學都會經過台北醫學院附設醫院的外面，然後你會看到一整排打著點滴的病人排排坐在路邊抽菸。年過 1/5 百的我仍然忘記不了那樣的情景就是因為那真的太恐怖了。有些很惡劣的人還會都看到你經過了，還對著你吐煙。&lt;/p&gt;</description>
@@ -45,10 +74,10 @@
     
     <item>
       <title>人生 Online 真的有所謂的勝利嗎？</title>
-      <link>https://jabeehugo.netlify.app/posts/250428/</link>
+      <link>http://localhost:1313/notes/250428/</link>
       <pubDate>Mon, 28 Apr 2025 09:35:34 +0800</pubDate>
       
-      <guid>https://jabeehugo.netlify.app/posts/250428/</guid>
+      <guid>http://localhost:1313/notes/250428/</guid>
       <description>&lt;p&gt;最近著迷暗區突圍，是一款搜打撤遊戲。和一般的大逃殺遊戲不同，這種類型的遊戲主要的規則是必須要帶著自己買的戰備進去戰局打，如果你死在裡面的話，你的戰備就會全部消失。而進去戰局的目的就是三個，一是消滅敵對拿取別人的戰備，二是找尋地圖內的物資，三是在時間內撤離，三個目的剛好就是 &lt;strong&gt;搜 打 撤&lt;/strong&gt;。而物資和戰備是可以拿去交易（因為會有任務需要地圖內的物資，所以物資會有價值）。&lt;/p&gt;</description>
       <content:encoded>&lt;p&gt;最近著迷暗區突圍，是一款搜打撤遊戲。和一般的大逃殺遊戲不同，這種類型的遊戲主要的規則是必須要帶著自己買的戰備進去戰局打，如果你死在裡面的話，你的戰備就會全部消失。而進去戰局的目的就是三個，一是消滅敵對拿取別人的戰備，二是找尋地圖內的物資，三是在時間內撤離，三個目的剛好就是 &lt;strong&gt;搜 打 撤&lt;/strong&gt;。而物資和戰備是可以拿去交易（因為會有任務需要地圖內的物資，所以物資會有價值）。&lt;/p&gt;
 &lt;h1 id=&#34;搜打撤遊戲是競技類遊戲嗎&#34;&gt;搜打撤遊戲是競技類遊戲嗎？&lt;/h1&gt;
@@ -69,10 +98,10 @@
     
     <item>
       <title>怎麼站長又消失兩個月了 &amp;&amp; 近況</title>
-      <link>https://jabeehugo.netlify.app/posts/250329/</link>
+      <link>http://localhost:1313/notes/250329/</link>
       <pubDate>Sat, 29 Mar 2025 11:52:06 +0800</pubDate>
       
-      <guid>https://jabeehugo.netlify.app/posts/250329/</guid>
+      <guid>http://localhost:1313/notes/250329/</guid>
       <description>&lt;h1 id=&#34;又又又又又消失了&#34;&gt;又又又又又消失了？&lt;/h1&gt;
 &lt;p&gt;各位讀者好久不見，近期又消失了一波，算算應該有兩個月沒更新了。雖然這個站本來就是隨意更新的，但我是沒想到我會兩個月停更。&lt;/p&gt;
 &lt;p&gt;本來在寒假會更新很多的，但是寒假一躺就是一個月，生活過得很太爽。&lt;/p&gt;</description>
@@ -111,10 +140,10 @@
 &lt;p&gt;這應該算是我寒假最忙的一件事，去年底我買了一台新電腦準備升級我的 NAS 。雖然原先用的 j1900 其實完全夠我使用，但我開始會在上面測試更多的服務，越來越不夠我使用了，因此就開始物色新主機。原先考慮 E3 神教搭配華碩 p10s ws ，這個搭配其實我自己滿喜歡的，光是主板配兩個 intel 的千兆口，我整個就受不了，慾火難耐啊！後來朋友告訴我買4c8t 不如考慮一下 zen2 的 2700x，8c16t 一顆不用 2000 要什麼自行車？後來被我看到 2400g 的整機，本來都準備面交了，不小心被我看到他裡面有賣 2700x，我就問他能不能上 2700x 給我，給我賺到一波了屬於是。雖然我後來發現 dram 有一點問題（不知道為何開 windows 不會出問題，一開 linux 就有機率死機），但目前使用都還行，以後有問題再說吧！ 以後有機會再分享一篇這次升級的過程。&lt;/p&gt;
 &lt;h1 id=&#34;忠孝東路走不了-9-遍-走-1-遍就好&#34;&gt;忠孝東路走不了 9 遍 走 1 遍就好&lt;/h1&gt;
 &lt;p&gt;就是聽到這首歌詞，覺得很荒謬，然後突然在想走一遍真的會很難嗎？剛好我住南港，走到台北車站剛好一遍，想著來試看看吧。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/posts/250329/image-20250329123134972.png&#34; type=&#34;&#34; alt=&#34;image-20250329123134972&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/notes/250329/image-20250329123134972.png&#34; type=&#34;&#34; alt=&#34;image-20250329123134972&#34;  /&gt;&lt;/p&gt;
 &lt;p&gt;如果要說很難，我覺得不至於，我大概走兩個多小時就到了，但台灣的騎樓是真的難走。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/posts/250329/image-20250329123256358.png&#34; type=&#34;&#34; alt=&#34;image-20250329123256358&#34;  /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/posts/250329/image-20250329123314663.png&#34; type=&#34;&#34; alt=&#34;image-20250329123314663&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/notes/250329/image-20250329123256358.png&#34; type=&#34;&#34; alt=&#34;image-20250329123256358&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/notes/250329/image-20250329123314663.png&#34; type=&#34;&#34; alt=&#34;image-20250329123314663&#34;  /&gt;&lt;/p&gt;
 &lt;h1 id=&#34;除了玩樂以外&#34;&gt;除了玩樂以外&lt;/h1&gt;
 &lt;p&gt;其實最近完成了不少事情，比如說我一直想做看看開源，但一直以來我都不知道要從哪裡開始，發現學校教的任何事情竟然都派不上場。但最近 contribute 一個 40k stars 的 RAG 的項目被 Merge 了，當下我真的很開心，終於是開始進入到開源領域了。&lt;/p&gt;
 &lt;p&gt;學校最近在寫 interpreter，雖然我的進度不是全班最快，但至少進度也沒有太慢，而且寫起來覺得蠻有趣的。&lt;/p&gt;
@@ -126,10 +155,10 @@
     
     <item>
       <title>近況分享</title>
-      <link>https://jabeehugo.netlify.app/posts/250111/</link>
+      <link>http://localhost:1313/notes/250111/</link>
       <pubDate>Sat, 11 Jan 2025 13:57:11 +0800</pubDate>
       
-      <guid>https://jabeehugo.netlify.app/posts/250111/</guid>
+      <guid>http://localhost:1313/notes/250111/</guid>
       <description>&lt;p&gt;又是將近快兩個禮拜沒有更新文章，主要是適逢期末考中，但最慘的不是期末考。&lt;/p&gt;
 &lt;p&gt;最慘的是，我又又又被傳染了。近期的流感相當嚴重，我聽我朋友說他們班中流感的手指數不出來。我竟然在跨年後就中獎，導致我完全沒辦法讀書，真的慘！&lt;/p&gt;</description>
       <content:encoded>&lt;p&gt;又是將近快兩個禮拜沒有更新文章，主要是適逢期末考中，但最慘的不是期末考。&lt;/p&gt;
@@ -215,10 +244,10 @@
     
     <item>
       <title>當我們被各種訂閱服務綁架</title>
-      <link>https://jabeehugo.netlify.app/posts/241231/</link>
+      <link>http://localhost:1313/notes/241231/</link>
       <pubDate>Tue, 31 Dec 2024 13:37:50 +0800</pubDate>
       
-      <guid>https://jabeehugo.netlify.app/posts/241231/</guid>
+      <guid>http://localhost:1313/notes/241231/</guid>
       <description>&lt;p&gt;本週，我的父親沒有付款我們家的，Youtube Premium，讓我開始很難受。&lt;/p&gt;
 &lt;h1 id=&#34;我和訂閱服務的起源&#34;&gt;我和訂閱服務的起源&lt;/h1&gt;
 &lt;p&gt;我從國中開始就有在使用 KKBOX，後來發現 Spotify 更便宜、更好用，改訂閱 Spotify。&lt;/p&gt;</description>
@@ -243,10 +272,10 @@
     
     <item>
       <title>今天真的有冷誒</title>
-      <link>https://jabeehugo.netlify.app/posts/241228/</link>
+      <link>http://localhost:1313/notes/241228/</link>
       <pubDate>Sat, 28 Dec 2024 14:53:35 +0800</pubDate>
       
-      <guid>https://jabeehugo.netlify.app/posts/241228/</guid>
+      <guid>http://localhost:1313/notes/241228/</guid>
       <description>&lt;figure&gt;
     &lt;img loading=&#34;lazy&#34; src=&#34;img.JPEG&#34;
          alt=&#34;冷冷冷&#34; height=&#34;400&#34;/&gt; &lt;figcaption&gt;
@@ -273,10 +302,10 @@
     
     <item>
       <title>2024 Recap</title>
-      <link>https://jabeehugo.netlify.app/notes/241223/</link>
+      <link>http://localhost:1313/notes/241223/</link>
       <pubDate>Mon, 23 Dec 2024 11:29:22 +0800</pubDate>
       
-      <guid>https://jabeehugo.netlify.app/notes/241223/</guid>
+      <guid>http://localhost:1313/notes/241223/</guid>
       <description>&lt;p&gt;年關將近，各位讀者新年快樂！&lt;/p&gt;
 &lt;p&gt;吉祥話這邊就不給各位讀者拜了（畢竟要留到農曆年啊xd）。&lt;/p&gt;
 &lt;h1 id=&#34;為什麼寫這篇&#34;&gt;為什麼寫這篇？&lt;/h1&gt;
@@ -335,10 +364,10 @@
     
     <item>
       <title>第一次學會騎腳踏車的記憶恍如昨日</title>
-      <link>https://jabeehugo.netlify.app/posts/241222/</link>
+      <link>http://localhost:1313/notes/241222/</link>
       <pubDate>Sun, 22 Dec 2024 12:18:09 +0800</pubDate>
       
-      <guid>https://jabeehugo.netlify.app/posts/241222/</guid>
+      <guid>http://localhost:1313/notes/241222/</guid>
       <description>&lt;p&gt;今天是星期日，中午在學校附近吃飽就往圖書館移動。&lt;/p&gt;
 &lt;p&gt;在校園內看到小孩們在跑跑跳跳玩耍，雖然這也不是第一次在假日看到。天氣好的時候，假日的中原總是充滿著帶著小孩的爸爸媽媽們。&lt;/p&gt;</description>
       <content:encoded>&lt;p&gt;今天是星期日，中午在學校附近吃飽就往圖書館移動。&lt;/p&gt;
@@ -348,7 +377,7 @@
 &lt;p&gt;但你要問我，最有印象的事情是什麼？&lt;/p&gt;
 &lt;p&gt;我會不假思索的回答：&lt;strong&gt;學會騎腳踏車&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;我還記得我在北醫的大門廣場學會騎腳踏車的。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/posts/241222/image-20241222123227448.png&#34; type=&#34;&#34; alt=&#34;image-20241222123227448&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/notes/241222/image-20241222123227448.png&#34; type=&#34;&#34; alt=&#34;image-20241222123227448&#34;  /&gt;&lt;/p&gt;
 &lt;p&gt;估計我父親都忘記了吧xd。當初我父親幫我把輔助輪拆掉，然後幫我推了幾次腳踏車之後，很神奇的用力踩，就開始往前了！&lt;/p&gt;
 &lt;p&gt;現在回想起來，就像考到汽車駕照的感覺一樣。&lt;/p&gt;
 </content:encoded>
@@ -356,10 +385,10 @@
     
     <item>
       <title>中原的聖誕節，天空不下雪！</title>
-      <link>https://jabeehugo.netlify.app/posts/241221/</link>
+      <link>http://localhost:1313/notes/241221-2/</link>
       <pubDate>Sat, 21 Dec 2024 14:39:30 +0800</pubDate>
       
-      <guid>https://jabeehugo.netlify.app/posts/241221/</guid>
+      <guid>http://localhost:1313/notes/241221-2/</guid>
       <description>&lt;p&gt;這星期的中原團契是中原瘋，雖然我已經大三了，不過這是我第一次參加中原瘋（剛好之前都有一些事情）&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;團契：通常是指在校園中的基督教社團，每個學校的團契社團時間做的事情不太一樣，中原團契類似於教會。當然，相當歡迎非基督徒的人一起參加。&lt;/p&gt;</description>
@@ -416,10 +445,10 @@
     
     <item>
       <title>喧鬧中的安歇之處</title>
-      <link>https://jabeehugo.netlify.app/posts/241214/</link>
+      <link>http://localhost:1313/notes/241214-2/</link>
       <pubDate>Sat, 14 Dec 2024 19:31:11 +0800</pubDate>
       
-      <guid>https://jabeehugo.netlify.app/posts/241214/</guid>
+      <guid>http://localhost:1313/notes/241214-2/</guid>
       <description>&lt;p&gt;&lt;strong&gt;喧鬧中的安歇之處&lt;/strong&gt; 這個主題是本週在中原團契的講道聽到的，覺得很有趣，稍微分享給大家。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;團契：通常是指在校園中的基督教社團，每個學校的團契社團時間做的事情不太一樣，中原團契類似於教會。當然，相當歡迎非基督徒的人一起參加。&lt;/p&gt;</description>
@@ -446,15 +475,15 @@
     
     <item>
       <title>近況分享：為什麼這麼久沒更新？</title>
-      <link>https://jabeehugo.netlify.app/posts/241212/</link>
+      <link>http://localhost:1313/notes/241212/</link>
       <pubDate>Thu, 12 Dec 2024 16:52:17 +0800</pubDate>
       
-      <guid>https://jabeehugo.netlify.app/posts/241212/</guid>
+      <guid>http://localhost:1313/notes/241212/</guid>
       <description>&lt;h1 id=&#34;為什麼這麼久沒更新&#34;&gt;為什麼這麼久沒更新？&lt;/h1&gt;
 &lt;p&gt;上上上個星期開始，Jabee我被同學傳染，因此開始喉嚨痛。每天吃藥，都很想睡覺，實在無力動動手指，打開電腦。原本想著好了就可以繼續更新了。哪知來了個大的感冒，喉嚨痛剛好，給我來個腸胃炎，每天一直拉肚子，肚子超痛。後來還去大醫院看醫生，本週身體終於稍微恢復。&lt;/p&gt;</description>
       <content:encoded>&lt;h1 id=&#34;為什麼這麼久沒更新&#34;&gt;為什麼這麼久沒更新？&lt;/h1&gt;
 &lt;p&gt;上上上個星期開始，Jabee我被同學傳染，因此開始喉嚨痛。每天吃藥，都很想睡覺，實在無力動動手指，打開電腦。原本想著好了就可以繼續更新了。哪知來了個大的感冒，喉嚨痛剛好，給我來個腸胃炎，每天一直拉肚子，肚子超痛。後來還去大醫院看醫生，本週身體終於稍微恢復。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/posts/241212/Screenshot.png&#34; type=&#34;&#34; alt=&#34;Screenshot 2024-12-13 at 4.39.46 PM&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/notes/241212/Screenshot.png&#34; type=&#34;&#34; alt=&#34;Screenshot 2024-12-13 at 4.39.46 PM&#34;  /&gt;&lt;/p&gt;
 &lt;p&gt;另外本週還收到讀者的來信，很開心有人持續在追蹤我的 Blog，Jabee覺得讀者過獎了，是大家不嫌棄，能有一個地方發表自己的想法才是我開 Blog 的最初目的，Jabee我會努力寫文章的xd。&lt;/p&gt;
 &lt;h2 id=&#34;在感冒和考試中夾殺&#34;&gt;在感冒和考試中夾殺&lt;/h2&gt;
 &lt;p&gt;本週，還考了一個很重要的考試，通常這個考試我都會準備 4~5 天，因為光把書書讀懂，大概會花一到兩天的時間，然後六日一沒有上課，我就會全力衝刺準備考試。但這次我從星期日早上開始讀，而且兩天都沒有很認真讀書。可以算是大學以來，少數我沒有準備完全就上去考試。不過，剛好讀的都有考，雖然也不保證都對，但至少不會太差，也算是小確幸。&lt;/p&gt;
@@ -464,19 +493,19 @@
     
     <item>
       <title>他不要蛋，幫他改起司！</title>
-      <link>https://jabeehugo.netlify.app/posts/241123/</link>
+      <link>http://localhost:1313/notes/241123/</link>
       <pubDate>Sat, 23 Nov 2024 12:47:46 +0800</pubDate>
       
-      <guid>https://jabeehugo.netlify.app/posts/241123/</guid>
+      <guid>http://localhost:1313/notes/241123/</guid>
       <description>&lt;p&gt;今天天氣好好啊！！&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/posts/241123/IMG_5081.HEIC_compressed.JPEG&#34; type=&#34;&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/notes/241123/IMG_5081.HEIC_compressed.JPEG&#34; type=&#34;&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
 &lt;p&gt;今天一早就到圖書館報到，因為下禮拜考計算機網路 0.0
 中午吃我很愛的中原附近的早午餐店-元氣小豬。&lt;/p&gt;
 &lt;p&gt;一進門，&lt;/p&gt;
 &lt;p&gt;老闆：「你要外帶吼？」&lt;/p&gt;
 &lt;p&gt;老闆娘：「他不要蛋，幫他改起司！」鏗強有力，不拖泥帶水地說。&lt;/p&gt;</description>
       <content:encoded>&lt;p&gt;今天天氣好好啊！！&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/posts/241123/IMG_5081.HEIC_compressed.JPEG&#34; type=&#34;&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/notes/241123/IMG_5081.HEIC_compressed.JPEG&#34; type=&#34;&#34; alt=&#34;&#34;  /&gt;&lt;/p&gt;
 &lt;p&gt;今天一早就到圖書館報到，因為下禮拜考計算機網路 0.0
 中午吃我很愛的中原附近的早午餐店-元氣小豬。&lt;/p&gt;
 &lt;p&gt;一進門，&lt;/p&gt;

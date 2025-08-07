@@ -5,6 +5,7 @@ draft: false
 title: '吵得沸沸揚揚的 Mac mini M4 開機按鍵'
 Lastmod: '2024-11-20'
 
+categories: ["tech"]
 tags: ["科技"]
 author: "Jabee姜"
 

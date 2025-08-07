@@ -4,7 +4,7 @@ date: '2025-01-14T14:14:09+08:00'
 draft: false
 title: '你應該在出門前了解「旅行」和「度假」的差別'
 # lastmod: 2025-01-14
-
+categories: ["travel"]
 tags: ["旅遊"]
 author: "Jabee姜"
 

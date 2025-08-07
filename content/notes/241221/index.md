@@ -5,6 +5,7 @@ draft: false
 title: '新詩 && 攝影 比賽分享'
 # lastmod: 2024-12-21
 
+categories: ["photography"]
 tags: ["新詩","攝影"]
 author: "Jabee姜"
 

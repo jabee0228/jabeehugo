@@ -5,6 +5,7 @@ draft: false
 title: '解決 Pop OS 的手勢捏合 && Scaling 的問題'
 # lastmod: 2024-12-18
 
+categories: ["tech"]
 tags: ["科技", "Linux", "Surface"]
 author: "Jabee姜"
 

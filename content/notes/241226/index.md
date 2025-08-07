@@ -4,7 +4,7 @@ date: '2024-12-26T11:41:33+08:00'
 draft: false
 title: 'DDPM paper notes'
 # lastmod: 2024-12-26
-
+categories: ["tech"]
 tags: ["科技", "Diffusion Model", "學習"]
 author: "Jabee姜"
 

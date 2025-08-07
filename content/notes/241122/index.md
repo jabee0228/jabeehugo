@@ -3,6 +3,7 @@ date: '2024-11-22T10:14:10+08:00'
 draft: false
 title: '我愛騎重機，但不愛騎重機；重機是玩具，不是交通工具'
 
+categories: ["car"]
 tags: ["重機","車"]
 author: "Jabee姜"
 

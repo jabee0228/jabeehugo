@@ -4,7 +4,7 @@ date: '2025-06-27T11:18:42+08:00'
 draft: false
 title: 'NAS 如何融入我的生活：超過 1200 天的深度使用心得'
 # lastmod: 2025-05-23
-
+categories: ["tech"]
 tags: ["NAS", "群暉", "Synology", "備份", "資料管理"]
 author: "Jabee姜"
 

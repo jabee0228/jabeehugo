@@ -112,7 +112,6 @@ params:
     URL: "https://github.com/<path_to_repo>/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
-
   # for search
   # https://fusejs.io/api/options.html
   fuseOpts:
@@ -125,27 +124,16 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - name: Posts
-      url: /posts/
-      weight: 1
+
     - name: Notes
       url: /notes/
       weight: 2
-    - name: 科技
-      url: /tags/科技/
+    - name: 分類
+      url: /cat/
       weight: 3
-    - name: 旅遊
-      url: /tags/旅遊/
-      weight: 4
     - name: About
       url: /About/
       weight: 5
-    - name: Archives
-      url: /archives/
-      weight: 6
-    - name: Tag
-      url: /tags/
-      weight: 7
     - name: search
       url: /search/
       weight: 8
@@ -172,4 +160,6 @@ markup:
     style: dracula
     lineNos: false
     noClasses: false
+
+
 

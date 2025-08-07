@@ -4,6 +4,7 @@ draft: false
 title: '我平常會使用的應用程式'
 lastmod: 2024-12-13
 
+categories: ["use"]
 tags: ["科技","關於我"]
 author: "Jabee姜"
 

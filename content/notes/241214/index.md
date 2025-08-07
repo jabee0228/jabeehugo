@@ -4,6 +4,7 @@ draft: false
 title: '我平常會看的網紅'
 lastmod: 2024-12-14
 
+categories: ["use"]
 tags: ["關於我"]
 author: "Jabee姜"
 

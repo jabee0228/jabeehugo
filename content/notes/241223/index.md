@@ -5,6 +5,7 @@ draft: false
 title: '2024 Recap'
 # lastmod: 2024-12-23
 
+categories: ["recap"]
 tags: ["回顧", "閒聊"]
 author: "Jabee姜"
 

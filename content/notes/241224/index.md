@@ -5,6 +5,7 @@ draft: false
 title: 'Mac OS 無法連上公共網路的解決方法'
 # lastmod: 2024-12-24
 
+categories: ["tech"]
 tags: ["科技", "Mac"]
 author: "Jabee姜"
 
