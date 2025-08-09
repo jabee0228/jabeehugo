@@ -2,37 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Stories on Jabee&#39;s Blog</title>
-    <link>https://jabeehugo.netlify.app/stories/</link>
+    <link>http://localhost:1313/stories/</link>
     <description>Recent content in Stories on Jabee&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sun, 10 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://jabeehugo.netlify.app/stories/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>11</title>
-      <link>https://jabeehugo.netlify.app/stories/12/</link>
-      <pubDate>Sat, 09 Aug 2025 17:50:35 +0800</pubDate>
-      
-      <guid>https://jabeehugo.netlify.app/stories/12/</guid>
-      <description></description>
-      <content:encoded></content:encoded>
-    </item>
-    
-    <item>
-      <title>11</title>
-      <link>https://jabeehugo.netlify.app/stories/13/</link>
-      <pubDate>Sat, 09 Aug 2025 17:50:35 +0800</pubDate>
-      
-      <guid>https://jabeehugo.netlify.app/stories/13/</guid>
-      <description></description>
-      <content:encoded></content:encoded>
-    </item>
-    
+    <lastBuildDate>Sat, 16 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/stories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>我為什麼不太吵架 &amp;&amp; 原來兩個人互補是如此的重要</title>
-      <link>https://jabeehugo.netlify.app/stories/11/</link>
+      <link>http://localhost:1313/stories/11/</link>
       <pubDate>Sat, 16 Nov 2024 00:00:00 +0000</pubDate>
       
-      <guid>https://jabeehugo.netlify.app/stories/11/</guid>
+      <guid>http://localhost:1313/stories/11/</guid>
       <description>a</description>
       <content:encoded>&lt;!DOCTYPE html&gt;
 &lt;html lang=&#34;en&#34;&gt;
@@ -103,17 +83,6 @@
 &lt;/body&gt;
 &lt;/html&gt;
 
-</content:encoded>
-    </item>
-    
-    <item>
-      <title>測試</title>
-      <link>https://jabeehugo.netlify.app/stories/250810-000602/</link>
-      <pubDate>Sat, 16 Nov 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://jabeehugo.netlify.app/stories/250810-000602/</guid>
-      <description>a</description>
-      <content:encoded>&lt;p&gt;測試中&lt;/p&gt;
 </content:encoded>
     </item>
     

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Linux on Jabee&#39;s Blog</title>
-    <link>https://jabeehugo.netlify.app/tags/linux/</link>
+    <link>http://localhost:1313/tags/linux/</link>
     <description>Recent content in Linux on Jabee&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 18 Dec 2024 13:53:21 +0800</lastBuildDate><atom:link href="https://jabeehugo.netlify.app/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 Dec 2024 13:53:21 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>解決 Pop OS 的手勢捏合 &amp;&amp; Scaling 的問題</title>
-      <link>https://jabeehugo.netlify.app/notes/241218/</link>
+      <link>http://localhost:1313/notes/241218/</link>
       <pubDate>Wed, 18 Dec 2024 13:53:21 +0800</pubDate>
       
-      <guid>https://jabeehugo.netlify.app/notes/241218/</guid>
+      <guid>http://localhost:1313/notes/241218/</guid>
       <description>&lt;p&gt;這兩天在重裝 Surface Go 3 的系統，試了幾個，覺得 Pop OS 最符合我的需求，所以開始安裝。&lt;/p&gt;
 &lt;p&gt;裝是裝好了，但遇到的問題還不少。趁這個機會記錄一下。&lt;/p&gt;
 &lt;h1 id=&#34;gnome-長久以來的-scaling-問題&#34;&gt;Gnome 長久以來的 Scaling 問題&lt;/h1&gt;
