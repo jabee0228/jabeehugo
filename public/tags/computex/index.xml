@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Computex on Jabee&#39;s Blog</title>
+    <link>http://0.0.0.0:1313/tags/computex/</link>
+    <description>Recent content in Computex on Jabee&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Fri, 23 May 2025 17:18:42 +0800</lastBuildDate><atom:link href="http://0.0.0.0:1313/tags/computex/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2025 Computex review</title>
+      <link>http://0.0.0.0:1313/notes/250523/</link>
+      <pubDate>Fri, 23 May 2025 17:18:42 +0800</pubDate>
+      
+      <guid>http://0.0.0.0:1313/notes/250523/</guid>
+      <description>&lt;h1 id=&#34;computex-2025&#34;&gt;COMPUTEX 2025&lt;/h1&gt;
+&lt;p&gt;今年很幸運，和鵬&lt;/p&gt;</description>
+      <content:encoded>&lt;h1 id=&#34;computex-2025&#34;&gt;COMPUTEX 2025&lt;/h1&gt;
+&lt;p&gt;今年很幸運，和鵬&lt;/p&gt;
+</content:encoded>
+    </item>
+    
+  </channel>
+</rss>
