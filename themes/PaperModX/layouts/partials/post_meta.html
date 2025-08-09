@@ -18,6 +18,16 @@
   </span></span>
 {{- end }}
 
+{{- if .Params.categories -}}
+<span class="meta-item">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-folder meta-icon" style="user-select: text;"><path d="M4 4h4l2 2h10a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z" style="user-select: text;"></path></svg>
+  <span class="post-categories">
+    {{- range ($.GetTerms "categories") -}}
+    <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
+    {{- end -}}
+  </span></span>
+{{- end }}
+
 
 {{- if (.Param "ShowWordCount") -}}
 <span class="meta-item">

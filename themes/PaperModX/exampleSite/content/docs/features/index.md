@@ -70,7 +70,7 @@ Create a page with `archive.md` in `content` directory with following content
 ├── config.yml
 ├── content/
 │   ├── archives.md   <--- Create archive.md here
-│   └── posts/
+│   └── stories/
 ├── static/
 └── themes/
     └── PaperModX/

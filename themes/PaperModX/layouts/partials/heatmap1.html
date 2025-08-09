@@ -27,8 +27,8 @@
     var link = {{ .RelPermalink}};
     var title = {{ .Title }};
 
-    // multiple posts in same day, chose the longer one
-    // can also store all posts and use sum as value, but seems like an overkill
+    // multiple stories in same day, chose the longer one
+    // can also store all stories and use sum as value, but seems like an overkill
     if (value == null || wordCount > value[0]) {
         dataMap.set(key, {wordCount, link, title});
     }

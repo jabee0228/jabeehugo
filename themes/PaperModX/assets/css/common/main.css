@@ -13,6 +13,75 @@
     }
 }
 
+.gallery-post {
+    margin: 1.2rem auto;
+}
+
+/* 最重要：隱藏超出部分 / 定位 */
+.gallery-post .swiper-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+/* 讓 wrapper 排成一條 */
+.gallery-post .swiper-wrapper {
+    display: flex;
+    box-sizing: content-box;
+    /* 若被主題覆蓋，可臨時加 !important */
+    /* display: flex !important; */
+}
+
+/* 每個 slide 固定佔滿整個容器 */
+.gallery-post .swiper-slide {
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 圖片等比、置中、不要撐破容器 */
+.gallery-post .swiper-slide img {
+    display: block;
+    width: auto;
+    max-width: 100%;
+    max-height: 60vh; /* 可依需求調整 */
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+/* 修改左右按鍵箭頭顏色 */
+.gallery-post .swiper-button-next,
+.gallery-post .swiper-button-prev {
+    color: #6a51a3; /* 改成你要的顏色，例如橘色 */
+}
+
+/* 修改箭頭背景（圓形按鈕） */
+.gallery-post .swiper-button-next,
+.gallery-post .swiper-button-prev {
+    background-color: rgba(255, 255, 255, 0.6); /* 半透明白 */
+    border-radius: 50%;
+    width: 20px;  /* 調整按鍵大小 */
+    height: 20px;
+}
+
+/* 讓箭頭置中於圓形內 */
+.gallery-post .swiper-button-next::after,
+.gallery-post .swiper-button-prev::after {
+    font-size: 10px; /* 箭頭大小 */
+}
+
+.gallery-post .swiper-pagination-bullet {
+    background: #ccc; /* 原點默認顏色 */
+    opacity: 1; /* 不要透明 */
+}
+
+.gallery-post .swiper-pagination-bullet-active {
+    background: #6a51a3; /* 原點啟用顏色（橘色） */
+}
+
 /* same as .post-header */
 .page-header {
     margin: var(--content-gap) 0 calc(var(--content-gap) * 1.5);
@@ -279,3 +348,5 @@ figure > img {
     width: inherit;
     height: inherit;
 }
+
+
