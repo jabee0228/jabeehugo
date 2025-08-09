@@ -37,7 +37,9 @@
         <div class="swiper-wrapper">
             {{- range $img := $page.Resources.ByType "image" }}
             <div class="swiper-slide">
-                <img src="{{ $img.RelPermalink }}" alt="">
+                <a href="{{ $img.RelPermalink }}" class="glightbox" data-gallery="post-gallery">
+                    <img src="{{ $img.RelPermalink }}" alt="">
+                </a>
             </div>
             {{- end }}
         </div>

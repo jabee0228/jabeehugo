@@ -98,6 +98,22 @@
         });
       });
     });
+
+    document.querySelectorAll('.glightbox').forEach(function(img) {
+      img.addEventListener('click', function(e) {
+        e.preventDefault();
+        GLightbox({
+          elements: [{
+            href: img.getAttribute('href'),
+            type: 'image'
+          }],
+          touchNavigation: true,
+          zoomable: true,
+        }).open();
+      });
+    });
+
+
   </script>
   <head>
     <meta charset="UTF-8">
