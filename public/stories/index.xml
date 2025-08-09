@@ -106,5 +106,16 @@
 </content:encoded>
     </item>
     
+    <item>
+      <title>測試</title>
+      <link>https://jabeehugo.netlify.app/stories/250810-000602/</link>
+      <pubDate>Sat, 16 Nov 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://jabeehugo.netlify.app/stories/250810-000602/</guid>
+      <description>a</description>
+      <content:encoded>&lt;p&gt;測試中&lt;/p&gt;
+</content:encoded>
+    </item>
+    
   </channel>
 </rss>
