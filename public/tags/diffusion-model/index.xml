@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Diffusion Model on Jabee&#39;s Blog</title>
-    <link>http://localhost:1313/tags/diffusion-model/</link>
+    <link>https://jabeehugo.netlify.app/tags/diffusion-model/</link>
     <description>Recent content in Diffusion Model on Jabee&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Thu, 26 Dec 2024 11:41:33 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/diffusion-model/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Dec 2024 11:41:33 +0800</lastBuildDate><atom:link href="https://jabeehugo.netlify.app/tags/diffusion-model/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DDPM paper notes</title>
-      <link>http://localhost:1313/notes/241226/</link>
+      <link>https://jabeehugo.netlify.app/notes/241226/</link>
       <pubDate>Thu, 26 Dec 2024 11:41:33 +0800</pubDate>
       
-      <guid>http://localhost:1313/notes/241226/</guid>
+      <guid>https://jabeehugo.netlify.app/notes/241226/</guid>
       <description>&lt;p&gt;這篇主要是參考李教授的影片，以及網路上的文章，整理的筆記。&lt;/p&gt;
 &lt;h1 id=&#34;algorithm-1-training&#34;&gt;Algorithm 1: Training&lt;/h1&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/notes/241226/DDPM/image.png&#34; type=&#34;&#34; alt=&#34;image.png&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image.png&#34; type=&#34;&#34; alt=&#34;image.png&#34;  /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;第-1-行repeat&#34;&gt;&lt;strong&gt;第 1 行：&lt;code&gt;repeat&lt;/code&gt;&lt;/strong&gt;&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;作用：&lt;/strong&gt; 開始一個迭代訓練過程，直到模型收斂&lt;/li&gt;

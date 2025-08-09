@@ -2,77 +2,77 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Jabee&#39;s Blog</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://jabeehugo.netlify.app/categories/</link>
     <description>Recent content in Categories on Jabee&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 05 Aug 2025 12:06:02 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Aug 2025 12:06:02 +0800</lastBuildDate><atom:link href="https://jabeehugo.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>閒聊</title>
-      <link>http://localhost:1313/categories/chat/</link>
+      <link>https://jabeehugo.netlify.app/categories/chat/</link>
       <pubDate>Tue, 05 Aug 2025 12:06:02 +0800</pubDate>
       
-      <guid>http://localhost:1313/categories/chat/</guid>
+      <guid>https://jabeehugo.netlify.app/categories/chat/</guid>
       <description>偶爾閒聊一些人生閱歷</description>
       <content:encoded></content:encoded>
     </item>
     
     <item>
       <title>科技</title>
-      <link>http://localhost:1313/categories/tech/</link>
+      <link>https://jabeehugo.netlify.app/categories/tech/</link>
       <pubDate>Fri, 27 Jun 2025 11:18:42 +0800</pubDate>
       
-      <guid>http://localhost:1313/categories/tech/</guid>
+      <guid>https://jabeehugo.netlify.app/categories/tech/</guid>
       <description>所有科技新知分享</description>
       <content:encoded></content:encoded>
     </item>
     
     <item>
       <title>旅遊</title>
-      <link>http://localhost:1313/categories/travel/</link>
+      <link>https://jabeehugo.netlify.app/categories/travel/</link>
       <pubDate>Tue, 14 Jan 2025 14:14:09 +0800</pubDate>
       
-      <guid>http://localhost:1313/categories/travel/</guid>
+      <guid>https://jabeehugo.netlify.app/categories/travel/</guid>
       <description>旅遊攻略分享</description>
       <content:encoded></content:encoded>
     </item>
     
     <item>
       <title>回顧</title>
-      <link>http://localhost:1313/categories/recap/</link>
+      <link>https://jabeehugo.netlify.app/categories/recap/</link>
       <pubDate>Mon, 23 Dec 2024 11:29:22 +0800</pubDate>
       
-      <guid>http://localhost:1313/categories/recap/</guid>
+      <guid>https://jabeehugo.netlify.app/categories/recap/</guid>
       <description>個人年度回顧</description>
       <content:encoded></content:encoded>
     </item>
     
     <item>
       <title>攝影</title>
-      <link>http://localhost:1313/categories/photography/</link>
+      <link>https://jabeehugo.netlify.app/categories/photography/</link>
       <pubDate>Sat, 21 Dec 2024 15:38:38 +0800</pubDate>
       
-      <guid>http://localhost:1313/categories/photography/</guid>
+      <guid>https://jabeehugo.netlify.app/categories/photography/</guid>
       <description>分享攝影經驗與知識</description>
       <content:encoded></content:encoded>
     </item>
     
     <item>
       <title>愛看、愛玩、愛用的東西</title>
-      <link>http://localhost:1313/categories/use/</link>
+      <link>https://jabeehugo.netlify.app/categories/use/</link>
       <pubDate>Sat, 14 Dec 2024 21:48:40 +0800</pubDate>
       
-      <guid>http://localhost:1313/categories/use/</guid>
+      <guid>https://jabeehugo.netlify.app/categories/use/</guid>
       <description>定期更新愛看、愛玩、愛用的東西</description>
       <content:encoded></content:encoded>
     </item>
     
     <item>
       <title>汽車與摩托</title>
-      <link>http://localhost:1313/categories/car/</link>
+      <link>https://jabeehugo.netlify.app/categories/car/</link>
       <pubDate>Fri, 22 Nov 2024 10:14:10 +0800</pubDate>
       
-      <guid>http://localhost:1313/categories/car/</guid>
+      <guid>https://jabeehugo.netlify.app/categories/car/</guid>
       <description>分享汽車摩托知識</description>
       <content:encoded></content:encoded>
     </item>
