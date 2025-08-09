@@ -1,9 +1,9 @@
 ---
-title: Posts
-description: 隨手發的貼文
+title: Stories
+description: 隨手發的貼文，目前測試中。
 archivesSlug: archives
 
-type: essays
+type: story
 
 cascade:
   - _target:

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Mac on Jabee&#39;s Blog</title>
-    <link>http://localhost:1313/tags/mac/</link>
+    <link>https://jabeehugo.netlify.app/tags/mac/</link>
     <description>Recent content in Mac on Jabee&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 24 Dec 2024 12:13:34 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Dec 2024 12:13:34 +0800</lastBuildDate><atom:link href="https://jabeehugo.netlify.app/tags/mac/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Mac OS 無法連上公共網路的解決方法</title>
-      <link>http://localhost:1313/notes/241224/</link>
+      <link>https://jabeehugo.netlify.app/notes/241224/</link>
       <pubDate>Tue, 24 Dec 2024 12:13:34 +0800</pubDate>
       
-      <guid>http://localhost:1313/notes/241224/</guid>
+      <guid>https://jabeehugo.netlify.app/notes/241224/</guid>
       <description>&lt;p&gt;今天在桃園圖書館，因為手機訊號不是很好，所以想連 iTaiwan 網路。結果登入的畫面始終就是連不到，相當的納悶。雖然這個情況在 Mac 上面是常態，但我今天怎麼樣就是連不上。查了一下文章，找到簡單的解法如下，以下的方法皆為自己試過可行的。我認為這個可以算是個玄學，因為每個地方 router 設計皆不同，最好的辦法就是多試試。&lt;/p&gt;</description>
       <content:encoded>&lt;p&gt;今天在桃園圖書館，因為手機訊號不是很好，所以想連 iTaiwan 網路。結果登入的畫面始終就是連不到，相當的納悶。雖然這個情況在 Mac 上面是常態，但我今天怎麼樣就是連不上。查了一下文章，找到簡單的解法如下，以下的方法皆為自己試過可行的。我認為這個可以算是個玄學，因為每個地方 router 設計皆不同，最好的辦法就是多試試。&lt;/p&gt;
 &lt;h1 id=&#34;解決不了首先重開機&#34;&gt;解決不了首先重開機&lt;/h1&gt;

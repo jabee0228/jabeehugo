@@ -2,204 +2,214 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://jabeehugo.netlify.app/stories/12/</loc>
+    <lastmod>2025-08-09T17:50:35+08:00</lastmod>
+  </url><url>
+    <loc>https://jabeehugo.netlify.app/stories/13/</loc>
+    <lastmod>2025-08-09T17:50:35+08:00</lastmod>
+  </url><url>
+    <loc>https://jabeehugo.netlify.app/</loc>
+    <lastmod>2025-08-09T17:50:35+08:00</lastmod>
+  </url><url>
+    <loc>https://jabeehugo.netlify.app/stories/</loc>
+    <lastmod>2025-08-09T17:50:35+08:00</lastmod>
+  </url><url>
+    <loc>https://jabeehugo.netlify.app/categories/</loc>
     <lastmod>2025-08-05T12:06:02+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://jabeehugo.netlify.app/notes/</loc>
     <lastmod>2025-08-05T12:06:02+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/</loc>
+    <loc>https://jabeehugo.netlify.app/tags/</loc>
     <lastmod>2025-08-05T12:06:02+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://jabeehugo.netlify.app/notes/250806/</loc>
     <lastmod>2025-08-05T12:06:02+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/250806/</loc>
+    <loc>https://jabeehugo.netlify.app/tags/%E9%96%92%E8%81%8A/</loc>
     <lastmod>2025-08-05T12:06:02+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E9%96%92%E8%81%8A/</loc>
+    <loc>https://jabeehugo.netlify.app/categories/chat/</loc>
     <lastmod>2025-08-05T12:06:02+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/chat/</loc>
-    <lastmod>2025-08-05T12:06:02+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/nas/</loc>
+    <loc>https://jabeehugo.netlify.app/tags/nas/</loc>
     <lastmod>2025-06-27T11:18:42+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/250627/</loc>
+    <loc>https://jabeehugo.netlify.app/notes/250627/</loc>
     <lastmod>2025-06-27T11:18:42+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/synology/</loc>
+    <loc>https://jabeehugo.netlify.app/tags/synology/</loc>
     <lastmod>2025-06-27T11:18:42+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E5%82%99%E4%BB%BD/</loc>
+    <loc>https://jabeehugo.netlify.app/tags/%E5%82%99%E4%BB%BD/</loc>
     <lastmod>2025-06-27T11:18:42+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/tech/</loc>
+    <loc>https://jabeehugo.netlify.app/categories/tech/</loc>
     <lastmod>2025-06-27T11:18:42+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E7%BE%A4%E6%9A%89/</loc>
+    <loc>https://jabeehugo.netlify.app/tags/%E7%BE%A4%E6%9A%89/</loc>
     <lastmod>2025-06-27T11:18:42+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E8%B3%87%E6%96%99%E7%AE%A1%E7%90%86/</loc>
+    <loc>https://jabeehugo.netlify.app/tags/%E8%B3%87%E6%96%99%E7%AE%A1%E7%90%86/</loc>
     <lastmod>2025-06-27T11:18:42+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/250501/</loc>
+    <loc>https://jabeehugo.netlify.app/notes/250501/</loc>
     <lastmod>2025-05-01T12:06:02+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/250428/</loc>
+    <loc>https://jabeehugo.netlify.app/notes/250428/</loc>
     <lastmod>2025-04-28T09:35:34+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/250329/</loc>
+    <loc>https://jabeehugo.netlify.app/notes/250329/</loc>
     <lastmod>2025-03-29T11:52:06+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E8%BF%91%E6%B3%81/</loc>
+    <loc>https://jabeehugo.netlify.app/tags/%E8%BF%91%E6%B3%81/</loc>
     <lastmod>2025-03-29T11:52:06+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/250114/</loc>
+    <loc>https://jabeehugo.netlify.app/notes/250114/</loc>
     <lastmod>2025-01-14T14:14:09+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E6%97%85%E9%81%8A/</loc>
+    <loc>https://jabeehugo.netlify.app/tags/%E6%97%85%E9%81%8A/</loc>
     <lastmod>2025-01-14T14:14:09+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/travel/</loc>
+    <loc>https://jabeehugo.netlify.app/categories/travel/</loc>
     <lastmod>2025-01-14T14:14:09+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/250111/</loc>
+    <loc>https://jabeehugo.netlify.app/notes/250111/</loc>
     <lastmod>2025-01-11T13:57:11+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/241231/</loc>
+    <loc>https://jabeehugo.netlify.app/notes/241231/</loc>
     <lastmod>2024-12-31T13:37:50+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E7%A7%91%E6%8A%80/</loc>
+    <loc>https://jabeehugo.netlify.app/tags/%E7%A7%91%E6%8A%80/</loc>
     <lastmod>2024-12-31T13:37:50+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E9%9A%A8%E7%AD%86/</loc>
+    <loc>https://jabeehugo.netlify.app/tags/%E9%9A%A8%E7%AD%86/</loc>
     <lastmod>2024-12-31T13:37:50+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/241228/</loc>
+    <loc>https://jabeehugo.netlify.app/notes/241228/</loc>
     <lastmod>2024-12-28T14:53:35+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/241226/</loc>
+    <loc>https://jabeehugo.netlify.app/notes/241226/</loc>
     <lastmod>2024-12-26T11:41:33+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/diffusion-model/</loc>
+    <loc>https://jabeehugo.netlify.app/tags/diffusion-model/</loc>
     <lastmod>2024-12-26T11:41:33+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E5%AD%B8%E7%BF%92/</loc>
+    <loc>https://jabeehugo.netlify.app/tags/%E5%AD%B8%E7%BF%92/</loc>
     <lastmod>2024-12-26T11:41:33+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E5%9C%96%E6%9B%B8%E9%A4%A8/</loc>
+    <loc>https://jabeehugo.netlify.app/tags/%E5%9C%96%E6%9B%B8%E9%A4%A8/</loc>
     <lastmod>2024-12-24T12:46:25+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/241224-2/</loc>
+    <loc>https://jabeehugo.netlify.app/notes/241224-2/</loc>
     <lastmod>2024-12-24T12:46:25+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/mac/</loc>
+    <loc>https://jabeehugo.netlify.app/tags/mac/</loc>
     <lastmod>2024-12-24T12:13:34+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/241224/</loc>
+    <loc>https://jabeehugo.netlify.app/notes/241224/</loc>
     <lastmod>2024-12-24T12:13:34+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/241223/</loc>
+    <loc>https://jabeehugo.netlify.app/notes/241223/</loc>
     <lastmod>2024-12-23T11:29:22+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E5%9B%9E%E9%A1%A7/</loc>
+    <loc>https://jabeehugo.netlify.app/tags/%E5%9B%9E%E9%A1%A7/</loc>
     <lastmod>2024-12-23T11:29:22+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/recap/</loc>
+    <loc>https://jabeehugo.netlify.app/categories/recap/</loc>
     <lastmod>2024-12-23T11:29:22+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/241222/</loc>
+    <loc>https://jabeehugo.netlify.app/notes/241222/</loc>
     <lastmod>2024-12-22T12:18:09+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E6%94%9D%E5%BD%B1/</loc>
+    <loc>https://jabeehugo.netlify.app/tags/%E6%94%9D%E5%BD%B1/</loc>
     <lastmod>2024-12-21T15:38:38+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/photography/</loc>
+    <loc>https://jabeehugo.netlify.app/categories/photography/</loc>
     <lastmod>2024-12-21T15:38:38+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E6%96%B0%E8%A9%A9/</loc>
+    <loc>https://jabeehugo.netlify.app/tags/%E6%96%B0%E8%A9%A9/</loc>
     <lastmod>2024-12-21T15:38:38+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/241221/</loc>
+    <loc>https://jabeehugo.netlify.app/notes/241221/</loc>
     <lastmod>2024-12-21T15:38:38+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/241221-2/</loc>
+    <loc>https://jabeehugo.netlify.app/notes/241221-2/</loc>
     <lastmod>2024-12-21T14:39:30+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/linux/</loc>
+    <loc>https://jabeehugo.netlify.app/tags/linux/</loc>
     <lastmod>2024-12-18T13:53:21+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/surface/</loc>
+    <loc>https://jabeehugo.netlify.app/tags/surface/</loc>
     <lastmod>2024-12-18T13:53:21+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/241218/</loc>
+    <loc>https://jabeehugo.netlify.app/notes/241218/</loc>
     <lastmod>2024-12-18T13:53:21+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E5%88%86%E4%BA%AB/</loc>
+    <loc>https://jabeehugo.netlify.app/tags/%E5%88%86%E4%BA%AB/</loc>
     <lastmod>2024-12-15T12:54:03+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/241215/</loc>
+    <loc>https://jabeehugo.netlify.app/notes/241215/</loc>
     <lastmod>2024-12-15T12:54:03+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/use/</loc>
+    <loc>https://jabeehugo.netlify.app/categories/use/</loc>
     <lastmod>2024-12-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/241214/</loc>
+    <loc>https://jabeehugo.netlify.app/notes/241214/</loc>
     <lastmod>2024-12-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E9%97%9C%E6%96%BC%E6%88%91/</loc>
+    <loc>https://jabeehugo.netlify.app/tags/%E9%97%9C%E6%96%BC%E6%88%91/</loc>
     <lastmod>2024-12-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/241214-2/</loc>
+    <loc>https://jabeehugo.netlify.app/notes/241214-2/</loc>
     <lastmod>2024-12-14T19:31:11+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/241212/</loc>
+    <loc>https://jabeehugo.netlify.app/notes/241212/</loc>
     <lastmod>2024-12-12T16:52:17+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/241123/</loc>
+    <loc>https://jabeehugo.netlify.app/notes/241123/</loc>
     <lastmod>2024-11-23T12:47:46+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/241122/</loc>
+    <loc>https://jabeehugo.netlify.app/notes/241122/</loc>
     <lastmod>2024-11-22T10:14:10+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/car/</loc>
+    <loc>https://jabeehugo.netlify.app/categories/car/</loc>
     <lastmod>2024-11-22T10:14:10+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E8%BB%8A/</loc>
+    <loc>https://jabeehugo.netlify.app/tags/%E8%BB%8A/</loc>
     <lastmod>2024-11-22T10:14:10+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E9%87%8D%E6%A9%9F/</loc>
+    <loc>https://jabeehugo.netlify.app/tags/%E9%87%8D%E6%A9%9F/</loc>
     <lastmod>2024-11-22T10:14:10+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/241121-2/</loc>
+    <loc>https://jabeehugo.netlify.app/notes/241121-2/</loc>
     <lastmod>2024-11-21T13:20:29+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/241121/</loc>
+    <loc>https://jabeehugo.netlify.app/notes/241121/</loc>
     <lastmod>2024-12-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/241119/</loc>
+    <loc>https://jabeehugo.netlify.app/notes/241119/</loc>
     <lastmod>2024-11-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/241116/</loc>
+    <loc>https://jabeehugo.netlify.app/notes/241116/</loc>
     <lastmod>2024-11-16T15:03:54+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notes/241114/</loc>
+    <loc>https://jabeehugo.netlify.app/stories/11/</loc>
+    <lastmod>2024-11-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jabeehugo.netlify.app/notes/241114/</loc>
     <lastmod>2024-11-14T17:02:07+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://jabeehugo.netlify.app/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/cat/</loc>
+    <loc>https://jabeehugo.netlify.app/cat/</loc>
   </url><url>
-    <loc>http://localhost:1313/notes/archives/</loc>
+    <loc>https://jabeehugo.netlify.app/notes/archives/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://jabeehugo.netlify.app/stories/archives/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/archives/</loc>
+    <loc>https://jabeehugo.netlify.app/search/</loc>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
-  </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>https://jabeehugo.netlify.app/archives/</loc>
   </url>
 </urlset>
