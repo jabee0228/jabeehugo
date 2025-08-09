@@ -5,17 +5,97 @@
 <footer class="footer" >
   <script>
     document.addEventListener('DOMContentLoaded', function () {
-      var swiper = new Swiper('.swiper-container', {
-        loop: true,
-        pagination: {
-          el: '.swiper-pagination',
-          clickable: true,
-        },
-        navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-        },
-        slidesPerView: 1,
+      // 找到所有 swiper container（每個 post 一份）
+      var containers = document.querySelectorAll('.gallery-post .swiper-container');
+
+      containers.forEach(function (el) {
+        var imgs = Array.from(el.querySelectorAll('img'));
+        var slides = el.querySelectorAll('.swiper-slide');
+
+        // 如果沒有圖片就初始化一個簡單的 swiper（避免錯誤）
+        if (imgs.length === 0) {
+          new Swiper(el, {
+            loop: true,
+            slidesPerView: 1,
+            pagination: { el: el.querySelector('.swiper-pagination'), clickable: true },
+            navigation: { nextEl: el.querySelector('.swiper-button-next'), prevEl: el.querySelector('.swiper-button-prev') },
+          });
+          return;
+        }
+
+        // 等待所有圖片載入（成功或失敗都算），然後執行初始化
+        var loadedCount = 0;
+        function tryInit() {
+          loadedCount++;
+          if (loadedCount < imgs.length) return;
+
+          // 計算目前圖片在頁面上呈現的高度（可能因寬度縮放）
+          var maxH = 0;
+          imgs.forEach(function(img){
+            // getBoundingClientRect 取得顯示高度
+            var h = img.getBoundingClientRect().height || (img.naturalHeight || 0);
+            if (h > maxH) maxH = h;
+          });
+
+          // fallback（若還是 0，則用 container 寬度與原始比例估算）
+          if (maxH === 0) {
+            var w = el.clientWidth || 600;
+            imgs.forEach(function(img){
+              if (img.naturalWidth && img.naturalWidth > 0) {
+                var est = Math.round(w * (img.naturalHeight / img.naturalWidth));
+                if (est > maxH) maxH = est;
+              }
+            });
+          }
+
+          // 將每個 slide 統一高度設為 maxH（px）
+          if (maxH > 0) {
+            slides.forEach(function(s){ s.style.height = maxH + 'px'; });
+          }
+
+          // 初始化 Swiper（針對單個 container）
+          var swiper = new Swiper(el, {
+            loop: true,
+            slidesPerView: 1,
+            slidesPerGroup: 1,
+            // 我們不要 autoHeight，因為要固定為 max 高度
+            pagination: { el: el.querySelector('.swiper-pagination'), clickable: true },
+            navigation: { nextEl: el.querySelector('.swiper-button-next'), prevEl: el.querySelector('.swiper-button-prev') },
+            observer: true,
+            observeParents: true
+          });
+
+          // 更新一次確保樣式正確
+          swiper.update();
+
+          // 在視窗大小改變時重新計算高度（節流）
+          var resizeTimer;
+          window.addEventListener('resize', function () {
+            clearTimeout(resizeTimer);
+            resizeTimer = setTimeout(function () {
+              var newMax = 0;
+              imgs.forEach(function(img){
+                var h2 = img.getBoundingClientRect().height || 0;
+                if (h2 > newMax) newMax = h2;
+              });
+              if (newMax > 0) {
+                slides.forEach(function(s){ s.style.height = newMax + 'px'; });
+                swiper.update();
+              }
+            }, 150);
+          });
+        }
+
+        // attach load/error handlers or count already-complete images
+        imgs.forEach(function(img){
+          if (img.complete && img.naturalHeight !== 0) {
+            // 已載入
+            tryInit();
+          } else {
+            img.addEventListener('load', tryInit);
+            img.addEventListener('error', tryInit); // 錯誤也算一份
+          }
+        });
       });
     });
   </script>

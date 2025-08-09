@@ -41,6 +41,11 @@
     align-items: center;
 }
 
+.gallery-post .swiper-wrapper {
+    align-items: center; /* 上下置中 */
+}
+
+
 /* 圖片等比、置中、不要撐破容器 */
 .gallery-post .swiper-slide img {
     display: block;
@@ -51,6 +56,8 @@
     object-fit: contain;
     border-radius: 8px;
 }
+
+
 
 /* 修改左右按鍵箭頭顏色 */
 .gallery-post .swiper-button-next,
@@ -81,6 +88,7 @@
 .gallery-post .swiper-pagination-bullet-active {
     background: #6a51a3; /* 原點啟用顏色（橘色） */
 }
+
 
 /* same as .post-header */
 .page-header {
