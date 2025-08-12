@@ -1,4 +1,4 @@
-baseURL: "https://jabeehugo.netlify.app/"
+baseURL: "https://jabee.live/"
 title: Jabee's Blog
 paginate: 5
 theme: PaperModX
@@ -9,7 +9,6 @@ buildFuture: false
 buildExpired: false
 pygmentsUseClasses: true
 
-googleAnalytics: UA-123-45
 
 languageCode: "zh-tw"
 

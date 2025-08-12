@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Stories on Jabee&#39;s Blog</title>
-    <link>https://jabeehugo.netlify.app/stories/</link>
+    <link>https://jabee.live/stories/</link>
     <description>Recent content in Stories on Jabee&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Mon, 11 Aug 2025 08:13:20 +0800</lastBuildDate><atom:link href="https://jabeehugo.netlify.app/stories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Aug 2025 08:13:20 +0800</lastBuildDate><atom:link href="https://jabee.live/stories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>12mini 好像沒怎麼漲價</title>
-      <link>https://jabeehugo.netlify.app/stories/250811-081320/</link>
+      <link>https://jabee.live/stories/250811-081320/</link>
       <pubDate>Mon, 11 Aug 2025 08:13:20 +0800</pubDate>
       
-      <guid>https://jabeehugo.netlify.app/stories/250811-081320/</guid>
+      <guid>https://jabee.live/stories/250811-081320/</guid>
       <description>&lt;p&gt;150一鍋還有白飯，挺不錯的其實&lt;/p&gt;</description>
       <content:encoded>&lt;p&gt;150一鍋還有白飯，挺不錯的其實&lt;/p&gt;
 </content:encoded>
@@ -20,10 +20,10 @@
     
     <item>
       <title>磊哥牽新車</title>
-      <link>https://jabeehugo.netlify.app/stories/250810-155556/</link>
+      <link>https://jabee.live/stories/250810-155556/</link>
       <pubDate>Sun, 10 Aug 2025 15:55:56 +0800</pubDate>
       
-      <guid>https://jabeehugo.netlify.app/stories/250810-155556/</guid>
+      <guid>https://jabee.live/stories/250810-155556/</guid>
       <description>&lt;p&gt;帥帥帥&lt;/p&gt;</description>
       <content:encoded>&lt;p&gt;帥帥帥&lt;/p&gt;
 </content:encoded>
@@ -31,10 +31,10 @@
     
     <item>
       <title>深夜咖啡廳</title>
-      <link>https://jabeehugo.netlify.app/stories/250809-180640/</link>
+      <link>https://jabee.live/stories/250809-180640/</link>
       <pubDate>Sat, 09 Aug 2025 18:06:40 +0800</pubDate>
       
-      <guid>https://jabeehugo.netlify.app/stories/250809-180640/</guid>
+      <guid>https://jabee.live/stories/250809-180640/</guid>
       <description>&lt;p&gt;深夜咖啡廳真的會愛死，但有開到12點以後真的是少之又少。&lt;/p&gt;</description>
       <content:encoded>&lt;p&gt;深夜咖啡廳真的會愛死，但有開到12點以後真的是少之又少。&lt;/p&gt;
 </content:encoded>
@@ -42,10 +42,10 @@
     
     <item>
       <title>測試</title>
-      <link>https://jabeehugo.netlify.app/stories/250809-173420/</link>
+      <link>https://jabee.live/stories/250809-173420/</link>
       <pubDate>Sat, 09 Aug 2025 17:34:20 +0800</pubDate>
       
-      <guid>https://jabeehugo.netlify.app/stories/250809-173420/</guid>
+      <guid>https://jabee.live/stories/250809-173420/</guid>
       <description>&lt;p&gt;寫了個新功能，測試中！放幾張照片測試看看！&lt;/p&gt;</description>
       <content:encoded>&lt;p&gt;寫了個新功能，測試中！放幾張照片測試看看！&lt;/p&gt;
 </content:encoded>
