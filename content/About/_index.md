@@ -11,7 +11,6 @@
 .image-column {
   flex: 1; /* 佔用可用空間的一份 */
 }
-
 /* 當螢幕寬度小於等於 768px 時 (適用於平板和手機)，套用這裡的樣式 */
 @media (max-width: 768px) {
   .responsive-container {
@@ -46,7 +45,7 @@
 
 # Contact me
 
-Email : james930228@gmail.com
+Email : james930228[at]gmail.com
 
 Github：[https://github.com/jabee0228](https://github.com/jabee0228)
 
