@@ -1,24 +1,48 @@
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h1>歡迎</h1>
-      <p>我是 Jabee 姜，目前就讀中原資工！是個基督徒～</p>
-      <p>認真來講，我超愛資工系，我真的很愛學各種電腦的技術、新知。但人生不只寫code，還有很多可以去學、去探索的地方。</p>
-      <p>所以除了電腦科學相關的，在這個 Blog 裡面，我還會分享我旅遊的經驗，騎重機的經驗，我的所見所聞，甚至於日常瑣事的閒聊，期待用這個 Blog 記錄自己的人生。</p>
-      <h2>我的興趣</h2>
-      <ul>
-        <li>攝影</li>
-        <li>旅遊</li>
-        <li>看各種yt影片（中文、非中文）</li>
-        <li>組電腦</li>
-        <li>還有太多了xd</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <img src="IMG_0577.HEIC_compressed.JPEG" alt="" width="100%">
-    </td>
-  </tr>
-</table>
+<style>
+/* 預設樣式：給電腦等寬螢幕看的 */
+.responsive-container {
+  display: flex;
+  align-items: flex-start; /* 頂部對齊 */
+  gap: 20px; /* 左右兩欄的間距 */
+}
+.text-column {
+  flex: 1; /* 佔用可用空間的一份 */
+}
+.image-column {
+  flex: 1; /* 佔用可用空間的一份 */
+}
+
+/* 當螢幕寬度小於等於 768px 時 (適用於平板和手機)，套用這裡的樣式 */
+@media (max-width: 768px) {
+  .responsive-container {
+    flex-direction: column; /* 將並排改為垂直堆疊 */
+  }
+  /* 在手機上，讓圖片和文字之間也有一點上下間距 */
+  .image-column {
+    margin-top: 20px;
+  }
+}
+</style>
+
+<div class="responsive-container">
+  <div class="text-column">
+    <h1>歡迎</h1>
+    <p>我是 Jabee 姜，目前就讀中原資工！是個基督徒～</p>
+    <p>認真來講，我超愛資工系，我真的很愛學各種電腦的技術、新知。但人生不只寫code，還有很多可以去學、去探索的地方。</p>
+    <p>所以除了電腦科學相關的，在這個 Blog 裡面，我還會分享我旅遊的經驗，騎重機的經驗，我的所見所聞，甚至於日常瑣事的閒聊，期待用這個 Blog 記錄自己的人生。</p>
+    <h2>我的興趣</h2>
+    <ul>
+      <li>攝影</li>
+      <li>旅遊</li>
+      <li>看各種yt影片（中文、非中文）</li>
+      <li>組電腦</li>
+      <li>還有太多了xd</li>
+    </ul>
+  </div>
+  <div class="image-column">
+    <img src="IMG_0577.HEIC_compressed.JPEG" alt="Jabee 的照片" style="width: 100%; height: auto; display: block;">
+  </div>
+</div>
 
 # Contact me
 
