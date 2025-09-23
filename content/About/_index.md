@@ -123,7 +123,7 @@ DailyClassical
   <div style="margin:1rem 0;">
     <div style="padding:1rem; border:1px solid #e0e0e0; border-radius:10px; box-shadow:0 2px 6px rgba(0,0,0,0.05);">
       <p style="margin:0; font-weight:500;">A Study of Image Inpainting Methods via Various Perspective Image Synthesis Using CNN-based and Diffusion-based Models</p>
-      <p style="margin:.5rem 0 0; color:#555;">En Chen (陳恩), Yi-Hsin Chiang (姜義新), Chih-Chang Yu (余執翰), and Hsu-Yung Cheng (鄭旭誠)</p>
+      <p style="margin:.5rem 0 0; color:#555;">En Chen (陳恩), Yi-Hsin Chiang (姜義新), Chih-Chang Yu (余執彰), Hsu-Yung Cheng(鄭旭詠)</p>
       <p style="margin:.3rem 0 0; color:#777; font-size:.95rem;">The 38th Conference on Computer Vision, Graphics, and Image Processing (CVGIP 2025), August 2025.</p>
     </div>
   </div>
