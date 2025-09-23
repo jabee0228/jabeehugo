@@ -43,17 +43,17 @@ Linkedin：[https://www.linkedin.com/in/jameschiang0228/](https://www.linkedin.c
 
   <!-- Experience -->  
 
-  <h2 style="color:#222; border-bottom:2px solid #eee; padding-bottom:.3rem;">🧑‍💼 Experience</h2>
+  <h2 style="; border-bottom:2px solid #eee; padding-bottom:.3rem;">🧑‍💼 Experience</h2>
   <div style="display:grid; gap:1.5rem; margin:1rem 0;">
     <div style="border-bottom:1px solid #eee; padding-bottom:1rem;">
       <h3 style="margin:0; color:#0d6efd; font-size:1.1rem;">Associate Software Developer</h3>
-      <p style="margin:.2rem 0; color:#444;">Chung Yuan Christian University · Contract</p>
+      <p style="margin:.2rem 0;">Chung Yuan Christian University · Contract</p>
       <p style="margin:.2rem 0 0; color:#555;">May 2025 – Present · 5 mos · Zhongli, Taoyuan </p>
     </div>
     <div style="border-bottom:1px solid #eee; padding-bottom:1rem;">
       <h3 style="margin:0; color:#0d6efd; font-size:1.1rem;">Machine Learning Research Intern</h3>
-      <p style="margin:.2rem 0; color:#444;">Academia Sinica · Internship</p>
-      <p style="margin:.2rem 0 0; color:#555;">Jul 2025 – Aug 2025 · 2 mos · Taipei, Taiwan /p>
+      <p style="margin:.2rem 0;">Academia Sinica · Internship</p>
+      <p style="margin:.2rem 0 0; color:#555;">Jul 2025 – Aug 2025 · 2 mos · Taipei, Taiwan </p>
     </div>
   </div> 
 
@@ -61,13 +61,13 @@ Linkedin：[https://www.linkedin.com/in/jameschiang0228/](https://www.linkedin.c
 
 
 
-  <h2 style="color:#222; border-bottom:2px solid #eee; padding-bottom:.3rem;">💻 Projects</h2>
+  <h2 style=" border-bottom:2px solid #eee; padding-bottom:.3rem;">💻 Projects</h2>
 
   <h3 style="margin-top:1rem; color:#0d6efd; font-size:1.05rem;">Active</h3>
 
   <div style="margin:1rem 0;">
-    <div style="padding:1rem; border:1px solid #e0e0e0; border-radius:10px; background:#fafafa; box-shadow:0 2px 6px rgba(0,0,0,0.05);">
-      <p style="margin:0; color:#111; font-weight:500;">
+    <div style="padding:1rem; border:1px solid #e0e0e0; border-radius:10px; box-shadow:0 2px 6px rgba(0,0,0,0.05);">
+      <p style="margin:0; font-weight:500;">
 DailyClassical
 </p>
       <p style="margin:.3rem 0 0; color:#777; font-size:.95rem;"> 2025 - Present    <br>   IOS、Android，每日一篇古典樂相關介紹（測試中，預計 2025 Q4 上市，官網建置中）</p>
@@ -75,8 +75,8 @@ DailyClassical
   </div>
 
   <div style="margin:1rem 0;">
-    <div style="padding:1rem; border:1px solid #e0e0e0; border-radius:10px; background:#fafafa; box-shadow:0 2px 6px rgba(0,0,0,0.05);">
-      <p style="margin:0; color:#111; font-weight:500;">
+    <div style="padding:1rem; border:1px solid #e0e0e0; border-radius:10px; box-shadow:0 2px 6px rgba(0,0,0,0.05);">
+      <p style="margin:0; font-weight:500;">
   <a href="https://github.com/jabee0228/SubtitleLLM" style="text-decoration:none; color:inherit;">SubtitleLLM</a>
 </p>
       <p style="margin:.3rem 0 0; color:#777; font-size:.95rem;"> 2025 - Present    <br>   An intelligent automatic video subtitle generation system that combines OpenAI Whisper speech recognition with LLM correction for high-quality subtitle creation.</p>
@@ -85,8 +85,8 @@ DailyClassical
 
   <h3 style="margin-top:1rem; color:#0d6efd; font-size:1.05rem;">Discontinued</h3>
   <div style="margin:1rem 0;">
-    <div style="padding:1rem; border:1px solid #e0e0e0; border-radius:10px; background:#fafafa; box-shadow:0 2px 6px rgba(0,0,0,0.05);">
-      <p style="margin:0; color:#111; font-weight:500;">
+    <div style="padding:1rem; border:1px solid #e0e0e0; border-radius:10px;  box-shadow:0 2px 6px rgba(0,0,0,0.05);">
+      <p style="margin:0; font-weight:500;">
   <a href="https://github.com/jabee0228/PerspectiveFill" style="text-decoration:none; color:inherit;">PerspectiveFill</a>
 </p>
       <p style="margin:.3rem 0 0; color:#777; font-size:.95rem;">2024 - 2025 <br> Image Inpainting Methods via Various Perspective Image Synthesis</p>
@@ -94,8 +94,8 @@ DailyClassical
   </div>
 
   <div style="margin:1rem 0;">
-    <div style="padding:1rem; border:1px solid #e0e0e0; border-radius:10px; background:#fafafa; box-shadow:0 2px 6px rgba(0,0,0,0.05);">
-      <p style="margin:0; color:#111; font-weight:500;">
+    <div style="padding:1rem; border:1px solid #e0e0e0; border-radius:10px; box-shadow:0 2px 6px rgba(0,0,0,0.05);">
+      <p style="margin:0; font-weight:500;">
   <a href="https://github.com/jabee0228/BestYTBot-Discord
 " style="text-decoration:none; color:inherit;">BestYTBot-Discord
 </a>
@@ -105,8 +105,8 @@ DailyClassical
   </div>
 
   <div style="margin:1rem 0;">
-    <div style="padding:1rem; border:1px solid #e0e0e0; border-radius:10px; background:#fafafa; box-shadow:0 2px 6px rgba(0,0,0,0.05);">
-      <p style="margin:0; color:#111; font-weight:500;">
+    <div style="padding:1rem; border:1px solid #e0e0e0; border-radius:10px; box-shadow:0 2px 6px rgba(0,0,0,0.05);">
+      <p style="margin:0; font-weight:500;">
   <a href="https://github.com/jabee0228/CYCU-ICE-PL-INTERPRETER
 " style="text-decoration:none; color:inherit;">Scheme Interpreter
 </a>
@@ -119,10 +119,10 @@ DailyClassical
 
 
   <!-- Publication -->
-  <h2 style="color:#222; border-bottom:2px solid #eee; padding-bottom:.3rem;">📚 Publication</h2>
+  <h2 style="border-bottom:2px solid #eee; padding-bottom:.3rem;">📚 Publication</h2>
   <div style="margin:1rem 0;">
-    <div style="padding:1rem; border:1px solid #e0e0e0; border-radius:10px; background:#fafafa; box-shadow:0 2px 6px rgba(0,0,0,0.05);">
-      <p style="margin:0; color:#111; font-weight:500;">A Study of Image Inpainting Methods via Various Perspective Image Synthesis Using CNN-based and Diffusion-based Models</p>
+    <div style="padding:1rem; border:1px solid #e0e0e0; border-radius:10px; box-shadow:0 2px 6px rgba(0,0,0,0.05);">
+      <p style="margin:0; font-weight:500;">A Study of Image Inpainting Methods via Various Perspective Image Synthesis Using CNN-based and Diffusion-based Models</p>
       <p style="margin:.5rem 0 0; color:#555;">En Chen (陳恩), Yi-Hsin Chiang (姜義新), Chih-Chang Yu (余執翰), and Hsu-Yung Cheng (鄭旭誠)</p>
       <p style="margin:.3rem 0 0; color:#777; font-size:.95rem;">The 38th Conference on Computer Vision, Graphics, and Image Processing (CVGIP 2025), August 2025.</p>
     </div>
