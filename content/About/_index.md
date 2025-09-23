@@ -91,6 +91,15 @@ Linkedin：[https://www.linkedin.com/in/jameschiang0228/](https://www.linkedin.c
   <div style="margin:1rem 0;">
     <div style="padding:1rem; border:1px solid #e0e0e0; border-radius:10px; box-shadow:0 2px 6px rgba(0,0,0,0.05);">
       <p style="margin:0; font-weight:500;">
+  <a href="https://github.com/jabee0228/SubtitleLLM" style="text-decoration:none; color:inherit;">SubtitleLLM</a>
+</p>
+      <p style="margin:.3rem 0 0; color:#777; font-size:.95rem;"> 2025 - Present    <br>   An intelligent automatic video subtitle generation system that combines OpenAI Whisper speech recognition with LLM correction for high-quality subtitle creation.</p>
+    </div>
+  </div>
+
+  <div style="margin:1rem 0;">
+    <div style="padding:1rem; border:1px solid #e0e0e0; border-radius:10px; box-shadow:0 2px 6px rgba(0,0,0,0.05);">
+      <p style="margin:0; font-weight:500;">
 DailyClassical
 </p>
       <p style="margin:.3rem 0 0; color:#777; font-size:.95rem;"> 2025 - Present    <br>   IOS、Android，每日一篇古典樂相關介紹（測試中，預計 2025 Q4 上市，官網建置中）</p>
@@ -98,21 +107,24 @@ DailyClassical
   </div>
 
   <div style="margin:1rem 0;">
-    <div style="padding:1rem; border:1px solid #e0e0e0; border-radius:10px; box-shadow:0 2px 6px rgba(0,0,0,0.05);">
-      <p style="margin:0; font-weight:500;">
-  <a href="https://github.com/jabee0228/SubtitleLLM" style="text-decoration:none; color:inherit;">SubtitleLLM</a>
-</p>
-      <p style="margin:.3rem 0 0; color:#777; font-size:.95rem;"> 2025 - Present    <br>   An intelligent automatic video subtitle generation system that combines OpenAI Whisper speech recognition with LLM correction for high-quality subtitle creation.</p>
-    </div>
-  </div>
-
-  <h3 style="margin-top:1rem; color:#0d6efd; font-size:1.05rem;">Discontinued</h3>
-  <div style="margin:1rem 0;">
     <div style="padding:1rem; border:1px solid #e0e0e0; border-radius:10px;  box-shadow:0 2px 6px rgba(0,0,0,0.05);">
       <p style="margin:0; font-weight:500;">
   <a href="https://github.com/jabee0228/PerspectiveFill" style="text-decoration:none; color:inherit;">PerspectiveFill</a>
 </p>
-      <p style="margin:.3rem 0 0; color:#777; font-size:.95rem;">2024 - 2025 <br> Image Inpainting Methods via Various Perspective Image Synthesis</p>
+      <p style="margin:.3rem 0 0; color:#777; font-size:.95rem;"> 2024 - Present <br> Image Inpainting Methods via Various Perspective Image Synthesis</p>
+    </div>
+  </div>
+
+  <h3 style="margin-top:1rem; color:#0d6efd; font-size:1.05rem;">Discontinued</h3>
+
+  <div style="margin:1rem 0;">
+    <div style="padding:1rem; border:1px solid #e0e0e0; border-radius:10px; box-shadow:0 2px 6px rgba(0,0,0,0.05);">
+      <p style="margin:0; font-weight:500;">
+  <a href="https://github.com/jabee0228/CYCU-ICE-PL-INTERPRETER
+" style="text-decoration:none; color:inherit;">Scheme Interpreter
+</a>
+</p>
+      <p style="margin:.3rem 0 0; color:#777; font-size:.95rem;">2025 <br> Our-Scheme Interpreter source code </p>
     </div>
   </div>
 
@@ -127,16 +139,7 @@ DailyClassical
     </div>
   </div>
 
-  <div style="margin:1rem 0;">
-    <div style="padding:1rem; border:1px solid #e0e0e0; border-radius:10px; box-shadow:0 2px 6px rgba(0,0,0,0.05);">
-      <p style="margin:0; font-weight:500;">
-  <a href="https://github.com/jabee0228/CYCU-ICE-PL-INTERPRETER
-" style="text-decoration:none; color:inherit;">Scheme Interpreter
-</a>
-</p>
-      <p style="margin:.3rem 0 0; color:#777; font-size:.95rem;">2025 <br> Our-Scheme Interpreter source code </p>
-    </div>
-  </div>
+
 
 
 
