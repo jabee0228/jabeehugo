@@ -6,7 +6,17 @@
     <description>Recent content in Categories on Jabee&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Mon, 11 Aug 2025 08:13:20 +0800</lastBuildDate><atom:link href="https://jabee.live/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Jan 2026 15:43:26 +0800</lastBuildDate><atom:link href="https://jabee.live/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>回顧</title>
+      <link>https://jabee.live/categories/recap/</link>
+      <pubDate>Wed, 14 Jan 2026 15:43:26 +0800</pubDate>
+      
+      <guid>https://jabee.live/categories/recap/</guid>
+      <description>個人年度回顧</description>
+      <content:encoded></content:encoded>
+    </item>
+    
     <item>
       <title>閒聊</title>
       <link>https://jabee.live/categories/chat/</link>
@@ -34,16 +44,6 @@
       
       <guid>https://jabee.live/categories/travel/</guid>
       <description>旅遊攻略分享</description>
-      <content:encoded></content:encoded>
-    </item>
-    
-    <item>
-      <title>回顧</title>
-      <link>https://jabee.live/categories/recap/</link>
-      <pubDate>Mon, 23 Dec 2024 11:29:22 +0800</pubDate>
-      
-      <guid>https://jabee.live/categories/recap/</guid>
-      <description>個人年度回顧</description>
       <content:encoded></content:encoded>
     </item>
     
