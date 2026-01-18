@@ -45,7 +45,7 @@
 
 # Contact me
 
-Email : james930228[at]gmail.com
+Email : james[at]jabee.live
 
 Github：[https://github.com/jabee0228](https://github.com/jabee0228)
 
