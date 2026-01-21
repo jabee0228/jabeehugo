@@ -1,0 +1,118 @@
+---
+date: '2026-01-21T20:21:31+08:00'
+# draft: true
+draft: false
+title: '我最喜歡的旅遊頻道：老宋CHANNEL'
+# lastmod: 2026-01-21
+
+tags: ["旅遊", "日本", "推坑"]
+author: "Jabee姜"
+categories: ["旅遊"]
+showToc: true
+TocOpen: true
+hidemeta: false
+comments: false
+description: ""
+disableHLJS: true # to disable highlightjs
+disableShare: false
+disableHLJS: false
+hideSummary: false
+searchHidden: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: true
+ShowRssButtonInSectionTermList: true
+UseHugoToc: false
+
+cover:
+  image: /images/cover.jpg
+  caption: 
+
+# {{< figure src="/images/cover.jpg" caption="標題" height="400">}}
+# {{<video src="IMG_5251.mov" height="400">}}
+
+# {{< galleries >}}
+# {{< gallery src="cover.png" >}}
+# {{< gallery src="cover.png" >}}
+# {{< /galleries >}}
+---
+
+這是 Jabee 我的「[BlogBlog 同樂會 - 2026 年 1 月](https://blogblog.club/party)」的投稿文章。本月主題是「[推坑](https://wiwi.blog/blog/blogblog-party-jan-2026/)」，由 [Wiwi](https://wiwi.blog/) 主持。如果你有自己的部落格，歡迎一起來參加！
+
+前些日子看到 Wiwi 在推 Blog 同樂會，我這個近乎年更的部落格是時候也該更新了哈哈哈。一開始其實是想推一些有趣的 Linux 項目，結果我看了一下大家寫的竟然都是有趣的東西（電腦對我也很有趣啦，我的意思是大家都有趣的東西），所以就分享我私藏已久的頻道。
+
+<hr>
+
+# 我最愛的日本旅遊頻道：老宋CHANNEL
+
+認識 Jabee 我的都知道，我對日本生活是有一點嚮往的，雖然可能沒有嚮往到要去那邊工作（畢竟台灣 IC 廠的薪水還是很心動），但對於偶爾去旅遊應該是我對人生長期的願望。
+
+雖然不能每天都待在日本，但我能每天看日本旅遊的節目啊！
+
+老宋CHANNEL 這個頻道沒有記錯是在 Covid 疫情中期左右開始接觸的，由於當時關在家每天晚上我們家固定會在客廳看 Youtube，偶然看見這個頻道就愛上了！不同於其他的旅遊頻道，以攻略或是歡樂性吸引觀眾，老宋的頻道採近乎單人旅遊流水帳的方式紀錄下旅遊的過程。沒有雜亂的歡呼聲，沒有教你如何買新幹線票的攻略教學，影片還有看的價值嗎？
+
+當然有！老宋除了流水帳的紀錄方式，中間還會穿插日本歷史與當地特色的介紹，對於非日本人也能更快的融入當地特色與背景。不僅僅是介紹吸引我，而是老宋的用字遣詞如文人一般優雅，總是用高深的詞彙打動人心。
+
+# 頻道風格與特色
+
+老宋的頻道是我見過風格最特別的方式，雖然近期看見一些頻道的風格和老宋有些相似，但我認為部分有些承襲老宋的特色。
+
+## 總是深度旅遊
+
+不同於部分旅遊頻道，為了流量總是介紹 東京、京阪地區、福岡 等當今熱門旅遊地點。老宋的頻道近半數以上都在日本深度旅遊。老宋擅長介紹一些偏遠地區，挖掘當地值得參觀的地點。如近期的 **四國小城放浪記全記錄**，多半紀錄一般旅客不會到達的旅遊地點。
+
+{{< youtube tW17sgE_-XI>}}
+
+## 對於旅遊的交通似乎很喜愛
+
+老宋的旅遊總是會體驗各種獨特的交通方式，最有印象的是 **首次冬季北上的青春18超艱難極限之旅！我真的盡力了。。。【跨年行#1】** 以及 **坐最便宜的輪渡船跨越津輕海峽前往函館吃壹頓最便宜的海鮮飯。【跨年行#2】** 。用一天的方式搭普通列車（類似台灣區間車）橫跨整個關東與東北地區，以及利用渡輪從青森前往北海道，像這樣獨特的行程在 Youtube 上可能很難找到第二個說中文的人拍攝這樣的節目了！
+
+{{< youtube u8XJBnomv7w>}}
+
+{{< youtube eAsh-tkYeFU>}}
+
+## 敘事方式調理且具人文色彩
+
+如前面我提到的，老宋的介紹旅遊的方式是我最喜歡的，不僅是記錄風景，更常探討當地的社會問題、經濟變遷或文化細節，深受喜愛知性與沉浸式旅行內容的觀眾歡迎。影片節奏不快，卻能完整襯托出當地的市容情景，容易融入影片中，彷彿就在與老宋一同旅遊。影片的節奏感從來不讓我感到刻意或煩躁，除了觀看旅遊節目，偶爾也能了解日本當地的歷史、地理、人文。
+
+![image-20260121212140583](image-20260121212140583.png)
+
+## 住在日本，所以對當地更熟悉
+
+老宋本人住在日本東京，老宋能更清楚的介紹日本當地的特色，老宋不僅會日文，也懂日本，我想這就是我會長期看老宋的原因吧！
+
+
+
+# 我對老宋的觀察
+
+雖然老宋公開的個人資料非常少，但身為鐵粉，對於一些小細節我還是非常了解的。
+
+1. 老宋特別喜歡吃中華料理，尤其是麻婆豆腐，在外放浪時總愛找當地的中華料理溫飽一頓！
+2. 特別喜歡展望台，只要到每個地方有展望台的，必須上去看，從不錯過任何一個 xdddd。
+
+
+
+# 推薦幾期節目
+
+**如果只能選一個日本小城去觀光，那一定要去尾道！**
+
+{{< youtube Y_BZmBe6PJM>}}
+
+**乳白色的溫泉水。雪中露天混浴。日本人最憧憬的溫泉勝地--秋田乳頭溫泉鄉！**
+
+{{< youtube zWeNJSiWLzI>}}
+
+**日本最大的湖是哪裏？湖中的「沖島」成為日本唯一有居民的淡水湖中島！島上生活如何？**
+
+{{< youtube VQ_dbqyxB5k>}}
+
+
+
+<hr>
+
+老宋的 YT： https://www.youtube.com/@laosong_channel
+
+老宋的小紅書：[xiaohongshu.com/user/profile/6034a27a000000000101ca1a](xiaohongshu.com/user/profile/6034a27a000000000101ca1a)
+
+歡迎成為下一個老宋鐵粉 && 日本深度旅遊專家！
