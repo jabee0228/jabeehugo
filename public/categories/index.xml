@@ -9,11 +9,11 @@
     <lastBuildDate>Wed, 21 Jan 2026 20:21:31 +0800</lastBuildDate><atom:link href="https://jabee.live/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>旅遊</title>
-      <link>https://jabee.live/categories/%E6%97%85%E9%81%8A/</link>
+      <link>https://jabee.live/categories/travel/</link>
       <pubDate>Wed, 21 Jan 2026 20:21:31 +0800</pubDate>
       
-      <guid>https://jabee.live/categories/%E6%97%85%E9%81%8A/</guid>
-      <description></description>
+      <guid>https://jabee.live/categories/travel/</guid>
+      <description>旅遊攻略分享</description>
       <content:encoded></content:encoded>
     </item>
     
@@ -44,16 +44,6 @@
       
       <guid>https://jabee.live/categories/tech/</guid>
       <description>所有科技新知分享</description>
-      <content:encoded></content:encoded>
-    </item>
-    
-    <item>
-      <title>旅遊</title>
-      <link>https://jabee.live/categories/travel/</link>
-      <pubDate>Tue, 14 Jan 2025 14:14:09 +0800</pubDate>
-      
-      <guid>https://jabee.live/categories/travel/</guid>
-      <description>旅遊攻略分享</description>
       <content:encoded></content:encoded>
     </item>
     
