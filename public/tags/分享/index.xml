@@ -6,7 +6,94 @@
     <description>Recent content in 分享 on Jabee&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sun, 15 Dec 2024 12:54:03 +0800</lastBuildDate><atom:link href="https://jabee.live/tags/%E5%88%86%E4%BA%AB/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Jan 2026 17:39:47 +0800</lastBuildDate><atom:link href="https://jabee.live/tags/%E5%88%86%E4%BA%AB/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Empowering Traditional Industry with AI and Global Connectivity</title>
+      <link>https://jabee.live/notes/261023/</link>
+      <pubDate>Fri, 23 Jan 2026 17:39:47 +0800</pubDate>
+      
+      <guid>https://jabee.live/notes/261023/</guid>
+      <description>&lt;p&gt;In the second half of 2025, I participated in the Taoyuan AI University program, an experience that gave me a profound understanding of the critical importance of AI and digitalization in traditional industries.&lt;/p&gt;
+&lt;p&gt;My team and I had the privilege of partnering with Hsuan Jui Co., Ltd. (宣瑞股份有限公司) to spearhead their digital transformation. During this period, I focused on developing and implementing a Digital Quotation System enhanced with AI assistance. This solution successfully saved the company over one hour of processing time per order quotation, drastically improving operational efficiency and allowing the team to focus on high-value tasks.&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;In the second half of 2025, I participated in the Taoyuan AI University program, an experience that gave me a profound understanding of the critical importance of AI and digitalization in traditional industries.&lt;/p&gt;
+&lt;p&gt;My team and I had the privilege of partnering with Hsuan Jui Co., Ltd. (宣瑞股份有限公司) to spearhead their digital transformation. During this period, I focused on developing and implementing a Digital Quotation System enhanced with AI assistance. This solution successfully saved the company over one hour of processing time per order quotation, drastically improving operational efficiency and allowing the team to focus on high-value tasks.&lt;/p&gt;
+&lt;p&gt;As we move into 2026, the rise of Large Language Models (LLMs) and AI Agents is no longer just a trend; it is a fundamental shift in how business is conducted.&lt;/p&gt;
+&lt;p&gt;For Taiwan’s traditional industries, the challenge is clear: it is no longer about whether to adopt AI, but how to strategically leverage AI to stay competitive. Integrating AI Agents into legacy workflows isn&amp;rsquo;t just about saving time and costs—it’s about enabling enterprises to focus on higher-value initiatives and innovation.&lt;/p&gt;
+&lt;p&gt;I am proud to have contributed to the smart upgrade of our local enterprises and am excited to see how AI-human collaboration will continue to reshape our industries this year! I will continue to help traditional industries adopt AI, empowering them to connect with the global market and stay ahead in the world stage.&lt;/p&gt;
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&#34;en&#34;&gt;
+&lt;head&gt;
+    &lt;meta name=&#34;viewport&#34; content=&#34;user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1&#34;&gt;
+    &lt;script src=&#34;https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js&#34;&gt;&lt;/script&gt;
+    &lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdn.jsdelivr.net/npm/nanogallery2@3.0.5/dist/css/nanogallery2.min.css&#34;&gt;
+    &lt;script src=&#34;https://cdn.jsdelivr.net/npm/nanogallery2@3.0.5/dist/jquery.nanogallery2.min.js&#34;&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;div data-nanogallery2=&#39;{
+	 &#34;thumbnailDisplayTransition&#34;:          &#34;none&#34;,
+    &#34;thumbnailHeight&#34;:  &#34;400&#34;,
+      &#34;thumbnailWidth&#34;:   &#34;auto&#34;,
+    &#34;galleryMosaic&#34; :   [
+      { &#34;c&#34;: 1, &#34;r&#34;: 1, &#34;w&#34;: 2, &#34;h&#34;: 2 },
+      { &#34;c&#34;: 3, &#34;r&#34;: 1, &#34;w&#34;: 1, &#34;h&#34;: 1 },
+      { &#34;c&#34;: 3, &#34;r&#34;: 2, &#34;w&#34;: 1, &#34;h&#34;: 1 },
+      { &#34;c&#34;: 4, &#34;r&#34;: 1, &#34;w&#34;: 1, &#34;h&#34;: 1 },
+      { &#34;c&#34;: 4, &#34;r&#34;: 2, &#34;w&#34;: 1, &#34;h&#34;: 1 },
+      { &#34;c&#34;: 1, &#34;r&#34;: 3, &#34;w&#34;: 2, &#34;h&#34;: 1 },
+      { &#34;c&#34;: 3, &#34;r&#34;: 3, &#34;w&#34;: 2, &#34;h&#34;: 1 },
+      { &#34;c&#34;: 1, &#34;r&#34;: 4, &#34;w&#34;: 1, &#34;h&#34;: 1 }
+    ],
+     &#34;thumbnailDisplayTransitionDuration&#34;:  500,
+     &#34;thumbnailDisplayInterval&#34;:            30,
+     &#34;galleryDisplayTransition&#34;:            &#34;none&#34;,
+     &#34;galleryDisplayTransitionDuration&#34;:    500,
+     &#34;galleryDisplayMode&#34;: &#34;rows&#34;,
+     &#34;thumbnailDisplayOutsideScreen&#34;: &#34;false&#34;,
+     &#34;eventsDebounceDelay&#34;: 10,
+     &#34;thumbnailL1BorderHorizontal&#34;: 0,
+     &#34;thumbnailL1BorderVertical&#34;: 0,
+     &#34;thumbnailLabel&#34;: {
+        &#34;titleFontSize&#34;: &#34;0.6em&#34;
+     },
+     &#34;thumbnailHoverEffect2&#34;: &#34;image_scale_1.00_1.10|label_backgroundColor_rgba(0,0,0,0)_rgba(255,255,255,0)&#34;,
+     &#34;galleryTheme&#34;: {
+        &#34;thumbnail&#34;: {
+            &#34;borderRadius&#34;: &#34;8px&#34;
+        }
+     },
+     &#34;thumbnailToolbarImage&#34;: {
+        &#34;topLeft&#34;: &#34;&#34;,
+        &#34;topRight&#34;: &#34;&#34;,
+        &#34;bottomLeft&#34;: &#34;&#34;,
+        &#34;bottomRight&#34;: &#34;&#34;
+     },
+     &#34;viewerToolbar&#34;:   {
+        &#34;display&#34;: true,
+        &#34;standard&#34;: &#34;label&#34;
+     },
+     &#34;viewerTools&#34;:     {
+        &#34;topLeft&#34;:    &#34;pageCounter, playPauseButton&#34;,
+        &#34;topRight&#34;:   &#34;downloadButton, rotateLeft, zoomButton, fullscreenButton, closeButton&#34;
+     },
+     &#34;viewerGalleryTWidth&#34;: 40,
+     &#34;viewerGalleryTHeight&#34;: 40
+}&#39;&gt;
+    
+&lt;a href=&#34;1.png&#34; data-ngThumb=&#34;1.png&#34;&gt;&lt;/a&gt;
+
+&lt;a href=&#34;2.png&#34; data-ngThumb=&#34;2.png&#34;&gt;&lt;/a&gt;
+
+&lt;a href=&#34;3.png&#34; data-ngThumb=&#34;3.png&#34;&gt;&lt;/a&gt;
+
+
+&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+</content:encoded>
+    </item>
+    
     <item>
       <title>分享：Jeremy Lin&#39;s battle against anxiety 林書豪談賽前焦慮</title>
       <link>https://jabee.live/notes/241215/</link>
