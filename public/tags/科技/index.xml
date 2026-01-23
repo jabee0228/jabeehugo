@@ -497,6 +497,7 @@
 &lt;ul&gt;
 &lt;li&gt;macOS：世界上最好用的作業系統，沒有之一&lt;/li&gt;
 &lt;li&gt;Pop!_OS：目前體感最好的 Linux distro，比 Ubuntu 不臃腫。&lt;/li&gt;
+&lt;li&gt;Bazzite：Based on Fedora 的 Steam OS，支援 Game Mode （AMD顯卡）&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;macos-軟體&#34;&gt;macOS 軟體&lt;/h1&gt;
 &lt;ul&gt;
@@ -511,13 +512,16 @@
 &lt;li&gt;MonitorControl：使用多螢幕調整螢幕亮度很好用，要使用可以支援的 hub 和螢幕才可以（但是要支援什麼，我有點忘了，應該是hdmi 的一個協定）&lt;/li&gt;
 &lt;li&gt;Welly： mac 上面最好用的上 BBS 工具（很久沒用了，最近一次打開是暑假閒閒沒事的時候）&lt;/li&gt;
 &lt;li&gt;Notion：我很想用其他的 Self-hosting 的（ex: Anytype），但常常會需要和同學共編，所以還是只能用它。事實上也不錯用，但在導出的部分不太優&lt;/li&gt;
-&lt;li&gt;Rnote: 目前 Linux 使用到比較好的可以搭配筆書寫的並編輯 PDF 的軟體&lt;/li&gt;
+&lt;li&gt;Rnote：目前 Linux 使用到比較好的可以搭配筆書寫的並編輯 PDF 的軟體&lt;/li&gt;
+&lt;li&gt;EasyDict：非常好使用的翻譯插件，能搭配各種有開放 api 的翻譯軟體使用。&lt;/li&gt;
+&lt;li&gt;TailScale：沒有對外固定IP時很好用。&lt;/li&gt;
 &lt;/ul&gt;</description>
       <content:encoded>&lt;p&gt;持續更新中&lt;/p&gt;
 &lt;h1 id=&#34;作業系統&#34;&gt;作業系統&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;macOS：世界上最好用的作業系統，沒有之一&lt;/li&gt;
 &lt;li&gt;Pop!_OS：目前體感最好的 Linux distro，比 Ubuntu 不臃腫。&lt;/li&gt;
+&lt;li&gt;Bazzite：Based on Fedora 的 Steam OS，支援 Game Mode （AMD顯卡）&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;macos-軟體&#34;&gt;macOS 軟體&lt;/h1&gt;
 &lt;ul&gt;
@@ -532,7 +536,9 @@
 &lt;li&gt;MonitorControl：使用多螢幕調整螢幕亮度很好用，要使用可以支援的 hub 和螢幕才可以（但是要支援什麼，我有點忘了，應該是hdmi 的一個協定）&lt;/li&gt;
 &lt;li&gt;Welly： mac 上面最好用的上 BBS 工具（很久沒用了，最近一次打開是暑假閒閒沒事的時候）&lt;/li&gt;
 &lt;li&gt;Notion：我很想用其他的 Self-hosting 的（ex: Anytype），但常常會需要和同學共編，所以還是只能用它。事實上也不錯用，但在導出的部分不太優&lt;/li&gt;
-&lt;li&gt;Rnote: 目前 Linux 使用到比較好的可以搭配筆書寫的並編輯 PDF 的軟體&lt;/li&gt;
+&lt;li&gt;Rnote：目前 Linux 使用到比較好的可以搭配筆書寫的並編輯 PDF 的軟體&lt;/li&gt;
+&lt;li&gt;EasyDict：非常好使用的翻譯插件，能搭配各種有開放 api 的翻譯軟體使用。&lt;/li&gt;
+&lt;li&gt;TailScale：沒有對外固定IP時很好用。&lt;/li&gt;
 &lt;/ul&gt;
 </content:encoded>
     </item>
