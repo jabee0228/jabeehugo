@@ -5,7 +5,7 @@ draft: false
 title: '我最喜歡的旅遊頻道：老宋CHANNEL'
 # lastmod: 2026-01-21
 
-tags: ["旅遊", "日本", "推坑"]
+tags: ["旅遊", "日本", "推坑", "BlogBlog 同樂會"]
 author: "Jabee姜"
 categories: ["travel"]
 showToc: true

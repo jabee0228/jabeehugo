@@ -13,50 +13,7 @@
       <pubDate>Thu, 26 Dec 2024 11:41:33 +0800</pubDate>
       
       <guid>https://jabee.live/notes/241226/</guid>
-      <description>&lt;p&gt;這篇主要是參考李教授的影片，以及網路上的文章，整理的筆記。&lt;/p&gt;
-&lt;h1 id=&#34;algorithm-1-training&#34;&gt;Algorithm 1: Training&lt;/h1&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabee.live/notes/241226/DDPM/image.png&#34; type=&#34;&#34; alt=&#34;image.png&#34;  /&gt;&lt;/p&gt;
-&lt;h3 id=&#34;第-1-行repeat&#34;&gt;&lt;strong&gt;第 1 行：&lt;code&gt;repeat&lt;/code&gt;&lt;/strong&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;作用：&lt;/strong&gt; 開始一個迭代訓練過程，直到模型收斂&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;第-2-行&#34;&gt;&lt;strong&gt;第 2 行&lt;/strong&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;作用：&lt;/strong&gt; 從數據分佈 中取一個樣本 (x0)（即從訓練數據集中抽取一個數據點）。
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;x0 代表 clean Image&lt;/strong&gt;。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;q(x0)：&lt;/strong&gt; 數據分佈，即訓練集中數據的真實分佈。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;第-3-行&#34;&gt;&lt;strong&gt;第 3 行&lt;/strong&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;作用：&lt;/strong&gt; 隨機選擇一個時間t。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;第-4-行&#34;&gt;&lt;strong&gt;第 4 行&lt;/strong&gt;&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;作用：&lt;/strong&gt; 取一個隨機噪聲樣本 。
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;解釋：&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;擴散過程中，數據會逐步被加上噪聲，最終變成完全隨機的高斯噪聲。&lt;/li&gt;
-&lt;li&gt;在訓練過程中，需要用隨機噪聲模擬這個擴散過程。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h3 id=&#34;第-5-行梯度下降更新&#34;&gt;&lt;strong&gt;第 5 行：梯度下降更新&lt;/strong&gt;&lt;/h3&gt;
-&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;∇_θ ‖ε − ε_θ(√ᾱ_t x_0 + √(1−ᾱ_t) ε, t)‖²
-&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;細節解釋：&lt;/strong&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;ε 為原始噪聲&lt;/p&gt;</description>
+      <description>這篇主要是參考李教授的影片，以及網路上的文章，整理的筆記。 Algorithm 1: Training 第 1 行：repeat 作用： 開始一個迭代訓練過程，直到模型收斂 第 2 行 作用： 從數</description>
       <content:encoded>&lt;p&gt;這篇主要是參考李教授的影片，以及網路上的文章，整理的筆記。&lt;/p&gt;
 &lt;h1 id=&#34;algorithm-1-training&#34;&gt;Algorithm 1: Training&lt;/h1&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image.png&#34; type=&#34;&#34; alt=&#34;image.png&#34;  /&gt;&lt;/p&gt;

@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jabee.live/</loc>
+    <lastmod>2026-02-02T13:20:02+08:00</lastmod>
+  </url><url>
+    <loc>https://jabee.live/notes/</loc>
+    <lastmod>2026-02-02T13:20:02+08:00</lastmod>
+  </url><url>
     <loc>https://jabee.live/tags/ai/</loc>
     <lastmod>2026-01-23T17:39:47+08:00</lastmod>
   </url><url>
@@ -9,12 +15,6 @@
     <lastmod>2026-01-23T17:39:47+08:00</lastmod>
   </url><url>
     <loc>https://jabee.live/notes/260123/</loc>
-    <lastmod>2026-01-23T17:39:47+08:00</lastmod>
-  </url><url>
-    <loc>https://jabee.live/</loc>
-    <lastmod>2026-01-23T17:39:47+08:00</lastmod>
-  </url><url>
-    <loc>https://jabee.live/notes/</loc>
     <lastmod>2026-01-23T17:39:47+08:00</lastmod>
   </url><url>
     <loc>https://jabee.live/tags/</loc>
@@ -28,6 +28,9 @@
   </url><url>
     <loc>https://jabee.live/categories/tech/</loc>
     <lastmod>2026-01-23T17:39:47+08:00</lastmod>
+  </url><url>
+    <loc>https://jabee.live/tags/blogblog-%E5%90%8C%E6%A8%82%E6%9C%83/</loc>
+    <lastmod>2026-01-21T20:21:31+08:00</lastmod>
   </url><url>
     <loc>https://jabee.live/notes/260121/</loc>
     <lastmod>2026-01-21T20:21:31+08:00</lastmod>
