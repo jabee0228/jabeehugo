@@ -13,7 +13,33 @@
       <pubDate>Sat, 14 Dec 2024 21:48:40 +0800</pubDate>
       
       <guid>https://jabee.live/notes/241214/</guid>
-      <description>以下無排名，僅依我先想到的為主，持續更新中。 台灣 Joeman：台灣少數願意製作高經費節目的 youtuber，推薦 第九人稱 小施汽車生活頻道：可</description>
+      <description>&lt;p&gt;以下無排名，僅依我先想到的為主，持續更新中。&lt;/p&gt;
+&lt;h1 id=&#34;台灣&#34;&gt;台灣&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Joeman：台灣少數願意製作高經費節目的 youtuber，推薦 第九人稱&lt;/li&gt;
+&lt;li&gt;小施汽車生活頻道：可以學一些看二手車的技巧&lt;/li&gt;
+&lt;li&gt;阿慈車庫-Dream garage：學習二手車行的話術技巧（是學不要被騙，不是學騙人）&lt;/li&gt;
+&lt;li&gt;E家愛吃愛旅遊：小孩可愛，大部分為旅遊節目&lt;/li&gt;
+&lt;li&gt;鷹式一家 Eaglish Family：小孩可愛，爸爸愛搞笑，旅遊節目為主，爸爸是機師&lt;/li&gt;
+&lt;li&gt;詹姆士官方專屬頻道：學習做菜、品嚐食物的言詞&lt;/li&gt;
+&lt;li&gt;我都ok啊：算是我剛開始攝影時就開始看的 youtuber，也聽過道慈老師（頻道老闆）來中原攝影社的演講&lt;/li&gt;
+&lt;li&gt;小夥伴日常 Cruises Travel：旅遊頻道，相當多郵輪開箱&lt;/li&gt;
+&lt;li&gt;好和弦：數位音樂大師，平常也熱愛寫程式，推廣開源軟體&lt;/li&gt;
+&lt;li&gt;Mumuboza：可愛的雙胞胎們，從他們6個月大看到現在1歲多了&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;大陸&#34;&gt;大陸&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;大狸子切切里：全網最漂亮、最可愛的科技圈 up 主，我最喜歡的 up 主，沒有之一&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;老宋CHANNEL：我最喜歡看的旅遊頻道，沒有之一，其中的含金量請自行觀看體會&lt;/li&gt;
+&lt;li&gt;Links TV：在我心目中最頂級的風光攝影師&lt;/li&gt;
+&lt;li&gt;翼王：極限裝機必看頻道&lt;/li&gt;
+&lt;li&gt;极客湾Geekerwan：手機、PC學習&lt;/li&gt;
+&lt;li&gt;Mediastorm影视飓风：電影級別的 up 主，目前正在往團隊發向發展，但目前大部分仍以老闆當主角為主&lt;/li&gt;
+&lt;li&gt;司波图：NAS、router、homeLab 搭建的相關教程&lt;/li&gt;
+&lt;li&gt;码农高天：CPython core dev，一位非常厲害的老哥&lt;/li&gt;
+&lt;li&gt;稚晖君：頂級手做型 up&lt;/li&gt;
+&lt;li&gt;林亦LYi：搞 AI 算法的，也是非常厲害的老哥&lt;/li&gt;
+&lt;/ul&gt;</description>
       <content:encoded>&lt;p&gt;以下無排名，僅依我先想到的為主，持續更新中。&lt;/p&gt;
 &lt;h1 id=&#34;台灣&#34;&gt;台灣&lt;/h1&gt;
 &lt;ul&gt;
@@ -50,7 +76,30 @@
       <pubDate>Thu, 21 Nov 2024 12:17:53 +0800</pubDate>
       
       <guid>https://jabee.live/notes/241121/</guid>
-      <description>持續更新中 作業系統 macOS：世界上最好用的作業系統，沒有之一 Pop!_OS：目前體感最好的 Linux distro，比 Ubuntu 不臃腫。 Bazzite：Ba</description>
+      <description>&lt;p&gt;持續更新中&lt;/p&gt;
+&lt;h1 id=&#34;作業系統&#34;&gt;作業系統&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;macOS：世界上最好用的作業系統，沒有之一&lt;/li&gt;
+&lt;li&gt;Pop!_OS：目前體感最好的 Linux distro，比 Ubuntu 不臃腫。&lt;/li&gt;
+&lt;li&gt;Bazzite：Based on Fedora 的 Steam OS，支援 Game Mode （AMD顯卡）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;macos-軟體&#34;&gt;macOS 軟體&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Typora：目前我認為最好用的 markdown editor，在插入圖片的部分&lt;/li&gt;
+&lt;li&gt;Magnet：一款可以讓舊版 macOS 實現視窗管理的工具&lt;/li&gt;
+&lt;li&gt;Arc browser：目前幾乎沒有類似媲美的瀏覽器，可以實現不同身份的切換，基於 chromium&lt;/li&gt;
+&lt;li&gt;Zen Browser：類似 Arc ，基於 firefox，目前還是有一些bug，但可以在 Linux 上使用&lt;/li&gt;
+&lt;li&gt;jetbrains 全家桶：比 vscode 好用多了，壞處就是要一個個下載&lt;/li&gt;
+&lt;li&gt;adobe LR：因為就真的只有它比較好用，但月費是真的貴&lt;/li&gt;
+&lt;li&gt;Zed：純文字的編輯器，可以算是 Atom 停更以後的版本&lt;/li&gt;
+&lt;li&gt;Termius：沒有付費就很好用的 ssh 工具&lt;/li&gt;
+&lt;li&gt;MonitorControl：使用多螢幕調整螢幕亮度很好用，要使用可以支援的 hub 和螢幕才可以（但是要支援什麼，我有點忘了，應該是hdmi 的一個協定）&lt;/li&gt;
+&lt;li&gt;Welly： mac 上面最好用的上 BBS 工具（很久沒用了，最近一次打開是暑假閒閒沒事的時候）&lt;/li&gt;
+&lt;li&gt;Notion：我很想用其他的 Self-hosting 的（ex: Anytype），但常常會需要和同學共編，所以還是只能用它。事實上也不錯用，但在導出的部分不太優&lt;/li&gt;
+&lt;li&gt;Rnote：目前 Linux 使用到比較好的可以搭配筆書寫的並編輯 PDF 的軟體&lt;/li&gt;
+&lt;li&gt;EasyDict：非常好使用的翻譯插件，能搭配各種有開放 api 的翻譯軟體使用。&lt;/li&gt;
+&lt;li&gt;TailScale：沒有對外固定IP時很好用。&lt;/li&gt;
+&lt;/ul&gt;</description>
       <content:encoded>&lt;p&gt;持續更新中&lt;/p&gt;
 &lt;h1 id=&#34;作業系統&#34;&gt;作業系統&lt;/h1&gt;
 &lt;ul&gt;
