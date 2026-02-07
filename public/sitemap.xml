@@ -2,28 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://jabee.net/categories/</loc>
+    <lastmod>2026-02-08T01:40:31+08:00</lastmod>
+  </url><url>
+    <loc>https://jabee.net/notes/260208/</loc>
+    <lastmod>2026-02-08T01:40:31+08:00</lastmod>
+  </url><url>
+    <loc>https://jabee.net/</loc>
+    <lastmod>2026-02-08T01:40:31+08:00</lastmod>
+  </url><url>
+    <loc>https://jabee.net/notes/</loc>
+    <lastmod>2026-02-08T01:40:31+08:00</lastmod>
+  </url><url>
+    <loc>https://jabee.net/tags/</loc>
+    <lastmod>2026-02-08T01:40:31+08:00</lastmod>
+  </url><url>
+    <loc>https://jabee.net/tags/%E7%B6%B2%E5%9F%9F/</loc>
+    <lastmod>2026-02-08T01:40:31+08:00</lastmod>
+  </url><url>
+    <loc>https://jabee.net/tags/%E9%96%92%E8%81%8A/</loc>
+    <lastmod>2026-02-08T01:40:31+08:00</lastmod>
+  </url><url>
+    <loc>https://jabee.net/categories/chat/</loc>
+    <lastmod>2026-02-08T01:40:31+08:00</lastmod>
+  </url><url>
     <loc>https://jabee.net/tags/blogblog-%E5%90%8C%E6%A8%82%E6%9C%83/</loc>
     <lastmod>2026-02-02T13:20:02+08:00</lastmod>
   </url><url>
-    <loc>https://jabee.net/categories/</loc>
-    <lastmod>2026-02-02T13:20:02+08:00</lastmod>
-  </url><url>
-    <loc>https://jabee.net/</loc>
-    <lastmod>2026-02-02T13:20:02+08:00</lastmod>
-  </url><url>
-    <loc>https://jabee.net/notes/</loc>
-    <lastmod>2026-02-02T13:20:02+08:00</lastmod>
-  </url><url>
-    <loc>https://jabee.net/tags/</loc>
-    <lastmod>2026-02-02T13:20:02+08:00</lastmod>
-  </url><url>
     <loc>https://jabee.net/notes/260202/</loc>
-    <lastmod>2026-02-02T13:20:02+08:00</lastmod>
-  </url><url>
-    <loc>https://jabee.net/tags/%E9%96%92%E8%81%8A/</loc>
-    <lastmod>2026-02-02T13:20:02+08:00</lastmod>
-  </url><url>
-    <loc>https://jabee.net/categories/chat/</loc>
     <lastmod>2026-02-02T13:20:02+08:00</lastmod>
   </url><url>
     <loc>https://jabee.net/tags/ai/</loc>
