@@ -2,77 +2,77 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Jabee&#39;s Blog</title>
-    <link>https://jabee.live/categories/</link>
+    <link>https://jabee.net/categories/</link>
     <description>Recent content in Categories on Jabee&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Mon, 02 Feb 2026 13:20:02 +0800</lastBuildDate><atom:link href="https://jabee.live/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Feb 2026 13:20:02 +0800</lastBuildDate><atom:link href="https://jabee.net/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>閒聊</title>
-      <link>https://jabee.live/categories/chat/</link>
+      <link>https://jabee.net/categories/chat/</link>
       <pubDate>Mon, 02 Feb 2026 13:20:02 +0800</pubDate>
       
-      <guid>https://jabee.live/categories/chat/</guid>
+      <guid>https://jabee.net/categories/chat/</guid>
       <description>偶爾閒聊一些人生閱歷</description>
       <content:encoded></content:encoded>
     </item>
     
     <item>
       <title>科技</title>
-      <link>https://jabee.live/categories/tech/</link>
+      <link>https://jabee.net/categories/tech/</link>
       <pubDate>Fri, 23 Jan 2026 17:39:47 +0800</pubDate>
       
-      <guid>https://jabee.live/categories/tech/</guid>
+      <guid>https://jabee.net/categories/tech/</guid>
       <description>所有科技新知分享</description>
       <content:encoded></content:encoded>
     </item>
     
     <item>
       <title>旅遊</title>
-      <link>https://jabee.live/categories/travel/</link>
+      <link>https://jabee.net/categories/travel/</link>
       <pubDate>Wed, 21 Jan 2026 20:21:31 +0800</pubDate>
       
-      <guid>https://jabee.live/categories/travel/</guid>
+      <guid>https://jabee.net/categories/travel/</guid>
       <description>旅遊攻略分享</description>
       <content:encoded></content:encoded>
     </item>
     
     <item>
       <title>回顧</title>
-      <link>https://jabee.live/categories/recap/</link>
+      <link>https://jabee.net/categories/recap/</link>
       <pubDate>Wed, 14 Jan 2026 15:43:26 +0800</pubDate>
       
-      <guid>https://jabee.live/categories/recap/</guid>
+      <guid>https://jabee.net/categories/recap/</guid>
       <description>個人年度回顧</description>
       <content:encoded></content:encoded>
     </item>
     
     <item>
       <title>攝影</title>
-      <link>https://jabee.live/categories/photography/</link>
+      <link>https://jabee.net/categories/photography/</link>
       <pubDate>Sat, 21 Dec 2024 15:38:38 +0800</pubDate>
       
-      <guid>https://jabee.live/categories/photography/</guid>
+      <guid>https://jabee.net/categories/photography/</guid>
       <description>分享攝影經驗與知識</description>
       <content:encoded></content:encoded>
     </item>
     
     <item>
       <title>愛看、愛玩、愛用的東西</title>
-      <link>https://jabee.live/categories/use/</link>
+      <link>https://jabee.net/categories/use/</link>
       <pubDate>Sat, 14 Dec 2024 21:48:40 +0800</pubDate>
       
-      <guid>https://jabee.live/categories/use/</guid>
+      <guid>https://jabee.net/categories/use/</guid>
       <description>定期更新愛看、愛玩、愛用的東西</description>
       <content:encoded></content:encoded>
     </item>
     
     <item>
       <title>汽車與摩托</title>
-      <link>https://jabee.live/categories/car/</link>
+      <link>https://jabee.net/categories/car/</link>
       <pubDate>Fri, 22 Nov 2024 10:14:10 +0800</pubDate>
       
-      <guid>https://jabee.live/categories/car/</guid>
+      <guid>https://jabee.net/categories/car/</guid>
       <description>分享汽車摩托知識</description>
       <content:encoded></content:encoded>
     </item>

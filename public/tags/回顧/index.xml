@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>回顧 on Jabee&#39;s Blog</title>
-    <link>https://jabee.live/tags/%E5%9B%9E%E9%A1%A7/</link>
+    <link>https://jabee.net/tags/%E5%9B%9E%E9%A1%A7/</link>
     <description>Recent content in 回顧 on Jabee&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 14 Jan 2026 15:43:26 +0800</lastBuildDate><atom:link href="https://jabee.live/tags/%E5%9B%9E%E9%A1%A7/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Jan 2026 15:43:26 +0800</lastBuildDate><atom:link href="https://jabee.net/tags/%E5%9B%9E%E9%A1%A7/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2025 Recap - AI Agent 再次改變了一整年</title>
-      <link>https://jabee.live/notes/260114/</link>
+      <link>https://jabee.net/notes/260114/</link>
       <pubDate>Wed, 14 Jan 2026 15:43:26 +0800</pubDate>
       
-      <guid>https://jabee.live/notes/260114/</guid>
+      <guid>https://jabee.net/notes/260114/</guid>
       <description>&lt;p&gt;今年寫 Recap 時，翻了一下去年的 &lt;a href=&#34;https://jabee.live/notes/241223/&#34;&gt;2024 Recap&lt;/a&gt;，覺得今年很可以在標題加入一個代表今年的句子。&lt;/p&gt;
 &lt;p&gt;今年我以 &amp;ldquo;AI Agent 再次改變了一整年&amp;rdquo; 作為標題，我認為一點都不過分。在今年開始大量所謂的 &amp;ldquo;Vibe Coding&amp;rdquo; 可以算是進入到一般非電資人的視野裡，大家開始提倡使用自然語言描述的方式來寫程式。而對我的改變也是極大的，雖然這是可預見的未來（也許早該是你我在 2023 就應該知道的事），但 Vibe Coding 的能力仍然在今年震撼了我，也改變我工作學習的方式。&lt;/p&gt;</description>
       <content:encoded>&lt;p&gt;今年寫 Recap 時，翻了一下去年的 &lt;a href=&#34;https://jabee.live/notes/241223/&#34;&gt;2024 Recap&lt;/a&gt;，覺得今年很可以在標題加入一個代表今年的句子。&lt;/p&gt;
@@ -67,10 +67,10 @@
     
     <item>
       <title>2024 Recap</title>
-      <link>https://jabee.live/notes/241223/</link>
+      <link>https://jabee.net/notes/241223/</link>
       <pubDate>Mon, 23 Dec 2024 11:29:22 +0800</pubDate>
       
-      <guid>https://jabee.live/notes/241223/</guid>
+      <guid>https://jabee.net/notes/241223/</guid>
       <description>&lt;p&gt;年關將近，各位讀者新年快樂！&lt;/p&gt;
 &lt;p&gt;吉祥話這邊就不給各位讀者拜了（畢竟要留到農曆年啊xd）。&lt;/p&gt;
 &lt;h1 id=&#34;為什麼寫這篇&#34;&gt;為什麼寫這篇？&lt;/h1&gt;

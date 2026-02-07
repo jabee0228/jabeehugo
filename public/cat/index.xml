@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Jabee&#39;s Blog</title>
-    <link>https://jabee.live/cat/</link>
+    <link>https://jabee.net/cat/</link>
     <description>Recent content on Jabee&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-tw</language><atom:link href="https://jabee.live/cat/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-tw</language><atom:link href="https://jabee.net/cat/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

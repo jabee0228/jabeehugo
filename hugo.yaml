@@ -1,4 +1,4 @@
-baseURL: "https://jabee.live/"
+baseURL: "https://jabee.net"
 title: Jabee's Blog
 paginate: 5
 theme: PaperModX
@@ -8,7 +8,6 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 pygmentsUseClasses: true
-
 
 languageCode: "zh-tw"
 
@@ -160,6 +159,3 @@ markup:
     style: dracula
     lineNos: false
     noClasses: false
-
-
-
