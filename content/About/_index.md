@@ -71,7 +71,7 @@ Linkedin：[https://www.linkedin.com/in/jameschiang0228/](https://www.linkedin.c
     <div style="border-bottom:1px solid #eee; padding-bottom:1rem;">
       <h3 style="margin:0; color:#0d6efd; font-size:1.1rem;">Associate Software Developer</h3>
       <p style="margin:.2rem 0;">Chung Yuan Christian University · Contract</p>
-      <p style="margin:.2rem 0 0; color:#555;">May 2025 – Present · 5 mos · Zhongli, Taoyuan </p>
+      <p style="margin:.2rem 0 0; color:#555;">May 2025 – Jan 2026 · 9 mos · Zhongli, Taoyuan </p>
     </div>
     <div style="border-bottom:1px solid #eee; padding-bottom:1rem;">
       <h3 style="margin:0; color:#0d6efd; font-size:1.1rem;">Machine Learning Research Intern</h3>

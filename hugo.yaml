@@ -50,7 +50,7 @@ params:
 
   assets:
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
+    favicon: "/static/favicon/favicon.ico"
     favicon16x16: "<link / abs url>"
     favicon32x32: "<link / abs url>"
     apple_touch_icon: "<link / abs url>"
