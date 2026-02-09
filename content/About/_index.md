@@ -442,7 +442,7 @@ An intelligent automatic video subtitle generation system that combines OpenAI W
 </p>
 <div class="resume-project-tech">
 <span class="resume-tech-tag"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" class="resume-tech-icon">Python</span>
-<span class="resume-tech-tag"><img src="https://raw.githubusercontent.com/openai/whisper/main/whisper-logo.png" alt="Whisper" class="resume-tech-icon" onerror="this.style.display='none';this.nextSibling.textContent='🎤 Whisper'">Whisper</span>
+<span class="resume-tech-tag"><img src="https://raw.githubusercontent.com/openai/whisper/main/whisper-logo.png" alt="Whisper" class="resume-tech-icon" onerror="this.style.display='none';this.nextSibling.textContent='Whisper'">Whisper</span>
 </div>
 </div>
 
@@ -471,7 +471,7 @@ Our-Scheme Interpreter source code
 </p>
 <div class="resume-project-tech">
 <span class="resume-tech-tag"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" class="resume-tech-icon">Python</span>
-<span class="resume-tech-tag">📜 Scheme</span>
+<span class="resume-tech-tag">Scheme</span>
 </div>
 </div>
 
