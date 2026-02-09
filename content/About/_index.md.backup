@@ -1,0 +1,400 @@
+<style>
+/* 預設樣式：給電腦等寬螢幕看的 */
+.responsive-container {
+  display: flex;
+  align-items: flex-start; /* 頂部對齊 */
+  gap: 20px; /* 左右兩欄的間距 */
+}
+.text-column {
+  flex: 1; /* 佔用可用空間的一份 */
+}
+.image-column {
+  flex: 1; /* 佔用可用空間的一份 */
+}
+/* 當螢幕寬度小於等於 768px 時 (適用於平板和手機)，套用這裡的樣式 */
+@media (max-width: 768px) {
+  .responsive-container {
+    flex-direction: column; /* 將並排改為垂直堆疊 */
+  }
+  /* 在手機上，讓圖片和文字之間也有一點上下間距 */
+  .image-column {
+    margin-top: 20px;
+  }
+}
+</style>
+
+<div class="responsive-container">
+  <div class="text-column">
+    <h1>歡迎</h1>
+    <p>我是 Jabee 姜，目前就讀中原資工！是個基督徒～</p>
+    <p>認真來講，我超愛資工系，我真的很愛學各種電腦的技術、新知。但人生不只寫code，還有很多可以去學、去探索的地方。</p>
+    <p>所以除了電腦科學相關的，在這個 Blog 裡面，我還會分享我旅遊的經驗，騎重機的經驗，我的所見所聞，甚至於日常瑣事的閒聊，期待用這個 Blog 記錄自己的人生。</p>
+    <h2>我的興趣</h2>
+    <ul>
+      <li>攝影</li>
+      <li>旅遊</li>
+      <li>看各種yt影片（中文、非中文）</li>
+      <li>組電腦</li>
+      <li>還有太多了xd</li>
+    </ul>
+  </div>
+  <div class="image-column">
+    <img src="IMG_0577.HEIC_compressed.JPEG" alt="Jabee 的照片" style="width: 100%; height: auto; display: block;">
+  </div>
+</div>
+
+# Contact me
+
+Email : jabee[at]jabee.net
+
+Github：[https://github.com/jabee0228](https://github.com/jabee0228)
+
+Linkedin：[https://www.linkedin.com/in/jameschiang0228/](https://www.linkedin.com/in/jameschiang0228/)
+
+
+
+期待身為讀者你的來信！
+
+## 關於我的文章
+
+- [我平常會使用的應用程式](/notes/241121/)
+- [我平常會看的 YouTuber 和 B站博主](/notes/241214/)
+
+<br>
+
+ 
+
+<style>
+/* Dark/Light mode 適配變數 */
+:root {
+  --section-border: #e0e0e0;
+  --card-bg: #ffffff;
+  --card-border: #e5e7eb;
+  --card-shadow: rgba(0, 0, 0, 0.08);
+  --card-hover-shadow: rgba(0, 0, 0, 0.15);
+  --title-color: #2563eb;
+  --text-primary: #1f2937;
+  --text-secondary: #6b7280;
+  --divider-color: #e5e7eb;
+}
+
+/* PaperModX Dark Mode 適配 */
+body.dark,
+html.dark,
+[data-theme="dark"],
+.dark {
+  --section-border: #374151;
+  --card-bg: #1f2937;
+  --card-border: #374151;
+  --card-shadow: rgba(0, 0, 0, 0.3);
+  --card-hover-shadow: rgba(0, 0, 0, 0.5);
+  --title-color: #60a5fa;
+  --text-primary: #f3f4f6;
+  --text-secondary: #9ca3af;
+  --divider-color: #4b5563;
+}
+
+/* 強制 dark mode 樣式 */
+body.dark .section-container,
+body.dark .experience-item,
+body.dark .project-content,
+body.dark .publication-content {
+  background: var(--card-bg);
+  border-color: var(--card-border);
+  color: var(--text-primary);
+}
+
+body.dark .section-title,
+body.dark .experience-title,
+body.dark .subsection-title,
+body.dark .project-name a {
+  color: var(--title-color);
+}
+
+body.dark .experience-company,
+body.dark .project-name,
+body.dark .publication-title,
+body.dark .publication-authors,
+body.dark .project-year {
+  color: var(--text-primary);
+}
+
+body.dark .experience-date,
+body.dark .project-description,
+body.dark .publication-venue {
+  color: var(--text-secondary);
+}
+
+.section-container {
+  margin: 2.5rem 0;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  border-bottom: 3px solid var(--section-border);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.experience-grid {
+  display: grid;
+  gap: 1.25rem;
+  margin: 1rem 0;
+}
+
+.experience-item {
+  padding: 1.25rem;
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 12px;
+  box-shadow: 0 2px 8px var(--card-shadow);
+  transition: all 0.3s ease;
+}
+
+.experience-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 16px var(--card-hover-shadow);
+}
+
+.experience-title {
+  margin: 0 0 0.5rem 0;
+  color: var(--title-color);
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.experience-company {
+  margin: 0.25rem 0;
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+.experience-date {
+  margin: 0.25rem 0 0;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+</style>
+
+  <!-- Experience -->  
+  <div class="section-container">
+    <h2 class="section-title">🧑‍💼 Experience</h2>
+    <div class="experience-grid">
+      <div class="experience-item">
+        <h3 class="experience-title">Associate Software Developer</h3>
+        <p class="experience-company">Chung Yuan Christian University · Contract</p>
+        <p class="experience-date">May 2025 – Jan 2026 · 9 mos · Zhongli, Taoyuan</p>
+      </div>
+      <div class="experience-item">
+        <h3 class="experience-title">Machine Learning Research Intern</h3>
+        <p class="experience-company">Academia Sinica · Internship</p>
+        <p class="experience-date">Jul 2025 – Aug 2025 · 2 mos · Taipei, Taiwan</p>
+      </div>
+    </div>
+  </div>
+
+ <!-- Projects -->
+  <style>
+  .project-subsection {
+    margin-top: 1.5rem;
+  }
+
+  .subsection-title {
+    margin: 1.5rem 0 1rem 0;
+    color: var(--title-color);
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding-left: 0.5rem;
+    border-left: 4px solid var(--title-color);
+  }
+
+  .project-card {
+    margin: 1rem 0;
+  }
+
+  .project-content {
+    padding: 1.25rem;
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    box-shadow: 0 2px 8px var(--card-shadow);
+    transition: all 0.3s ease;
+  }
+
+  .project-content:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 16px var(--card-hover-shadow);
+  }
+
+  .project-name {
+    margin: 0 0 0.5rem 0;
+    font-weight: 600;
+    font-size: 1.05rem;
+    color: var(--text-primary);
+  }
+
+  .project-name a {
+    text-decoration: none;
+    color: var(--title-color);
+    transition: opacity 0.2s ease;
+  }
+
+  .project-name a:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+  }
+
+  .project-description {
+    margin: 0.5rem 0 0;
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  .project-year {
+    font-weight: 500;
+    color: var(--text-primary);
+  }
+  </style>
+
+  <div class="section-container">
+    <h2 class="section-title">💻 Projects</h2>
+
+    <div class="project-subsection">
+      <h3 class="subsection-title">Active</h3>
+
+      <div class="project-card">
+        <div class="project-content">
+          <p class="project-name">
+            <a href="https://github.com/jabee0228/SubtitleLLM">SubtitleLLM</a>
+          </p>
+          <p class="project-description">
+            <span class="project-year">2025 - Present</span><br>
+            An intelligent automatic video subtitle generation system that combines OpenAI Whisper speech recognition with LLM correction for high-quality subtitle creation.
+          </p>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-content">
+          <p class="project-name">DailyClassical</p>
+          <p class="project-description">
+            <span class="project-year">2025 - Present</span><br>
+            IOS、Android，每日一篇古典樂相關介紹（測試中，預計 2025 Q4 上市，官網建置中）
+          </p>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-content">
+          <p class="project-name">
+            <a href="https://github.com/jabee0228/PerspectiveFill">PerspectiveFill</a>
+          </p>
+          <p class="project-description">
+            <span class="project-year">2024 - Present</span><br>
+            Image Inpainting Methods via Various Perspective Image Synthesis
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-subsection">
+      <h3 class="subsection-title">Discontinued</h3>
+
+      <div class="project-card">
+        <div class="project-content">
+          <p class="project-name">
+            <a href="https://github.com/jabee0228/CYCU-ICE-PL-INTERPRETER">Scheme Interpreter</a>
+          </p>
+          <p class="project-description">
+            <span class="project-year">2025</span><br>
+            Our-Scheme Interpreter source code
+          </p>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-content">
+          <p class="project-name">
+            <a href="https://github.com/jabee0228/BestYTBot-Discord">BestYTBot-Discord</a>
+          </p>
+          <p class="project-description">
+            <span class="project-year">2025</span><br>
+            Play Youtube on Discord
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <!-- Publication -->
+  <style>
+  .publication-card {
+    margin: 1rem 0;
+  }
+
+  .publication-content {
+    padding: 1.5rem;
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 12px;
+    box-shadow: 0 2px 8px var(--card-shadow);
+    transition: all 0.3s ease;
+  }
+
+  .publication-content:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 16px var(--card-hover-shadow);
+  }
+
+  .publication-title {
+    margin: 0 0 0.75rem 0;
+    font-weight: 600;
+    font-size: 1.05rem;
+    color: var(--text-primary);
+    line-height: 1.5;
+  }
+
+  .publication-authors {
+    margin: 0.5rem 0;
+    color: var(--text-primary);
+    font-size: 0.95rem;
+    font-weight: 500;
+  }
+
+  .publication-venue {
+    margin: 0.5rem 0 0;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    font-style: italic;
+  }
+  </style>
+
+  <div class="section-container">
+    <h2 class="section-title">📚 Publication</h2>
+    <div class="publication-card">
+      <div class="publication-content">
+        <p class="publication-title">A Study of Image Inpainting Methods via Various Perspective Image Synthesis Using CNN-based and Diffusion-based Models</p>
+        <p class="publication-authors">En Chen (陳恩), Yi-Hsin Chiang (姜義新), Chih-Chang Yu (余執彰), Hsu-Yung Cheng (鄭旭詠)</p>
+        <p class="publication-venue">The 38th Conference on Computer Vision, Graphics, and Image Processing (CVGIP 2025), August 2025.</p>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+
+
+
+
