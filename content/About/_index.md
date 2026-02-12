@@ -302,10 +302,10 @@ body.dark .resume-subsection-title {
   display: inline-flex;
   align-items: center;
   
-  padding: 0.1rem 0.7rem;
+  padding: 0rem 0.5rem;
   background: transparent;
   color: #60a5fa;
-  font-size: 0.85rem;
+  font-size: 0.6rem;
   font-weight: 500;
   border: 1.5px solid #374151;
   border-radius: 6px;

@@ -6,7 +6,46 @@
     <description>Recent content in Notes on Jabee&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sun, 08 Feb 2026 01:40:31 +0800</lastBuildDate><atom:link href="https://jabee.net/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 Feb 2026 15:45:43 +0800</lastBuildDate><atom:link href="https://jabee.net/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>字節跳動用 Seedence 2.0 給地球帶來震撼性的 AI 新年禮包</title>
+      <link>https://jabee.net/notes/260212/</link>
+      <pubDate>Thu, 12 Feb 2026 15:45:43 +0800</pubDate>
+      
+      <guid>https://jabee.net/notes/260212/</guid>
+      <description>&lt;p&gt;最近看了影視颶風介紹了近期的 Seedence 2.0，這東西可不是跟其他 AI 模型一樣，搞個開源假裝很厲害炒個股票這麼簡單而已，而是在 AI 影片生成上有實質上的突破。&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;最近看了影視颶風介紹了近期的 Seedence 2.0，這東西可不是跟其他 AI 模型一樣，搞個開源假裝很厲害炒個股票這麼簡單而已，而是在 AI 影片生成上有實質上的突破。&lt;/p&gt;
+&lt;h1 id=&#34;解決過去的非連貫性分鏡&#34;&gt;解決過去的非連貫性分鏡&lt;/h1&gt;
+&lt;p&gt;過去的 AI 影像你可以發現其實沒辦法有什麼連貫性的分鏡，若切換鏡頭，整個場景就會大變動，房子裡面的物品都不一樣了。2025 年中後的影片都能以這個方式分辨是否為 AI，只要去檢查房間的擺設是否每次都不一樣其實就能用肉眼去分辨。&lt;/p&gt;
+&lt;p&gt;但今年真的不一樣了，Seedence 2.0 可以做出連貫性且合理的分鏡不再是非連貫性的分鏡，字節跳動可以說是在這方面彎道超車整個矽谷產業的 AI 生成。&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;image-20260212160221042.png&#34;
+         alt=&#34;第一顆鏡頭&#34; height=&#34;400&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;第一顆鏡頭&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;image-20260212160314512.png&#34;
+         alt=&#34;第二顆鏡頭完全與第一顆鏡頭場景合理&#34; height=&#34;400&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;第二顆鏡頭完全與第一顆鏡頭場景合理&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;/p&gt;
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/SY5Wm7fUJFE?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;h1 id=&#34;開始大量訓練更多網路上的媒體&#34;&gt;開始大量訓練更多網路上的媒體&lt;/h1&gt;
+&lt;p&gt;過去一年中，若你閒閒沒事在 YT 隨便滑滑都能看到 “牢大” (NBA 的 Kobe)，過去其實只能生成出這些有名的人物。但今年呢？也許會再次顛覆你的想像，有文字描述就能生成出影視颶風的辦公室。&lt;/p&gt;
+&lt;p&gt;雖然字節跳動這兩天馬上將這些有可能侵權的生成方式管制，但在不久的將來，是不是能將你我的生活完全融入進去呢？用 AI 是不是就能文字描述就將你我的臉都放入到 AI 影像生成當中呢？ 我們拭目以待xdddd&lt;/p&gt;
+</content:encoded>
+    </item>
+    
     <item>
       <title>Jabee 我更換網域啦！</title>
       <link>https://jabee.net/notes/260208/</link>

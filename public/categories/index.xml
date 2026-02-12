@@ -6,7 +6,17 @@
     <description>Recent content in Categories on Jabee&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sun, 08 Feb 2026 01:40:31 +0800</lastBuildDate><atom:link href="https://jabee.net/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 Feb 2026 15:45:43 +0800</lastBuildDate><atom:link href="https://jabee.net/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>科技</title>
+      <link>https://jabee.net/categories/tech/</link>
+      <pubDate>Thu, 12 Feb 2026 15:45:43 +0800</pubDate>
+      
+      <guid>https://jabee.net/categories/tech/</guid>
+      <description>所有科技新知分享</description>
+      <content:encoded></content:encoded>
+    </item>
+    
     <item>
       <title>閒聊</title>
       <link>https://jabee.net/categories/chat/</link>
@@ -14,16 +24,6 @@
       
       <guid>https://jabee.net/categories/chat/</guid>
       <description>偶爾閒聊一些人生閱歷</description>
-      <content:encoded></content:encoded>
-    </item>
-    
-    <item>
-      <title>科技</title>
-      <link>https://jabee.net/categories/tech/</link>
-      <pubDate>Fri, 23 Jan 2026 17:39:47 +0800</pubDate>
-      
-      <guid>https://jabee.net/categories/tech/</guid>
-      <description>所有科技新知分享</description>
       <content:encoded></content:encoded>
     </item>
     
