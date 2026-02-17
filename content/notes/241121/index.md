@@ -2,7 +2,7 @@
 date: '2024-11-21T12:17:53+08:00'
 draft: false
 title: '我平常會使用的應用程式'
-Lastmod: '2026-01-23'
+Lastmod: '2026-02-17'
 
 categories: ["use"]
 tags: ["科技","關於我"]
@@ -52,8 +52,8 @@ cover:
 - Zed：純文字的編輯器，可以算是 Atom 停更以後的版本
 - Termius：沒有付費就很好用的 ssh 工具
 - MonitorControl：使用多螢幕調整螢幕亮度很好用，要使用可以支援的 hub 和螢幕才可以（但是要支援什麼，我有點忘了，應該是hdmi 的一個協定）
-- Welly： mac 上面最好用的上 BBS 工具（很久沒用了，最近一次打開是暑假閒閒沒事的時候）
 - Notion：我很想用其他的 Self-hosting 的（ex: Anytype），但常常會需要和同學共編，所以還是只能用它。事實上也不錯用，但在導出的部分不太優
 - Rnote：目前 Linux 使用到比較好的可以搭配筆書寫的並編輯 PDF 的軟體
-- EasyDict：非常好使用的翻譯插件，能搭配各種有開放 api 的翻譯軟體使用。
-- TailScale：沒有對外固定IP時很好用。
+- EasyDict：非常好使用的翻譯插件，能搭配各種有開放 api 的翻譯軟體使用
+- TailScale：沒有對外固定IP時很好用
+- Lark：國際版飛書，可以免費使用自定義的 Domain 來發信，非常方便

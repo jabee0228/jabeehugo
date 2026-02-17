@@ -510,11 +510,11 @@
 &lt;li&gt;Zed：純文字的編輯器，可以算是 Atom 停更以後的版本&lt;/li&gt;
 &lt;li&gt;Termius：沒有付費就很好用的 ssh 工具&lt;/li&gt;
 &lt;li&gt;MonitorControl：使用多螢幕調整螢幕亮度很好用，要使用可以支援的 hub 和螢幕才可以（但是要支援什麼，我有點忘了，應該是hdmi 的一個協定）&lt;/li&gt;
-&lt;li&gt;Welly： mac 上面最好用的上 BBS 工具（很久沒用了，最近一次打開是暑假閒閒沒事的時候）&lt;/li&gt;
 &lt;li&gt;Notion：我很想用其他的 Self-hosting 的（ex: Anytype），但常常會需要和同學共編，所以還是只能用它。事實上也不錯用，但在導出的部分不太優&lt;/li&gt;
 &lt;li&gt;Rnote：目前 Linux 使用到比較好的可以搭配筆書寫的並編輯 PDF 的軟體&lt;/li&gt;
-&lt;li&gt;EasyDict：非常好使用的翻譯插件，能搭配各種有開放 api 的翻譯軟體使用。&lt;/li&gt;
-&lt;li&gt;TailScale：沒有對外固定IP時很好用。&lt;/li&gt;
+&lt;li&gt;EasyDict：非常好使用的翻譯插件，能搭配各種有開放 api 的翻譯軟體使用&lt;/li&gt;
+&lt;li&gt;TailScale：沒有對外固定IP時很好用&lt;/li&gt;
+&lt;li&gt;Lark：國際版飛書，可以免費使用自定義的 Domain 來發信，非常方便&lt;/li&gt;
 &lt;/ul&gt;</description>
       <content:encoded>&lt;p&gt;持續更新中&lt;/p&gt;
 &lt;h1 id=&#34;作業系統&#34;&gt;作業系統&lt;/h1&gt;
@@ -534,11 +534,11 @@
 &lt;li&gt;Zed：純文字的編輯器，可以算是 Atom 停更以後的版本&lt;/li&gt;
 &lt;li&gt;Termius：沒有付費就很好用的 ssh 工具&lt;/li&gt;
 &lt;li&gt;MonitorControl：使用多螢幕調整螢幕亮度很好用，要使用可以支援的 hub 和螢幕才可以（但是要支援什麼，我有點忘了，應該是hdmi 的一個協定）&lt;/li&gt;
-&lt;li&gt;Welly： mac 上面最好用的上 BBS 工具（很久沒用了，最近一次打開是暑假閒閒沒事的時候）&lt;/li&gt;
 &lt;li&gt;Notion：我很想用其他的 Self-hosting 的（ex: Anytype），但常常會需要和同學共編，所以還是只能用它。事實上也不錯用，但在導出的部分不太優&lt;/li&gt;
 &lt;li&gt;Rnote：目前 Linux 使用到比較好的可以搭配筆書寫的並編輯 PDF 的軟體&lt;/li&gt;
-&lt;li&gt;EasyDict：非常好使用的翻譯插件，能搭配各種有開放 api 的翻譯軟體使用。&lt;/li&gt;
-&lt;li&gt;TailScale：沒有對外固定IP時很好用。&lt;/li&gt;
+&lt;li&gt;EasyDict：非常好使用的翻譯插件，能搭配各種有開放 api 的翻譯軟體使用&lt;/li&gt;
+&lt;li&gt;TailScale：沒有對外固定IP時很好用&lt;/li&gt;
+&lt;li&gt;Lark：國際版飛書，可以免費使用自定義的 Domain 來發信，非常方便&lt;/li&gt;
 &lt;/ul&gt;
 </content:encoded>
     </item>
