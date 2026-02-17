@@ -6,7 +6,25 @@
     <description>Recent content on Jabee&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Thu, 12 Feb 2026 15:45:43 +0800</lastBuildDate><atom:link href="https://jabee.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 Feb 2026 18:39:52 +0800</lastBuildDate><atom:link href="https://jabee.net/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2026的新年新事物：長輩圖也升級成AI版了？</title>
+      <link>https://jabee.net/notes/260217/</link>
+      <pubDate>Tue, 17 Feb 2026 18:39:52 +0800</pubDate>
+      
+      <guid>https://jabee.net/notes/260217/</guid>
+      <description>&lt;p&gt;各位讀者新年快樂呀！今年一樣祝各位馬到成功，馬上拿 Offer，馬上自摸？&lt;/p&gt;
+&lt;h1 id=&#34;新一代的長輩圖要出現了&#34;&gt;新一代的長輩圖要出現了？&lt;/h1&gt;
+&lt;p&gt;昨天吃完年夜飯有個有趣的小事情可以和各位讀者分享，我的大伯竟然問我要怎麼用 AI 生成新年卡片，看來今年會出現不少 AI 長輩圖喔哈哈哈哈。&lt;/p&gt;</description>
+      <content:encoded>&lt;p&gt;各位讀者新年快樂呀！今年一樣祝各位馬到成功，馬上拿 Offer，馬上自摸？&lt;/p&gt;
+&lt;h1 id=&#34;新一代的長輩圖要出現了&#34;&gt;新一代的長輩圖要出現了？&lt;/h1&gt;
+&lt;p&gt;昨天吃完年夜飯有個有趣的小事情可以和各位讀者分享，我的大伯竟然問我要怎麼用 AI 生成新年卡片，看來今年會出現不少 AI 長輩圖喔哈哈哈哈。&lt;/p&gt;
+&lt;p&gt;不過 Jabee 我發現其實滿多人用 Gemini 都不會切換模型的，因為我的大伯說有付費，但生成的圖片文字會跑掉。我一聽就知道大概是忘了切換模型成 Pro 了。&lt;/p&gt;
+&lt;p&gt;我認為一方面 Google 其實有意無意地在省電量？我常常打開來預設都是 Flash model，但我幾乎不用 Flash 的模型，我覺得等一下也沒關係，畢竟真的差太多了。&lt;/p&gt;
+&lt;p&gt;各位讀者記得用 Gemini 生圖要換模型成 Pro 才會呼叫 nano Banana pro 啊！&lt;/p&gt;
+</content:encoded>
+    </item>
+    
     <item>
       <title>字節跳動用 Seedence 2.0 給地球帶來震撼性的 AI 新年禮包</title>
       <link>https://jabee.net/notes/260212/</link>
