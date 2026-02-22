@@ -21,7 +21,7 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Jabee's Blog
   description: "Jabee's Blog - 人生不只寫code，還有很多有趣的事等我發現"
-  keywords: [Blog, Portfolio, PaperModX]
+  keywords: [Blog, Portfolio]
   author: Jabee姜
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
@@ -82,7 +82,7 @@ params:
     Content: |
       歡迎來到我的 Blog
 
-      這裡會分享各種我學習到的新知、旅遊和科技等等
+      Jabee 的座右銘: 資料要備份、Format 要謹慎
 
       有問題歡迎寄信給我！
 
