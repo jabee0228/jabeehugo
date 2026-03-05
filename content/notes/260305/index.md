@@ -2,7 +2,7 @@
 date: '2026-03-05T09:34:09+08:00'
 # draft: true
 draft: false
-title: '從5個維度拆解22歲理工男的理想日常'
+title: '從3個維度拆解22歲理工男的理想日常'
 # lastmod: 2026-03-05
 categories: ["chat"]
 tags: ["分享", "BlogBlog 同樂會"]
