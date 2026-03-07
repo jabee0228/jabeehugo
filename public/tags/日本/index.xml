@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>日本 on Jabee&#39;s Blog</title>
-    <link>https://jabee.net/tags/%E6%97%A5%E6%9C%AC/</link>
+    <link>http://localhost:53783/tags/%E6%97%A5%E6%9C%AC/</link>
     <description>Recent content in 日本 on Jabee&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 21 Jan 2026 20:21:31 +0800</lastBuildDate><atom:link href="https://jabee.net/tags/%E6%97%A5%E6%9C%AC/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Jan 2026 20:21:31 +0800</lastBuildDate><atom:link href="http://localhost:53783/tags/%E6%97%A5%E6%9C%AC/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>我最喜歡的旅遊頻道：老宋CHANNEL</title>
-      <link>https://jabee.net/notes/260121/</link>
+      <link>http://localhost:53783/notes/260121/</link>
       <pubDate>Wed, 21 Jan 2026 20:21:31 +0800</pubDate>
       
-      <guid>https://jabee.net/notes/260121/</guid>
+      <guid>http://localhost:53783/notes/260121/</guid>
       <description>&lt;p&gt;這是 Jabee 我的「&lt;a href=&#34;https://blogblog.club/party&#34;&gt;BlogBlog 同樂會 - 2026 年 1 月&lt;/a&gt;」的投稿文章。本月主題是「&lt;a href=&#34;https://wiwi.blog/blog/blogblog-party-jan-2026/&#34;&gt;推坑&lt;/a&gt;」，由 &lt;a href=&#34;https://wiwi.blog/&#34;&gt;Wiwi&lt;/a&gt; 主持。如果你有自己的部落格，歡迎一起來參加！&lt;/p&gt;
 &lt;p&gt;前些日子看到 Wiwi 在推 Blog 同樂會，我這個近乎年更的部落格是時候也該更新了哈哈哈。一開始其實是想推一些有趣的 Linux 項目，結果我看了一下大家寫的竟然都是有趣的東西（電腦對我也很有趣啦，我的意思是大家都有趣的東西），所以就分享我私藏已久的頻道。&lt;/p&gt;</description>
       <content:encoded>&lt;p&gt;這是 Jabee 我的「&lt;a href=&#34;https://blogblog.club/party&#34;&gt;BlogBlog 同樂會 - 2026 年 1 月&lt;/a&gt;」的投稿文章。本月主題是「&lt;a href=&#34;https://wiwi.blog/blog/blogblog-party-jan-2026/&#34;&gt;推坑&lt;/a&gt;」，由 &lt;a href=&#34;https://wiwi.blog/&#34;&gt;Wiwi&lt;/a&gt; 主持。如果你有自己的部落格，歡迎一起來參加！&lt;/p&gt;
@@ -56,10 +56,10 @@
 &lt;h2 id=&#34;敘事方式條理且具人文色彩&#34;&gt;敘事方式條理且具人文色彩&lt;/h2&gt;
 &lt;p&gt;如前面我提到的，老宋的介紹旅遊的方式是我最喜歡的，不僅是記錄風景，更常探討當地的社會問題、經濟變遷或文化細節，深受喜愛知性與沉浸式旅行內容的觀眾歡迎。影片節奏不快，卻能完整襯托出當地的市容情景，容易能將心情融入影片中，彷彿就在與老宋一同旅遊。影片的節奏感從來不讓我感到刻意或煩躁，除了觀看旅遊節目，偶爾也能了解日本當地的歷史、地理、人文。&lt;/p&gt;
 &lt;p&gt;&lt;img
-    src=&#34;https://jabeehugo.netlify.app/notes/260121/image-20260121212140583_hu586208056100425208.webp&#34;
-    alt=&#34;image-20260121212140583&#34;loading=&#34;lazy&#34;
-    decoding=&#34;async&#34;
-    style=&#34;max-width: 100%; height: auto&#34;
+        src=&#34;https://jabeehugo.netlify.app/notes/260121/image-20260121212140583_hu586208056100425208.webp&#34;
+        alt=&#34;image-20260121212140583&#34;loading=&#34;lazy&#34;
+        decoding=&#34;async&#34;
+        style=&#34;max-width: 100%; height: auto&#34;
 /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;住在日本所以對當地更熟悉&#34;&gt;住在日本，所以對當地更熟悉&lt;/h2&gt;
 &lt;p&gt;老宋本人住在日本東京，老宋能更清楚的介紹日本當地的特色，老宋不僅會日文，也懂日本，我想這就是我會長期看老宋的原因吧！&lt;/p&gt;

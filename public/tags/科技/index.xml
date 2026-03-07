@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>科技 on Jabee&#39;s Blog</title>
-    <link>https://jabee.net/tags/%E7%A7%91%E6%8A%80/</link>
+    <link>http://localhost:53783/tags/%E7%A7%91%E6%8A%80/</link>
     <description>Recent content in 科技 on Jabee&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Fri, 23 Jan 2026 17:39:47 +0800</lastBuildDate><atom:link href="https://jabee.net/tags/%E7%A7%91%E6%8A%80/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Jan 2026 17:39:47 +0800</lastBuildDate><atom:link href="http://localhost:53783/tags/%E7%A7%91%E6%8A%80/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Empowering Traditional Industry with AI and Global Connectivity</title>
-      <link>https://jabee.net/notes/260123/</link>
+      <link>http://localhost:53783/notes/260123/</link>
       <pubDate>Fri, 23 Jan 2026 17:39:47 +0800</pubDate>
       
-      <guid>https://jabee.net/notes/260123/</guid>
+      <guid>http://localhost:53783/notes/260123/</guid>
       <description>&lt;p&gt;In the second half of 2025, I participated in the Taoyuan AI University program, an experience that gave me a profound understanding of the critical importance of AI and digitalization in traditional industries.&lt;/p&gt;
 &lt;p&gt;My team and I had the privilege of partnering with Hsuan Jui Co., Ltd. (宣瑞股份有限公司) to spearhead their digital transformation. During this period, I focused on developing and implementing a Digital Quotation System enhanced with AI assistance. This solution successfully saved the company over one hour of processing time per order quotation, drastically improving operational efficiency and allowing the team to focus on high-value tasks.&lt;/p&gt;</description>
       <content:encoded>&lt;p&gt;In the second half of 2025, I participated in the Taoyuan AI University program, an experience that gave me a profound understanding of the critical importance of AI and digitalization in traditional industries.&lt;/p&gt;
@@ -80,13 +80,13 @@
      &#34;viewerGalleryTHeight&#34;: 40
 }&#39;&gt;
     
-&lt;a href=&#34;https://jabee.net/notes/260123/1_hu12266461274400166648.webp&#34; data-ngThumb=&#34;/notes/260123/1_hu12266461274400166648.webp&#34;
+&lt;a href=&#34;http://localhost:53783/notes/260123/1_hu12266461274400166648.webp&#34; data-ngThumb=&#34;/notes/260123/1_hu12266461274400166648.webp&#34;
     &gt;&lt;/a
 &gt;
-&lt;a href=&#34;https://jabee.net/notes/260123/2_hu3305694126774988820.webp&#34; data-ngThumb=&#34;/notes/260123/2_hu3305694126774988820.webp&#34;
+&lt;a href=&#34;http://localhost:53783/notes/260123/2_hu3305694126774988820.webp&#34; data-ngThumb=&#34;/notes/260123/2_hu3305694126774988820.webp&#34;
     &gt;&lt;/a
 &gt;
-&lt;a href=&#34;https://jabee.net/notes/260123/3_hu12693476018805581299.webp&#34; data-ngThumb=&#34;/notes/260123/3_hu12693476018805581299.webp&#34;
+&lt;a href=&#34;http://localhost:53783/notes/260123/3_hu12693476018805581299.webp&#34; data-ngThumb=&#34;/notes/260123/3_hu12693476018805581299.webp&#34;
     &gt;&lt;/a
 &gt;
 
@@ -99,10 +99,10 @@
     
     <item>
       <title>當我們被各種訂閱服務綁架</title>
-      <link>https://jabee.net/notes/241231/</link>
+      <link>http://localhost:53783/notes/241231/</link>
       <pubDate>Tue, 31 Dec 2024 13:37:50 +0800</pubDate>
       
-      <guid>https://jabee.net/notes/241231/</guid>
+      <guid>http://localhost:53783/notes/241231/</guid>
       <description>&lt;p&gt;本週，我的父親沒有付款我們家的，Youtube Premium，讓我開始很難受。&lt;/p&gt;
 &lt;h1 id=&#34;我和訂閱服務的起源&#34;&gt;我和訂閱服務的起源&lt;/h1&gt;
 &lt;p&gt;我從國中開始就有在使用 KKBOX，後來發現 Spotify 更便宜、更好用，改訂閱 Spotify。&lt;/p&gt;</description>
@@ -127,17 +127,17 @@
     
     <item>
       <title>DDPM paper notes</title>
-      <link>https://jabee.net/notes/241226/</link>
+      <link>http://localhost:53783/notes/241226/</link>
       <pubDate>Thu, 26 Dec 2024 11:41:33 +0800</pubDate>
       
-      <guid>https://jabee.net/notes/241226/</guid>
+      <guid>http://localhost:53783/notes/241226/</guid>
       <description>&lt;p&gt;這篇主要是參考李教授的影片，以及網路上的文章，整理的筆記。&lt;/p&gt;
 &lt;h1 id=&#34;algorithm-1-training&#34;&gt;Algorithm 1: Training&lt;/h1&gt;
 &lt;p&gt;&lt;img
-    src=&#34;https://jabee.net/notes/241226/DDPM/image_hu9484696610551704771.webp&#34;
-    alt=&#34;image.png&#34;loading=&#34;lazy&#34;
-    decoding=&#34;async&#34;
-    style=&#34;max-width: 100%; height: auto&#34;
+        src=&#34;http://localhost:53783/notes/241226/DDPM/image_hu9484696610551704771.webp&#34;
+        alt=&#34;image.png&#34;loading=&#34;lazy&#34;
+        decoding=&#34;async&#34;
+        style=&#34;max-width: 100%; height: auto&#34;
 /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;第-1-行repeat&#34;&gt;&lt;strong&gt;第 1 行：&lt;code&gt;repeat&lt;/code&gt;&lt;/strong&gt;&lt;/h3&gt;
 &lt;ul&gt;
@@ -183,10 +183,10 @@
       <content:encoded>&lt;p&gt;這篇主要是參考李教授的影片，以及網路上的文章，整理的筆記。&lt;/p&gt;
 &lt;h1 id=&#34;algorithm-1-training&#34;&gt;Algorithm 1: Training&lt;/h1&gt;
 &lt;p&gt;&lt;img
-    src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image_hu9484696610551704771.webp&#34;
-    alt=&#34;image.png&#34;loading=&#34;lazy&#34;
-    decoding=&#34;async&#34;
-    style=&#34;max-width: 100%; height: auto&#34;
+        src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image_hu9484696610551704771.webp&#34;
+        alt=&#34;image.png&#34;loading=&#34;lazy&#34;
+        decoding=&#34;async&#34;
+        style=&#34;max-width: 100%; height: auto&#34;
 /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;第-1-行repeat&#34;&gt;&lt;strong&gt;第 1 行：&lt;code&gt;repeat&lt;/code&gt;&lt;/strong&gt;&lt;/h3&gt;
 &lt;ul&gt;
@@ -237,10 +237,10 @@
 &lt;p&gt;而 noise predictor 會有以下兩個 input&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;input 1. √ᾱ_t x_0 + √(1−ᾱ_t) ε ; input 2. t 代表第幾個回合的 回合越後面，加上的噪聲越多。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img
-    src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image1_hu12063852542344510676.webp&#34;
-    alt=&#34;image.png&#34;loading=&#34;lazy&#34;
-    decoding=&#34;async&#34;
-    style=&#34;max-width: 100%; height: auto&#34;
+        src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image1_hu12063852542344510676.webp&#34;
+        alt=&#34;image.png&#34;loading=&#34;lazy&#34;
+        decoding=&#34;async&#34;
+        style=&#34;max-width: 100%; height: auto&#34;
 /&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
@@ -263,10 +263,10 @@
 &lt;hr&gt;
 &lt;h1 id=&#34;algorithm-2-sampling&#34;&gt;Algorithm 2: Sampling&lt;/h1&gt;
 &lt;p&gt;&lt;img
-    src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image2_hu18401254764961476331.webp&#34;
-    alt=&#34;image.png&#34;loading=&#34;lazy&#34;
-    decoding=&#34;async&#34;
-    style=&#34;max-width: 100%; height: auto&#34;
+        src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image2_hu18401254764961476331.webp&#34;
+        alt=&#34;image.png&#34;loading=&#34;lazy&#34;
+        decoding=&#34;async&#34;
+        style=&#34;max-width: 100%; height: auto&#34;
 /&gt;&lt;/p&gt;
 &lt;h3 id=&#34;第一行-給訂一個-x-大-t-純雜訊圖&#34;&gt;&lt;strong&gt;第一行 給訂一個 X 大 T 純雜訊圖&lt;/strong&gt;&lt;/h3&gt;
 &lt;ul&gt;
@@ -291,10 +291,10 @@
 &lt;hr&gt;
 &lt;h3 id=&#34;第四行&#34;&gt;&lt;strong&gt;第四行&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;img
-    src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image3_hu9125662841414523106.webp&#34;
-    alt=&#34;image.png&#34;loading=&#34;lazy&#34;
-    decoding=&#34;async&#34;
-    style=&#34;max-width: 100%; height: auto&#34;
+        src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image3_hu9125662841414523106.webp&#34;
+        alt=&#34;image.png&#34;loading=&#34;lazy&#34;
+        decoding=&#34;async&#34;
+        style=&#34;max-width: 100%; height: auto&#34;
 /&gt;&lt;/p&gt;
 &lt;p&gt;x_{t-1} = (1 / √(a_t)) * (x_t - (1 - a_t) / √(1 - ᾱ_t) * ϵθ(x_t, t)) + σ_t * z&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;詳見：Sampling 階段 Denoise function 化簡&lt;/strong&gt;&lt;/p&gt;
@@ -318,10 +318,10 @@
 &lt;li&gt;&lt;strong&gt;目的&lt;/strong&gt;：從當前的t還原到上一個t 。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img
-    src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image4_hu9561906786286455256.webp&#34;
-    alt=&#34;image.png&#34;loading=&#34;lazy&#34;
-    decoding=&#34;async&#34;
-    style=&#34;max-width: 100%; height: auto&#34;
+        src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image4_hu9561906786286455256.webp&#34;
+        alt=&#34;image.png&#34;loading=&#34;lazy&#34;
+        decoding=&#34;async&#34;
+        style=&#34;max-width: 100%; height: auto&#34;
 /&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3 id=&#34;第五行-迴圈結束&#34;&gt;&lt;strong&gt;第五行 迴圈結束&lt;/strong&gt;&lt;/h3&gt;
@@ -337,10 +337,10 @@
 &lt;hr&gt;
 &lt;h1 id=&#34;maximum-likelihood-estimation&#34;&gt;Maximum Likelihood Estimation&lt;/h1&gt;
 &lt;p&gt;&lt;img
-    src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image5_hu17489056843180635074.webp&#34;
-    alt=&#34;image.png&#34;loading=&#34;lazy&#34;
-    decoding=&#34;async&#34;
-    style=&#34;max-width: 100%; height: auto&#34;
+        src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image5_hu17489056843180635074.webp&#34;
+        alt=&#34;image.png&#34;loading=&#34;lazy&#34;
+        decoding=&#34;async&#34;
+        style=&#34;max-width: 100%; height: auto&#34;
 /&gt;&lt;/p&gt;
 &lt;p&gt;MLE 的目的是為了讓 Pθ 盡可能的接近於 Pdata。&lt;/p&gt;
 &lt;ul&gt;
@@ -348,10 +348,10 @@
 &lt;li&gt;Pdata(x) : 真實世界的 dataset，和 model 的 network 無關。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img
-    src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image6_hu4359296528198306246.webp&#34;
-    alt=&#34;image.png&#34;loading=&#34;lazy&#34;
-    decoding=&#34;async&#34;
-    style=&#34;max-width: 100%; height: auto&#34;
+        src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image6_hu4359296528198306246.webp&#34;
+        alt=&#34;image.png&#34;loading=&#34;lazy&#34;
+        decoding=&#34;async&#34;
+        style=&#34;max-width: 100%; height: auto&#34;
 /&gt;&lt;/p&gt;
 &lt;p&gt;將每一個 sample 出來的 xi 拿 pθ 算出機率 並相乘，竟可能找出最大 θ。&lt;/p&gt;
 &lt;p&gt;所以我們要找的 θ 就是機率最高的那一個（LHY 在投影片用 θ* 代表）。&lt;/p&gt;
@@ -360,111 +360,111 @@
 *from chatgpt&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;img
-    src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image7_hu9837027191428316354.webp&#34;
-    alt=&#34;image.png&#34;loading=&#34;lazy&#34;
-    decoding=&#34;async&#34;
-    style=&#34;max-width: 100%; height: auto&#34;
+        src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image7_hu9837027191428316354.webp&#34;
+        alt=&#34;image.png&#34;loading=&#34;lazy&#34;
+        decoding=&#34;async&#34;
+        style=&#34;max-width: 100%; height: auto&#34;
 /&gt;&lt;/p&gt;
 &lt;p&gt;從log 相乘轉換成 相加log ，相加 log 這樣會近似於 從 pdata 取出的 x ，然後 pθ 算出機率 要越大越好。&lt;/p&gt;
 &lt;p&gt;&lt;img
-    src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image8_hu3448929442273819235.webp&#34;
-    alt=&#34;image.png&#34;loading=&#34;lazy&#34;
-    decoding=&#34;async&#34;
-    style=&#34;max-width: 100%; height: auto&#34;
+        src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image8_hu3448929442273819235.webp&#34;
+        alt=&#34;image.png&#34;loading=&#34;lazy&#34;
+        decoding=&#34;async&#34;
+        style=&#34;max-width: 100%; height: auto&#34;
 /&gt;&lt;/p&gt;
 &lt;p&gt;接著從 expectation 轉換為積分，然後可以算出就等同於 KL(Pdata||Pθ) ，所以我們要找 minimun KL。&lt;/p&gt;
 &lt;p&gt;讓 ptheta 讓 pdata的差異最小。&lt;/p&gt;
 &lt;h1 id=&#34;vae-compute-pθ&#34;&gt;VAE: Compute pθ&lt;/h1&gt;
 &lt;p&gt;&lt;img
-    src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image9_hu12187817486975178952.webp&#34;
-    alt=&#34;image.png&#34;loading=&#34;lazy&#34;
-    decoding=&#34;async&#34;
-    style=&#34;max-width: 100%; height: auto&#34;
+        src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image9_hu12187817486975178952.webp&#34;
+        alt=&#34;image.png&#34;loading=&#34;lazy&#34;
+        decoding=&#34;async&#34;
+        style=&#34;max-width: 100%; height: auto&#34;
 /&gt;&lt;/p&gt;
 &lt;p&gt;這邊主要是在講說，因為我們不可能去直接看 pθ(x|z) ，因為不可能 sample 出完全一模一樣的圖，這樣會造成 pθ(x|z) = 0。&lt;/p&gt;
 &lt;p&gt;因此我們是去看 Mean of Gaussian (去看距離，也就是 x 和 G(z)的距離)。&lt;/p&gt;
 &lt;h1 id=&#34;vae-lower-bound-of&#34;&gt;VAE: Lower bound of&lt;/h1&gt;
 &lt;p&gt;&lt;img
-    src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image10_hu13035192851562325882.webp&#34;
-    alt=&#34;image.png&#34;loading=&#34;lazy&#34;
-    decoding=&#34;async&#34;
-    style=&#34;max-width: 100%; height: auto&#34;
+        src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image10_hu13035192851562325882.webp&#34;
+        alt=&#34;image.png&#34;loading=&#34;lazy&#34;
+        decoding=&#34;async&#34;
+        style=&#34;max-width: 100%; height: auto&#34;
 /&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;≥ 0 是因為 它可以看作 KL divergence 而完全一樣就為0，因此 ≥ 0。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id=&#34;ddpm-compute--pθx&#34;&gt;DDPM: Compute  pθ(x)&lt;/h1&gt;
 &lt;p&gt;&lt;img
-    src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image11_hu1046719557461577754.webp&#34;
-    alt=&#34;image.png&#34;loading=&#34;lazy&#34;
-    decoding=&#34;async&#34;
-    style=&#34;max-width: 100%; height: auto&#34;
+        src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image11_hu1046719557461577754.webp&#34;
+        alt=&#34;image.png&#34;loading=&#34;lazy&#34;
+        decoding=&#34;async&#34;
+        style=&#34;max-width: 100%; height: auto&#34;
 /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img
-    src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image12_hu5714331477801627746.webp&#34;
-    alt=&#34;image.png&#34;loading=&#34;lazy&#34;
-    decoding=&#34;async&#34;
-    style=&#34;max-width: 100%; height: auto&#34;
+        src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image12_hu5714331477801627746.webp&#34;
+        alt=&#34;image.png&#34;loading=&#34;lazy&#34;
+        decoding=&#34;async&#34;
+        style=&#34;max-width: 100%; height: auto&#34;
 /&gt;&lt;/p&gt;
 &lt;p&gt;在算 DDPM 時，和 VAE 不同的是， Maximize 期望值時，原先的 Encoder 替換成 Diffusion Process，也就是在加 Noise 的那個階段。&lt;/p&gt;
 &lt;p&gt;將式子展開後為以下。&lt;/p&gt;
 &lt;p&gt;&lt;img
-    src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image13_hu6914607551004032243.webp&#34;
-    alt=&#34;image.png&#34;loading=&#34;lazy&#34;
-    decoding=&#34;async&#34;
-    style=&#34;max-width: 100%; height: auto&#34;
+        src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image13_hu6914607551004032243.webp&#34;
+        alt=&#34;image.png&#34;loading=&#34;lazy&#34;
+        decoding=&#34;async&#34;
+        style=&#34;max-width: 100%; height: auto&#34;
 /&gt;&lt;/p&gt;
 &lt;p&gt;從 x1 一直做到 X 大 T&lt;/p&gt;
 &lt;h1 id=&#34;單個-qxt--xt-1-算法&#34;&gt;單個 q(XT | XT-1) 算法&lt;/h1&gt;
 &lt;p&gt;我們首先要先定義一組 &lt;strong&gt;β1 ~ βT&lt;/strong&gt; ，這組數值為自定義的，類似 Learning rate，會根據修改影響 Network。 因為這會影響在每一 t 加上的噪聲&lt;/p&gt;
 &lt;p&gt;（以下李教授有筆誤，應為 Xt = √1-Bt * Xt-1 + √Bt * noise）&lt;/p&gt;
 &lt;p&gt;&lt;img
-    src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image14_hu4225065584480363245.webp&#34;
-    alt=&#34;image.png&#34;loading=&#34;lazy&#34;
-    decoding=&#34;async&#34;
-    style=&#34;max-width: 100%; height: auto&#34;
+        src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image14_hu4225065584480363245.webp&#34;
+        alt=&#34;image.png&#34;loading=&#34;lazy&#34;
+        decoding=&#34;async&#34;
+        style=&#34;max-width: 100%; height: auto&#34;
 /&gt;&lt;/p&gt;
 &lt;h1 id=&#34;如果要算出-qxt--x0&#34;&gt;如果要算出 q(XT | X0)&lt;/h1&gt;
 &lt;p&gt;其實是可以不用一次一次去把它算出來（不用一步一步把它+上噪聲）。&lt;/p&gt;
 &lt;p&gt;從下方可以推導出 q(X2 | X0)&lt;/p&gt;
 &lt;p&gt;&lt;img
-    src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image15_hu11687000071296482028.webp&#34;
-    alt=&#34;image.png&#34;loading=&#34;lazy&#34;
-    decoding=&#34;async&#34;
-    style=&#34;max-width: 100%; height: auto&#34;
+        src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image15_hu11687000071296482028.webp&#34;
+        alt=&#34;image.png&#34;loading=&#34;lazy&#34;
+        decoding=&#34;async&#34;
+        style=&#34;max-width: 100%; height: auto&#34;
 /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img
-    src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image16_hu9828392467330197858.webp&#34;
-    alt=&#34;image.png&#34;loading=&#34;lazy&#34;
-    decoding=&#34;async&#34;
-    style=&#34;max-width: 100%; height: auto&#34;
+        src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image16_hu9828392467330197858.webp&#34;
+        alt=&#34;image.png&#34;loading=&#34;lazy&#34;
+        decoding=&#34;async&#34;
+        style=&#34;max-width: 100%; height: auto&#34;
 /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img
-    src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image17_hu15899879528192190302.webp&#34;
-    alt=&#34;image.png&#34;loading=&#34;lazy&#34;
-    decoding=&#34;async&#34;
-    style=&#34;max-width: 100%; height: auto&#34;
+        src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image17_hu15899879528192190302.webp&#34;
+        alt=&#34;image.png&#34;loading=&#34;lazy&#34;
+        decoding=&#34;async&#34;
+        style=&#34;max-width: 100%; height: auto&#34;
 /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img
-    src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image18_hu17417338038754981558.webp&#34;
-    alt=&#34;image.png&#34;loading=&#34;lazy&#34;
-    decoding=&#34;async&#34;
-    style=&#34;max-width: 100%; height: auto&#34;
+        src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image18_hu17417338038754981558.webp&#34;
+        alt=&#34;image.png&#34;loading=&#34;lazy&#34;
+        decoding=&#34;async&#34;
+        style=&#34;max-width: 100%; height: auto&#34;
 /&gt;&lt;/p&gt;
 &lt;p&gt;因此 q(Xt | X0) 就可以整理成上圖。&lt;/p&gt;
 &lt;h1 id=&#34;噪聲預測&#34;&gt;噪聲預測&lt;/h1&gt;
 &lt;p&gt;&lt;img
-    src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image19_hu9930931952682667437.webp&#34;
-    alt=&#34;image.png&#34;loading=&#34;lazy&#34;
-    decoding=&#34;async&#34;
-    style=&#34;max-width: 100%; height: auto&#34;
+        src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image19_hu9930931952682667437.webp&#34;
+        alt=&#34;image.png&#34;loading=&#34;lazy&#34;
+        decoding=&#34;async&#34;
+        style=&#34;max-width: 100%; height: auto&#34;
 /&gt;&lt;/p&gt;
 &lt;p&gt;從上圖推導至下圖&lt;/p&gt;
 &lt;p&gt;&lt;img
-    src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image20_hu13024121896822166655.webp&#34;
-    alt=&#34;image.png&#34;loading=&#34;lazy&#34;
-    decoding=&#34;async&#34;
-    style=&#34;max-width: 100%; height: auto&#34;
+        src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image20_hu13024121896822166655.webp&#34;
+        alt=&#34;image.png&#34;loading=&#34;lazy&#34;
+        decoding=&#34;async&#34;
+        style=&#34;max-width: 100%; height: auto&#34;
 /&gt;&lt;/p&gt;
 &lt;p&gt;目標就是去最大化，而為了最大化，也就是盡可能地將 KL Divergence 最小化。（看後面的：KL Divergence between 向前 and 向後）&lt;/p&gt;
 &lt;p&gt;算出 KL Divergence 向前 𝑞 ( 𝑥 𝑡 ∣ 𝑥 𝑡 − 1 ) q(x t  ∣x t−1  ) 與向後 𝑃 𝜃 ( 𝑥 𝑡 ∣ 𝑥 𝑡 − 1 ) P θ  (x t  ∣x t−1  ) 的差異。&lt;/p&gt;
@@ -473,38 +473,38 @@
 &lt;p&gt;前面我們已經講過了，如何算出從 X0 到 Xt，也知道要如何算出 xt-1 到 xt-1 的分佈。&lt;/p&gt;
 &lt;p&gt;推倒公式如下&lt;/p&gt;
 &lt;p&gt;&lt;img
-    src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image21_hu1861610094670024240.webp&#34;
-    alt=&#34;image.png&#34;loading=&#34;lazy&#34;
-    decoding=&#34;async&#34;
-    style=&#34;max-width: 100%; height: auto&#34;
+        src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image21_hu1861610094670024240.webp&#34;
+        alt=&#34;image.png&#34;loading=&#34;lazy&#34;
+        decoding=&#34;async&#34;
+        style=&#34;max-width: 100%; height: auto&#34;
 /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img
-    src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image22_hu6266651886128116520.webp&#34;
-    alt=&#34;image.png&#34;loading=&#34;lazy&#34;
-    decoding=&#34;async&#34;
-    style=&#34;max-width: 100%; height: auto&#34;
+        src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image22_hu6266651886128116520.webp&#34;
+        alt=&#34;image.png&#34;loading=&#34;lazy&#34;
+        decoding=&#34;async&#34;
+        style=&#34;max-width: 100%; height: auto&#34;
 /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;kl-divergence-between-向前-and-向後&#34;&gt;KL Divergence between 向前 and 向後&lt;/h2&gt;
 &lt;p&gt;&lt;img
-    src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image23_hu11956993915819504340.webp&#34;
-    alt=&#34;image.png&#34;loading=&#34;lazy&#34;
-    decoding=&#34;async&#34;
-    style=&#34;max-width: 100%; height: auto&#34;
+        src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image23_hu11956993915819504340.webp&#34;
+        alt=&#34;image.png&#34;loading=&#34;lazy&#34;
+        decoding=&#34;async&#34;
+        style=&#34;max-width: 100%; height: auto&#34;
 /&gt;&lt;/p&gt;
 &lt;p&gt;因為向前的 Mean 是不可動的，所以我們唯一可動的就是 P(Xt-1|Xt) 的 Mean ，使兩者離中心點的距離最小，這樣一來，就可以使得 KL Divergence 盡可能的小。&lt;/p&gt;
 &lt;p&gt;&lt;img
-    src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image24_hu14891543979177599620.webp&#34;
-    alt=&#34;image.png&#34;loading=&#34;lazy&#34;
-    decoding=&#34;async&#34;
-    style=&#34;max-width: 100%; height: auto&#34;
+        src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image24_hu14891543979177599620.webp&#34;
+        alt=&#34;image.png&#34;loading=&#34;lazy&#34;
+        decoding=&#34;async&#34;
+        style=&#34;max-width: 100%; height: auto&#34;
 /&gt;&lt;/p&gt;
 &lt;p&gt;所以說以上在做的事情也就是訓練 denoise function ，使得它們兩者越相近越好。&lt;/p&gt;
 &lt;h1 id=&#34;sampling-階段-denoise-function-化簡&#34;&gt;Sampling 階段 Denoise function 化簡&lt;/h1&gt;
 &lt;p&gt;&lt;img
-    src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image25_hu10232692237608793028.webp&#34;
-    alt=&#34;image.png&#34;loading=&#34;lazy&#34;
-    decoding=&#34;async&#34;
-    style=&#34;max-width: 100%; height: auto&#34;
+        src=&#34;https://jabeehugo.netlify.app/notes/241226/DDPM/image25_hu10232692237608793028.webp&#34;
+        alt=&#34;image.png&#34;loading=&#34;lazy&#34;
+        decoding=&#34;async&#34;
+        style=&#34;max-width: 100%; height: auto&#34;
 /&gt;&lt;/p&gt;
 &lt;p&gt;原先右上角的式子的 x0 可以根據我們上面已經寫好關於 x0 和 xt 的關係，在帶回去化簡。&lt;/p&gt;
 &lt;p&gt;而這邊也就回到 Algorithm Sampling 階段的第四行。&lt;/p&gt;
@@ -516,10 +516,10 @@
     
     <item>
       <title>Mac OS 無法連上公共網路的解決方法</title>
-      <link>https://jabee.net/notes/241224/</link>
+      <link>http://localhost:53783/notes/241224/</link>
       <pubDate>Tue, 24 Dec 2024 12:13:34 +0800</pubDate>
       
-      <guid>https://jabee.net/notes/241224/</guid>
+      <guid>http://localhost:53783/notes/241224/</guid>
       <description>&lt;p&gt;今天在桃園圖書館，因為手機訊號不是很好，所以想連 iTaiwan 網路。結果登入的畫面始終就是連不到，相當的納悶。雖然這個情況在 Mac 上面是常態，但我今天怎麼樣就是連不上。查了一下文章，找到簡單的解法如下，以下的方法皆為自己試過可行的。我認為這個可以算是個玄學，因為每個地方 router 設計皆不同，最好的辦法就是多試試。&lt;/p&gt;</description>
       <content:encoded>&lt;p&gt;今天在桃園圖書館，因為手機訊號不是很好，所以想連 iTaiwan 網路。結果登入的畫面始終就是連不到，相當的納悶。雖然這個情況在 Mac 上面是常態，但我今天怎麼樣就是連不上。查了一下文章，找到簡單的解法如下，以下的方法皆為自己試過可行的。我認為這個可以算是個玄學，因為每個地方 router 設計皆不同，最好的辦法就是多試試。&lt;/p&gt;
 &lt;h1 id=&#34;解決不了首先重開機&#34;&gt;解決不了首先重開機&lt;/h1&gt;
@@ -527,10 +527,10 @@
 &lt;h1 id=&#34;可以試試看-router-的-ip--用可以跳出的裝置的-domain&#34;&gt;可以試試看 Router 的 IP &amp;amp;&amp;amp; 用可以跳出的裝置的 Domain&lt;/h1&gt;
 &lt;h2 id=&#34;router-的-ip&#34;&gt;Router 的 IP&lt;/h2&gt;
 &lt;p&gt;&lt;img
-    src=&#34;https://jabeehugo.netlify.app/notes/241224/image-20241224122232417_hu7079258746890741960.webp&#34;
-    alt=&#34;image-20241224122232417&#34;loading=&#34;lazy&#34;
-    decoding=&#34;async&#34;
-    style=&#34;max-width: 100%; height: auto&#34;
+        src=&#34;https://jabeehugo.netlify.app/notes/241224/image-20241224122232417_hu7079258746890741960.webp&#34;
+        alt=&#34;image-20241224122232417&#34;loading=&#34;lazy&#34;
+        decoding=&#34;async&#34;
+        style=&#34;max-width: 100%; height: auto&#34;
 /&gt;&lt;/p&gt;
 &lt;p&gt;打開設定後點選 wifi 的 detail，可以看到 Router 的 IP address ，有些公共網路的登入會直接設定在 Router ，不過最近比較少見到這種的。&lt;/p&gt;
 &lt;h2 id=&#34;使用其他裝置的-domain&#34;&gt;使用其他裝置的 Domain&lt;/h2&gt;
@@ -538,10 +538,10 @@
 &lt;h1 id=&#34;清除-dns-server&#34;&gt;清除 DNS server&lt;/h1&gt;
 &lt;p&gt;以桃園圖書館總館 iTaiwan 為例，若有自定義 DNS server，會導致無法連線。先將 DNS server 清除，並且將 Proxy 關閉，就可以解決。&lt;/p&gt;
 &lt;p&gt;&lt;img
-    src=&#34;https://jabeehugo.netlify.app/notes/241224/image-20241224122812679_hu5485915485506794390.webp&#34;
-    alt=&#34;image-20241224122812679&#34;loading=&#34;lazy&#34;
-    decoding=&#34;async&#34;
-    style=&#34;max-width: 100%; height: auto&#34;
+        src=&#34;https://jabeehugo.netlify.app/notes/241224/image-20241224122812679_hu5485915485506794390.webp&#34;
+        alt=&#34;image-20241224122812679&#34;loading=&#34;lazy&#34;
+        decoding=&#34;async&#34;
+        style=&#34;max-width: 100%; height: auto&#34;
 /&gt;&lt;/p&gt;
 &lt;p&gt;像我原本就有自定義一個 1.1.1.1 ，先將自定義的按 - 清除掉，接著會跳出灰色字，此為 Router 設定的 DNS Sevrers。接著按 OK 馬上就跳出登入畫面了。&lt;/p&gt;
 </content:encoded>
@@ -549,10 +549,10 @@
     
     <item>
       <title>解決 Pop OS 的手勢捏合 &amp;&amp; Scaling 的問題</title>
-      <link>https://jabee.net/notes/241218/</link>
+      <link>http://localhost:53783/notes/241218/</link>
       <pubDate>Wed, 18 Dec 2024 13:53:21 +0800</pubDate>
       
-      <guid>https://jabee.net/notes/241218/</guid>
+      <guid>http://localhost:53783/notes/241218/</guid>
       <description>&lt;p&gt;這兩天在重裝 Surface Go 3 的系統，試了幾個，覺得 Pop OS 最符合我的需求，所以開始安裝。&lt;/p&gt;
 &lt;p&gt;裝是裝好了，但遇到的問題還不少。趁這個機會記錄一下。&lt;/p&gt;
 &lt;h1 id=&#34;gnome-長久以來的-scaling-問題&#34;&gt;Gnome 長久以來的 Scaling 問題&lt;/h1&gt;
@@ -581,10 +581,10 @@
     
     <item>
       <title>為什麼我把threads刪了</title>
-      <link>https://jabee.net/notes/241121-2/</link>
+      <link>http://localhost:53783/notes/241121-2/</link>
       <pubDate>Thu, 21 Nov 2024 13:20:29 +0800</pubDate>
       
-      <guid>https://jabee.net/notes/241121-2/</guid>
+      <guid>http://localhost:53783/notes/241121-2/</guid>
       <description>&lt;h1 id=&#34;刪了&#34;&gt;刪了？&lt;/h1&gt;
 &lt;p&gt;我大概兩個月前把 threads 刪了。&lt;/p&gt;
 &lt;p&gt;但我自認為，我應該早把 threads 刪了。在我刪的一個禮拜後，Joeman發了部影片，證實了我自己的決定是對的。&lt;/p&gt;
@@ -636,10 +636,10 @@
     
     <item>
       <title>我平常會使用的應用程式</title>
-      <link>https://jabee.net/notes/241121/</link>
+      <link>http://localhost:53783/notes/241121/</link>
       <pubDate>Thu, 21 Nov 2024 12:17:53 +0800</pubDate>
       
-      <guid>https://jabee.net/notes/241121/</guid>
+      <guid>http://localhost:53783/notes/241121/</guid>
       <description>&lt;p&gt;持續更新中&lt;/p&gt;
 &lt;h1 id=&#34;作業系統&#34;&gt;作業系統&lt;/h1&gt;
 &lt;ul&gt;
@@ -693,10 +693,10 @@
     
     <item>
       <title>吵得沸沸揚揚的 Mac mini M4 開機按鍵</title>
-      <link>https://jabee.net/notes/241119/</link>
+      <link>http://localhost:53783/notes/241119/</link>
       <pubDate>Tue, 19 Nov 2024 13:34:08 +0800</pubDate>
       
-      <guid>https://jabee.net/notes/241119/</guid>
+      <guid>http://localhost:53783/notes/241119/</guid>
       <description>&lt;p&gt;最近科技圈鬧得沸沸揚揚的肯定是新 mini 的開機按鍵，大家一直在吵按鍵坐在那邊要確定誒之類的話，但我完全覺得沒什麼。&lt;/p&gt;
 &lt;h1 id=&#34;身為麥金塔老用戶&#34;&gt;身為麥金塔老用戶&lt;/h1&gt;
 &lt;p&gt;身為 Mac 6 年老用戶，從 high sierra、mojave 到現今的 Sonoma （還沒更新，我都穩定了才會更新），從黑蘋果一路用到白蘋果，一路用到現在。我可以肯定是，我一年主動的關機次數真的是沒有，大約就是一隻手手指可以數得出來。&lt;/p&gt;</description>
@@ -709,18 +709,18 @@
 &lt;p&gt;另一個層面來想，我真的很討厭，我需要做事的時候，卻要等待開機。用 Mac 回不去的原因就是一個，&lt;strong&gt;這個作業系統整體給我的回應速度是快的&lt;/strong&gt;，我永遠不需要去擔心，當我要做事的時候 -&amp;gt; 按下開機鍵 -&amp;gt; 等 20 秒開機進桌面 -&amp;gt; 等待 30 秒一堆開機自起的應用程式 -&amp;gt; 然後再等待 10 秒開啟你要用的程式，然後開始工作（如果今天你用的不是 pcie 的 ssd，那你可能要把時間再加30秒）。 其實你等待的時間，不只是這些時間，因為這些時間還要再加上額外的因為等太久而去滑手機的時間（其實開機好你還是繼續滑手機）。&lt;/p&gt;
 &lt;h1 id=&#34;所以為什麼按鍵做在下面&#34;&gt;所以為什麼按鍵做在下面&lt;/h1&gt;
 &lt;p&gt;&lt;img
-    src=&#34;https://www.apple.com/tw/mac-mini/images/overview/mac-iphone/mac_iphone_mirroring__f420q7238wuy_large.jpg&#34;
-    alt=&#34;銀色 Mac mini 的正面，展示正面連接埠與指示燈；Mac mini 擺放在 Mac 顯示器下方，螢幕上呈現色彩繽紛的畫面以及 Dock 中的多款 app 圖像&#34;loading=&#34;lazy&#34;
-    decoding=&#34;async&#34;
-    style=&#34;max-width: 100%; height: auto&#34;
+        src=&#34;https://www.apple.com/tw/mac-mini/images/overview/mac-iphone/mac_iphone_mirroring__f420q7238wuy_large.jpg&#34;
+        alt=&#34;銀色 Mac mini 的正面，展示正面連接埠與指示燈；Mac mini 擺放在 Mac 顯示器下方，螢幕上呈現色彩繽紛的畫面以及 Dock 中的多款 app 圖像&#34;loading=&#34;lazy&#34;
+        decoding=&#34;async&#34;
+        style=&#34;max-width: 100%; height: auto&#34;
 /&gt;&lt;/p&gt;
 &lt;p&gt;前面解釋了一堆為什麼不關機，其實也就間接解釋了為什麼按鍵做在下面。因為這個作業系統就是希望你有良好的體驗，不是給你要用才開機，用完就關機的。若是你的手機要用才開機，你還不瘋掉？&lt;/p&gt;
 &lt;h2 id=&#34;不是只有-mac-mini-這樣設計&#34;&gt;不是只有 Mac mini 這樣設計&lt;/h2&gt;
 &lt;p&gt;&lt;img
-    src=&#34;https://jabeehugo.netlify.app/notes/241119/DSC00202.jpg_compressed_hu6514782885107217504.webp&#34;
-    alt=&#34;&#34;loading=&#34;lazy&#34;
-    decoding=&#34;async&#34;
-    style=&#34;max-width: 100%; height: auto&#34;
+        src=&#34;https://jabeehugo.netlify.app/notes/241119/DSC00202.jpg_compressed_hu6514782885107217504.webp&#34;
+        alt=&#34;&#34;loading=&#34;lazy&#34;
+        decoding=&#34;async&#34;
+        style=&#34;max-width: 100%; height: auto&#34;
 /&gt;&lt;/p&gt;
 &lt;p&gt;其實不止 Mac mini，我有在使用的包含 google nest hub 2、nest mini，都有同樣的設計，更跨張的是，他們甚至沒有開機按鍵，這樣的設計我想就是除了你需要移除裝置之外，不希望你關機。&lt;/p&gt;
 &lt;p&gt;所以，對我來說，一個好用的作業系統就是要及時、快速，能不耽誤我的工作，目前真的只有 macOS 能滿足我的體驗。&lt;/p&gt;

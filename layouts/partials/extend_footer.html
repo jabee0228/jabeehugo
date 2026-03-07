@@ -1,0 +1,341 @@
+{{- $pages := where site.RegularPages "Draft" "ne" true -}}
+{{- $pages = where $pages "Params.hiddenInHomeList" "ne" true -}}
+{{- $pages = where $pages "Type" "ne" "page" -}}
+
+<div class="footer-heatmap-wrap">
+    <div class="footer-heatmap-title">Contributions (last 365 days)</div>
+    <div
+        class="footer-heatmap"
+        id="footer-heatmap"
+        aria-label="Contribution heatmap"
+    ></div>
+    <div class="footer-heatmap-legend">
+        <span>Less</span>
+        <span class="lv lv0" aria-hidden="true"></span>
+        <span class="lv lv1" aria-hidden="true"></span>
+        <span class="lv lv2" aria-hidden="true"></span>
+        <span class="lv lv3" aria-hidden="true"></span>
+        <span class="lv lv4" aria-hidden="true"></span>
+        <span>More</span>
+    </div>
+</div>
+
+<style>
+    .footer-heatmap-wrap {
+        max-width: calc(var(--main-width) + var(--gap) * 2);
+        margin: 12px auto 8px;
+        padding: 0 var(--gap);
+        text-align: left;
+    }
+
+    .footer-heatmap-title {
+        font-size: 12px;
+        color: var(--secondary);
+        margin-bottom: 8px;
+    }
+
+    .footer-heatmap {
+        display: grid;
+        grid-template-rows: auto auto;
+        row-gap: 6px;
+        overflow-x: auto;
+        padding-bottom: 4px;
+    }
+
+    .footer-heatmap-months {
+        display: grid;
+        column-gap: 3px;
+        min-width: max-content;
+        font-size: 11px;
+        color: var(--secondary);
+        line-height: 1;
+        padding-left: 0;
+    }
+
+    .footer-heatmap-month {
+        text-align: left;
+        white-space: nowrap;
+    }
+
+    .footer-heatmap-grid {
+        display: grid;
+        grid-auto-flow: column;
+        grid-template-rows: repeat(7, 10px);
+        grid-auto-columns: 10px;
+        gap: 3px;
+        min-width: max-content;
+    }
+
+    .footer-heatmap-cell {
+        width: 10px;
+        height: 10px;
+        border-radius: 2px;
+        background: var(--tertiary-bg);
+        cursor: default;
+    }
+
+    .footer-heatmap-cell.lv0 {
+        background: var(--tertiary-bg);
+    }
+    .footer-heatmap-cell.lv1 {
+        background: #9be9a8;
+    }
+    .footer-heatmap-cell.lv2 {
+        background: #40c463;
+    }
+    .footer-heatmap-cell.lv3 {
+        background: #30a14e;
+    }
+    .footer-heatmap-cell.lv4 {
+        background: #216e39;
+    }
+
+    body.dark .footer-heatmap-cell.lv1 {
+        background: #0e4429;
+    }
+    body.dark .footer-heatmap-cell.lv2 {
+        background: #006d32;
+    }
+    body.dark .footer-heatmap-cell.lv3 {
+        background: #26a641;
+    }
+    body.dark .footer-heatmap-cell.lv4 {
+        background: #39d353;
+    }
+
+    .footer-heatmap-cell.has-post {
+        cursor: pointer;
+    }
+
+    .footer-heatmap-legend {
+        margin-top: 8px;
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 11px;
+        color: var(--secondary);
+    }
+
+    .footer-heatmap-legend .lv {
+        width: 10px;
+        height: 10px;
+        border-radius: 2px;
+        display: inline-block;
+        background: var(--tertiary-bg);
+    }
+
+    .footer-heatmap-legend .lv1 {
+        background: #9be9a8;
+    }
+    .footer-heatmap-legend .lv2 {
+        background: #40c463;
+    }
+    .footer-heatmap-legend .lv3 {
+        background: #30a14e;
+    }
+    .footer-heatmap-legend .lv4 {
+        background: #216e39;
+    }
+
+    body.dark .footer-heatmap-legend .lv1 {
+        background: #0e4429;
+    }
+    body.dark .footer-heatmap-legend .lv2 {
+        background: #006d32;
+    }
+    body.dark .footer-heatmap-legend .lv3 {
+        background: #26a641;
+    }
+    body.dark .footer-heatmap-legend .lv4 {
+        background: #39d353;
+    }
+
+    .footer-heatmap-tooltip {
+        position: absolute;
+        z-index: 9999;
+        background: var(--theme, #fff);
+        color: var(--content, #111);
+        border: 1px solid var(--border, #ddd);
+        border-radius: 6px;
+        padding: 8px 10px;
+        font-size: 12px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+        min-width: 180px;
+        max-width: 320px;
+        pointer-events: none;
+        opacity: 0;
+        transition: opacity 120ms ease;
+    }
+
+    .footer-heatmap-tooltip a {
+        color: inherit;
+        text-decoration: underline;
+    }
+
+    .footer-heatmap-tooltip-date {
+        font-weight: 600;
+        margin-bottom: 6px;
+    }
+
+    .footer-heatmap-tooltip ul {
+        list-style: disc;
+        padding-left: 16px;
+        margin: 0;
+    }
+
+    .footer-heatmap-tooltip li {
+        margin: 2px 0;
+    }
+</style>
+
+<script>
+    (function () {
+      const root = document.getElementById('footer-heatmap');
+      if (!root) return;
+
+      const tooltip = document.createElement('div');
+      tooltip.className = 'footer-heatmap-tooltip';
+      document.body.appendChild(tooltip);
+
+      const MS_PER_DAY = 24 * 60 * 60 * 1000;
+      const WEEKDAY_LABEL_ORDER = 7; // 7 rows (Sun..Sat)
+      const totalDays = 365;
+
+      const postsByDate = new Map();
+      {{- range $pages }}
+        (function () {
+          var dateKey = "{{ .Date.Format "2006-01-02" }}";
+          var item = postsByDate.get(dateKey);
+          if (!item) item = { count: 0, posts: [] };
+          item.count += 1;
+          item.posts.push({
+            title: {{ .Title | jsonify }},
+            url: {{ .RelPermalink | jsonify }}
+          });
+          postsByDate.set(dateKey, item);
+        })();
+      {{- end }}
+
+      const today = new Date();
+      today.setHours(0, 0, 0, 0);
+
+      const dates = [];
+      for (let i = totalDays - 1; i >= 0; i--) {
+        const d = new Date(today.getTime() - i * MS_PER_DAY);
+        dates.push(d);
+      }
+
+      const firstDate = dates[0];
+      const firstWeekday = firstDate.getDay(); // 0 Sun ... 6 Sat
+      const padBefore = firstWeekday;
+
+      const cells = [];
+      for (let i = 0; i < padBefore; i++) cells.push(null);
+      for (const d of dates) cells.push(d);
+
+      while (cells.length % WEEKDAY_LABEL_ORDER !== 0) cells.push(null);
+      const totalWeeks = Math.ceil(cells.length / WEEKDAY_LABEL_ORDER);
+
+      const monthRow = document.createElement('div');
+      monthRow.className = 'footer-heatmap-months';
+      monthRow.style.gridTemplateColumns = `repeat(${totalWeeks}, 10px)`;
+
+      const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+      const monthMarkers = new Map();
+
+      for (let c = 0; c < cells.length; c++) {
+        const d = cells[c];
+        if (!d) continue;
+        if (d.getDate() === 1 || c === padBefore) {
+          const weekIndex = Math.floor(c / WEEKDAY_LABEL_ORDER);
+          if (!monthMarkers.has(weekIndex)) {
+            monthMarkers.set(weekIndex, monthNames[d.getMonth()]);
+          }
+        }
+      }
+
+      for (let w = 0; w < totalWeeks; w++) {
+        const m = document.createElement('div');
+        m.className = 'footer-heatmap-month';
+        m.textContent = monthMarkers.get(w) || '';
+        m.style.gridColumn = String(w + 1);
+        monthRow.appendChild(m);
+      }
+
+      const grid = document.createElement('div');
+      grid.className = 'footer-heatmap-grid';
+
+      function levelByCount(count) {
+        if (count <= 0) return 0;
+        if (count === 1) return 1;
+        if (count === 2) return 2;
+        if (count === 3) return 3;
+        return 4;
+      }
+
+      for (let i = 0; i < cells.length; i++) {
+        const d = cells[i];
+        const cell = document.createElement('a');
+        cell.className = 'footer-heatmap-cell';
+        cell.setAttribute('aria-label', 'No contribution');
+        cell.href = 'javascript:void(0)';
+        cell.tabIndex = -1;
+
+        if (d) {
+          const key = d.toISOString().slice(0, 10);
+          const data = postsByDate.get(key);
+          const count = data ? data.count : 0;
+          const lv = levelByCount(count);
+          cell.classList.add(`lv${lv}`);
+
+          const prettyDate = d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+
+          let tooltipHtml = `<div class="footer-heatmap-tooltip-date">${prettyDate}</div>`;
+          if (data && data.posts.length) {
+            cell.classList.add('has-post');
+            tooltipHtml += '<ul>';
+            for (const p of data.posts) {
+              tooltipHtml += `<li><a href="${p.url}">${p.title}</a></li>`;
+            }
+            tooltipHtml += '</ul>';
+            cell.setAttribute('aria-label', `${prettyDate}, ${data.count} posts`);
+            cell.href = data.posts[0].url;
+            cell.target = '_blank';
+            cell.rel = 'noopener noreferrer';
+          } else {
+            tooltipHtml += '<div>No posts</div>';
+            cell.setAttribute('aria-label', `${prettyDate}, no posts`);
+          }
+
+          cell.addEventListener('mouseenter', () => {
+            tooltip.innerHTML = tooltipHtml;
+            tooltip.style.opacity = '1';
+          });
+
+          cell.addEventListener('mousemove', (e) => {
+            const padding = 12;
+            const rect = tooltip.getBoundingClientRect();
+            let left = e.pageX + padding;
+            let top = e.pageY - rect.height - padding;
+            if (left + rect.width > window.innerWidth) {
+              left = e.pageX - rect.width - padding;
+            }
+            if (top < window.scrollY) {
+              top = e.pageY + padding;
+            }
+            tooltip.style.left = left + 'px';
+            tooltip.style.top = top + 'px';
+          });
+
+          cell.addEventListener('mouseleave', () => {
+            tooltip.style.opacity = '0';
+          });
+        }
+
+        grid.appendChild(cell);
+      }
+
+      root.appendChild(monthRow);
+      root.appendChild(grid);
+    })();
+</script>

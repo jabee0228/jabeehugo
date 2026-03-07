@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>備份 on Jabee&#39;s Blog</title>
-    <link>https://jabee.net/tags/%E5%82%99%E4%BB%BD/</link>
+    <link>http://localhost:53783/tags/%E5%82%99%E4%BB%BD/</link>
     <description>Recent content in 備份 on Jabee&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Fri, 27 Jun 2025 11:18:42 +0800</lastBuildDate><atom:link href="https://jabee.net/tags/%E5%82%99%E4%BB%BD/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 Jun 2025 11:18:42 +0800</lastBuildDate><atom:link href="http://localhost:53783/tags/%E5%82%99%E4%BB%BD/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>NAS 如何融入我的生活：超過 1200 天的深度使用心得</title>
-      <link>https://jabee.net/notes/250627/</link>
+      <link>http://localhost:53783/notes/250627/</link>
       <pubDate>Fri, 27 Jun 2025 11:18:42 +0800</pubDate>
       
-      <guid>https://jabee.net/notes/250627/</guid>
+      <guid>http://localhost:53783/notes/250627/</guid>
       <description>&lt;p&gt;Jabee我的人生座右銘就是 &lt;strong&gt;資料要備份，Format要謹慎。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;一直以來，我都把資料的儲存看作是使用電腦設備最重要也最需要注意的事情，畢竟資料就像紙本資料一樣，需要整理、存放。不同在於使用電腦儲存資料易存也易消失。&lt;/p&gt;</description>
       <content:encoded>&lt;p&gt;Jabee我的人生座右銘就是 &lt;strong&gt;資料要備份，Format要謹慎。&lt;/strong&gt;&lt;/p&gt;
@@ -68,17 +68,17 @@
 &lt;p&gt;2025年的今天，各家手機廠商的相片系統都在捲 AI，而群暉還在用他們用 OpenCV 研發的超級爛辨識，我只能說那個 AI 功能還不如不開（所以我現在沒有在用該功能），除此之外也沒什麼好抱怨的。&lt;/p&gt;
 &lt;p&gt;另外網頁版的功能會稍微多一點，可以篩選鏡頭、相機型號、光圈等等，還算方便。但這個功能並沒有辦法在手機上操作。&lt;/p&gt;
 &lt;p&gt;&lt;img
-    src=&#34;https://jabeehugo.netlify.app/notes/250627/image_hu16925846210583725133.webp&#34;
-    alt=&#34;image.png&#34;loading=&#34;lazy&#34;
-    decoding=&#34;async&#34;
-    style=&#34;max-width: 100%; height: auto&#34;
+        src=&#34;https://jabeehugo.netlify.app/notes/250627/image_hu16925846210583725133.webp&#34;
+        alt=&#34;image.png&#34;loading=&#34;lazy&#34;
+        decoding=&#34;async&#34;
+        style=&#34;max-width: 100%; height: auto&#34;
 /&gt;&lt;/p&gt;
 &lt;p&gt;另外照片也可以直接分享給其他 User，這個很方便（但我這台主機也只有我跟我老爸）。&lt;/p&gt;
 &lt;p&gt;&lt;img
-    src=&#34;https://jabeehugo.netlify.app/notes/250627/image1_hu17342854800143226045.webp&#34;
-    alt=&#34;image.png&#34;loading=&#34;lazy&#34;
-    decoding=&#34;async&#34;
-    style=&#34;max-width: 100%; height: auto&#34;
+        src=&#34;https://jabeehugo.netlify.app/notes/250627/image1_hu17342854800143226045.webp&#34;
+        alt=&#34;image.png&#34;loading=&#34;lazy&#34;
+        decoding=&#34;async&#34;
+        style=&#34;max-width: 100%; height: auto&#34;
 /&gt;&lt;/p&gt;
 &lt;h2 id=&#34;synology-drive&#34;&gt;Synology Drive&lt;/h2&gt;
 &lt;p&gt;Synology Drive 可以透過 client 的 App 幫助隨時同步本地資料。&lt;/p&gt;

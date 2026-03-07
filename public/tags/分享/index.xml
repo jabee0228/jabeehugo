@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>分享 on Jabee&#39;s Blog</title>
-    <link>https://jabee.net/tags/%E5%88%86%E4%BA%AB/</link>
+    <link>http://localhost:53783/tags/%E5%88%86%E4%BA%AB/</link>
     <description>Recent content in 分享 on Jabee&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Thu, 05 Mar 2026 09:34:09 +0800</lastBuildDate><atom:link href="https://jabee.net/tags/%E5%88%86%E4%BA%AB/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Mar 2026 09:34:09 +0800</lastBuildDate><atom:link href="http://localhost:53783/tags/%E5%88%86%E4%BA%AB/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>從3個維度拆解22歲理工男的理想日常</title>
-      <link>https://jabee.net/notes/260305/</link>
+      <link>http://localhost:53783/notes/260305/</link>
       <pubDate>Thu, 05 Mar 2026 09:34:09 +0800</pubDate>
       
-      <guid>https://jabee.net/notes/260305/</guid>
+      <guid>http://localhost:53783/notes/260305/</guid>
       <description>&lt;p&gt;這是我的「&lt;a href=&#34;https://blogblog.club/party&#34;&gt;BlogBlog 同樂會 - 2026 年 3 月&lt;/a&gt;」的投稿文章。本月主題是「&lt;a href=&#34;https://alexhsu.com/perfect-days&#34;&gt;理想的日常&lt;/a&gt;」，由 &lt;a href=&#34;https://alexhsu.com/&#34;&gt;Alex Hsu&lt;/a&gt; 主持。如果你有自己的部落格，歡迎一起來參加！&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;Jabee 我算是滿會幻想的，對於自己的人生確實有不少憧憬，藉著本期的 BlogBlog 同樂會 也來和大家分享一下自己對人生的嚮往～&lt;/p&gt;</description>
@@ -20,7 +20,7 @@
 &lt;hr&gt;
 &lt;p&gt;Jabee 我算是滿會幻想的，對於自己的人生確實有不少憧憬，藉著本期的 BlogBlog 同樂會 也來和大家分享一下自己對人生的嚮往～&lt;/p&gt;
 &lt;h1 id=&#34;維度一從家庭角度&#34;&gt;維度一：從家庭角度&lt;/h1&gt;
-&lt;p&gt;雖然每次在外面看到家長教育搗蛋的小孩，我看了不僅是直搖頭還覺得恐怖。但 Jabee 我其實很喜歡小孩的（近期特別迷雙胞胎 &lt;a href=&#34;&#34;&gt;@mumuboza&lt;/a&gt;），我覺得我堂外甥不哭的時候也很可愛哈哈哈哈。&lt;/p&gt;
+&lt;p&gt;雖然每次在外面看到家長教育搗蛋的小孩，我看了不僅是直搖頭還覺得恐怖。但 Jabee 我其實很喜歡小孩的（近期特別迷雙胞胎 &lt;a href=&#34;https://www.instagram.com/mumuboza/&#34;&gt;@mumuboza&lt;/a&gt;），我覺得我堂外甥不哭的時候也很可愛哈哈哈哈。&lt;/p&gt;
 &lt;p&gt;總體來說，我還是希望未來我能組一個家庭，有兩個小孩，最好一男一女。我甚至在很久以前就幫我女兒取好英文名了-Amber，源自 &amp;laquo;俠盜聯盟&amp;raquo; 這部港片中的 Amber，由張靜初飾演（沒辦法，這部港片張靜初演得太帥了xdd）。&lt;/p&gt;
 &lt;p&gt;其實現在有不少所謂的頂客家族，但其實據我觀察下來，家庭中少了孩子還是會少下滿多快樂的，雖然養小孩真的還滿花錢的，但快樂不是錢買得到的！&lt;/p&gt;
 &lt;p&gt;當然以上還是建立在有經濟的基礎上，Jabee 我認為沒錢還生小孩的父母滿不負責任的。當然有人就會問啦，如果未來我的老婆不想生小孩呢？我認為領養小孩也是一個很不錯的選擇，自己生的未必比較好，重點還是在有沒有能力扶養小孩。&lt;/p&gt;
@@ -41,10 +41,10 @@
     
     <item>
       <title>Empowering Traditional Industry with AI and Global Connectivity</title>
-      <link>https://jabee.net/notes/260123/</link>
+      <link>http://localhost:53783/notes/260123/</link>
       <pubDate>Fri, 23 Jan 2026 17:39:47 +0800</pubDate>
       
-      <guid>https://jabee.net/notes/260123/</guid>
+      <guid>http://localhost:53783/notes/260123/</guid>
       <description>&lt;p&gt;In the second half of 2025, I participated in the Taoyuan AI University program, an experience that gave me a profound understanding of the critical importance of AI and digitalization in traditional industries.&lt;/p&gt;
 &lt;p&gt;My team and I had the privilege of partnering with Hsuan Jui Co., Ltd. (宣瑞股份有限公司) to spearhead their digital transformation. During this period, I focused on developing and implementing a Digital Quotation System enhanced with AI assistance. This solution successfully saved the company over one hour of processing time per order quotation, drastically improving operational efficiency and allowing the team to focus on high-value tasks.&lt;/p&gt;</description>
       <content:encoded>&lt;p&gt;In the second half of 2025, I participated in the Taoyuan AI University program, an experience that gave me a profound understanding of the critical importance of AI and digitalization in traditional industries.&lt;/p&gt;
@@ -112,13 +112,13 @@
      &#34;viewerGalleryTHeight&#34;: 40
 }&#39;&gt;
     
-&lt;a href=&#34;https://jabee.net/notes/260123/1_hu12266461274400166648.webp&#34; data-ngThumb=&#34;/notes/260123/1_hu12266461274400166648.webp&#34;
+&lt;a href=&#34;http://localhost:53783/notes/260123/1_hu12266461274400166648.webp&#34; data-ngThumb=&#34;/notes/260123/1_hu12266461274400166648.webp&#34;
     &gt;&lt;/a
 &gt;
-&lt;a href=&#34;https://jabee.net/notes/260123/2_hu3305694126774988820.webp&#34; data-ngThumb=&#34;/notes/260123/2_hu3305694126774988820.webp&#34;
+&lt;a href=&#34;http://localhost:53783/notes/260123/2_hu3305694126774988820.webp&#34; data-ngThumb=&#34;/notes/260123/2_hu3305694126774988820.webp&#34;
     &gt;&lt;/a
 &gt;
-&lt;a href=&#34;https://jabee.net/notes/260123/3_hu12693476018805581299.webp&#34; data-ngThumb=&#34;/notes/260123/3_hu12693476018805581299.webp&#34;
+&lt;a href=&#34;http://localhost:53783/notes/260123/3_hu12693476018805581299.webp&#34; data-ngThumb=&#34;/notes/260123/3_hu12693476018805581299.webp&#34;
     &gt;&lt;/a
 &gt;
 
@@ -131,10 +131,10 @@
     
     <item>
       <title>分享：Jeremy Lin&#39;s battle against anxiety 林書豪談賽前焦慮</title>
-      <link>https://jabee.net/notes/241215/</link>
+      <link>http://localhost:53783/notes/241215/</link>
       <pubDate>Sun, 15 Dec 2024 12:54:03 +0800</pubDate>
       
-      <guid>https://jabee.net/notes/241215/</guid>
+      <guid>http://localhost:53783/notes/241215/</guid>
       <description>&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
       &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/3-mQO4c80B0?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
       &gt;&lt;/iframe&gt;
