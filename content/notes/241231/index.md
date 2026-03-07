@@ -27,7 +27,7 @@ ShowRssButtonInSectionTermList: true
 UseHugoToc: false
 
 cover:
-  image: /images/cover.jpg
+  image: /images/cover.webp
   caption: 
 
 # {{< figure src="/images/cover.jpg" caption="標題" height="400">}}
@@ -71,6 +71,3 @@ cover:
 我覺得最難受的大概就是 YT，我原先每天使用的頻率相當高，所以目前替代方案就是少看 YT，多看 B站。我個人認為， YT 目前的廣告已經多到不能看了。
 
 至於音樂的部分，本週我馬上自架了 Navidrome ，讓我可以繼續聽音樂，不過實際上真的不會比 Spotify 還要好用...
-
-
-

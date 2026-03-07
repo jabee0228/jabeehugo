@@ -112,12 +112,15 @@
      &#34;viewerGalleryTHeight&#34;: 40
 }&#39;&gt;
     
-&lt;a href=&#34;1.png&#34; data-ngThumb=&#34;1.png&#34;&gt;&lt;/a&gt;
-
-&lt;a href=&#34;2.png&#34; data-ngThumb=&#34;2.png&#34;&gt;&lt;/a&gt;
-
-&lt;a href=&#34;3.png&#34; data-ngThumb=&#34;3.png&#34;&gt;&lt;/a&gt;
-
+&lt;a href=&#34;https://jabee.net/notes/260123/1_hu12266461274400166648.webp&#34; data-ngThumb=&#34;/notes/260123/1_hu12266461274400166648.webp&#34;
+    &gt;&lt;/a
+&gt;
+&lt;a href=&#34;https://jabee.net/notes/260123/2_hu3305694126774988820.webp&#34; data-ngThumb=&#34;/notes/260123/2_hu3305694126774988820.webp&#34;
+    &gt;&lt;/a
+&gt;
+&lt;a href=&#34;https://jabee.net/notes/260123/3_hu12693476018805581299.webp&#34; data-ngThumb=&#34;/notes/260123/3_hu12693476018805581299.webp&#34;
+    &gt;&lt;/a
+&gt;
 
 &lt;/div&gt;
 &lt;/body&gt;

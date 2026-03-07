@@ -25,7 +25,7 @@ ShowRssButtonInSectionTermList: true
 UseHugoToc: false
 
 cover:
-  image: /images/cover.jpg
+  image: /images/cover.webp
   caption: 
 
 ---
@@ -43,4 +43,3 @@ cover:
 本週，還考了一個很重要的考試，通常這個考試我都會準備 4~5 天，因為光把書書讀懂，大概會花一到兩天的時間，然後六日一沒有上課，我就會全力衝刺準備考試。但這次我從星期日早上開始讀，而且兩天都沒有很認真讀書。可以算是大學以來，少數我沒有準備完全就上去考試。不過，剛好讀的都有考，雖然也不保證都對，但至少不會太差，也算是小確幸。
 
 希望接下來我會繼續努力更新鴨！
-

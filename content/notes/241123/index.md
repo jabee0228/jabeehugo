@@ -25,7 +25,7 @@ ShowRssButtonInSectionTermList: true
 UseHugoToc: false
 
 cover:
-  image: /images/cover.jpg
+  image: /images/cover.webp
   caption: 
 
 ---
@@ -60,4 +60,3 @@ cover:
 <br>
 
 所以如果有早餐店 d4 不給蛋的，或是願意讓我換其他的，我都會很愛吃，中原的元氣小豬是之一，而且很好吃、又便宜！
-

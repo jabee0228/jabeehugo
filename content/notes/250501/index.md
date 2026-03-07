@@ -27,7 +27,7 @@ ShowRssButtonInSectionTermList: true
 UseHugoToc: false
 
 cover:
-  image: /images/cover.jpg
+  image: /images/cover.webp
   caption: 
 
 # {{< figure src="/images/cover.jpg" caption="標題" height="400">}}
@@ -86,6 +86,3 @@ cover:
 我覺得如果朋友連我不陪他們抽煙都會不高興的話，那我想這樣的人也不值得做朋友吧xd。真正會尊重你不抽煙，才是真朋友！
 
 我從來沒有任何一個朋友問我要不要抽一口，通常都是我自己開玩笑說我想抽，菸都還沒放到嘴巴我就嗆到死了xdddd。
-
-
-

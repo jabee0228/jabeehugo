@@ -26,7 +26,7 @@ ShowRssButtonInSectionTermList: true
 UseHugoToc: false
 
 cover:
-  image: /images/cover.jpg
+  image: /images/cover.webp
   caption: 
 
 ---
@@ -70,5 +70,3 @@ cover:
 - 稚晖君：頂級手做型 up
 
 - 林亦LYi：搞 AI 算法的，也是非常厲害的老哥
-
-  

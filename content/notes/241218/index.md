@@ -28,7 +28,7 @@ UseHugoToc: false
 
 
 cover:
-  image: cover.png
+  image: /images/cover.webp
   caption: 
 
 ---
@@ -76,4 +76,3 @@ sudo systemctl restart gdm3
 這樣一來就可以使用捏合了。
 
 下次再來分享 Surface Go 3 的心得。
-

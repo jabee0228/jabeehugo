@@ -1,1 +1,15 @@
-<a href="{{ .Get "src" }}" data-ngThumb="{{ .Get "src" }}">{{ .Get "title" }}</a>
+{{- $src := .Get "src" -}} {{- $title := .Get "title" -}} {{- $img := "" -}} {{-
+with .Page.Resources.GetMatch $src -}} {{- $img = . -}} {{- end -}} {{- if not
+$img -}} {{- $normalized := $src | strings.TrimPrefix "./" | strings.TrimPrefix
+"/" -}} {{- with .Page.Resources.GetMatch $normalized -}} {{- $img = . -}} {{-
+end -}} {{- end -}} {{- if not $img -}} {{- $global := $src | strings.TrimPrefix
+"/" -}} {{- with resources.Get $global -}} {{- $img = . -}} {{- end -}} {{- end
+-}} {{- if $img -}} {{- $webp := $img.Process "webp q85" -}}
+<a href="{{ $webp.RelPermalink }}" data-ngThumb="{{ $webp.RelPermalink }}"
+    >{{ $title }}</a
+>
+{{- else -}}
+<a href="{{ $src | safeURL }}" data-ngThumb="{{ $src | safeURL }}"
+    >{{ $title }}</a
+>
+{{- end -}}

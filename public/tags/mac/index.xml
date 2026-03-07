@@ -19,13 +19,23 @@
 &lt;p&gt;首先最重要就是先將 cache 清掉，這邊建議直接重開機最快，有機率重開機就會自動跳出。如果重開機還是解決不了，那請繼續往下看。&lt;/p&gt;
 &lt;h1 id=&#34;可以試試看-router-的-ip--用可以跳出的裝置的-domain&#34;&gt;可以試試看 Router 的 IP &amp;amp;&amp;amp; 用可以跳出的裝置的 Domain&lt;/h1&gt;
 &lt;h2 id=&#34;router-的-ip&#34;&gt;Router 的 IP&lt;/h2&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/notes/241224/image-20241224122232417.png&#34; type=&#34;&#34; alt=&#34;image-20241224122232417&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img
+    src=&#34;https://jabeehugo.netlify.app/notes/241224/image-20241224122232417_hu7079258746890741960.webp&#34;
+    alt=&#34;image-20241224122232417&#34;loading=&#34;lazy&#34;
+    decoding=&#34;async&#34;
+    style=&#34;max-width: 100%; height: auto&#34;
+/&gt;&lt;/p&gt;
 &lt;p&gt;打開設定後點選 wifi 的 detail，可以看到 Router 的 IP address ，有些公共網路的登入會直接設定在 Router ，不過最近比較少見到這種的。&lt;/p&gt;
 &lt;h2 id=&#34;使用其他裝置的-domain&#34;&gt;使用其他裝置的 Domain&lt;/h2&gt;
 &lt;p&gt;可以借用其他裝置，如果可以跳出登入畫面，那就用該 Domain ，paste 試看看。&lt;/p&gt;
 &lt;h1 id=&#34;清除-dns-server&#34;&gt;清除 DNS server&lt;/h1&gt;
 &lt;p&gt;以桃園圖書館總館 iTaiwan 為例，若有自定義 DNS server，會導致無法連線。先將 DNS server 清除，並且將 Proxy 關閉，就可以解決。&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://jabeehugo.netlify.app/notes/241224/image-20241224122812679.png&#34; type=&#34;&#34; alt=&#34;image-20241224122812679&#34;  /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img
+    src=&#34;https://jabeehugo.netlify.app/notes/241224/image-20241224122812679_hu5485915485506794390.webp&#34;
+    alt=&#34;image-20241224122812679&#34;loading=&#34;lazy&#34;
+    decoding=&#34;async&#34;
+    style=&#34;max-width: 100%; height: auto&#34;
+/&gt;&lt;/p&gt;
 &lt;p&gt;像我原本就有自定義一個 1.1.1.1 ，先將自定義的按 - 清除掉，接著會跳出灰色字，此為 Router 設定的 DNS Sevrers。接著按 OK 馬上就跳出登入畫面了。&lt;/p&gt;
 </content:encoded>
     </item>
