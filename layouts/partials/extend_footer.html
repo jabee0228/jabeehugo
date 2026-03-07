@@ -1,6 +1,6 @@
-{{- $pages := where site.RegularPages "Draft" "ne" true -}}
-{{- $pages = where $pages "Params.hiddenInHomeList" "ne" true -}}
-{{- $pages = where $pages "Type" "ne" "page" -}}
+{{- $pages := where site.RegularPages "Draft" "ne" true -}} {{- $pages = where
+$pages "Params.hiddenInHomeList" "ne" true -}} {{- $pages = where $pages "Type"
+"ne" "page" -}}
 
 <div class="footer-heatmap-wrap">
     <div class="footer-heatmap-title">Contributions (last 365 days)</div>
@@ -200,6 +200,7 @@
       const MS_PER_DAY = 24 * 60 * 60 * 1000;
       const WEEKDAY_LABEL_ORDER = 7; // 7 rows (Sun..Sat)
       const totalDays = 365;
+      const cleanUrl = (url) => (typeof url === 'string' ? url.replace(/^\"|\"$/g, '') : url);
 
       const postsByDate = new Map();
       {{- range $pages }}
@@ -295,11 +296,11 @@
             cell.classList.add('has-post');
             tooltipHtml += '<ul>';
             for (const p of data.posts) {
-              tooltipHtml += `<li><a href="${p.url}">${p.title}</a></li>`;
+              tooltipHtml += `<li><a href="${cleanUrl(p.url)}">${p.title}</a></li>`;
             }
             tooltipHtml += '</ul>';
             cell.setAttribute('aria-label', `${prettyDate}, ${data.count} posts`);
-            cell.href = data.posts[0].url;
+            cell.href = cleanUrl(data.posts[0].url);
             cell.target = '_blank';
             cell.rel = 'noopener noreferrer';
           } else {
