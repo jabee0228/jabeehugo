@@ -1,0 +1,60 @@
+{{- $src := .Destination -}} {{- $alt := .Text | default "" -}} {{- $title :=
+.Title -}} {{- /* Skip processing for remote/data URLs */ -}} {{- $isRemote :=
+or (hasPrefix $src "http://") (hasPrefix $src "https://") (hasPrefix $src "//")
+(hasPrefix $src "data:") -}} {{- if $isRemote -}}
+<img
+    src="{{ $src | safeURL }}"
+    alt="{{ $alt }}"
+    {{-
+    with
+    $title
+    }}
+    title="{{ . }}"
+    {{
+    end
+    -}}
+    loading="lazy"
+    decoding="async"
+    style="max-width: 100%; height: auto"
+/>
+{{- else -}} {{- $img := "" -}} {{- /* 1) page bundle direct match, e.g.
+images/foo.jpg */ -}} {{- with .Page.Resources.GetMatch $src -}} {{- $img = .
+-}} {{- end -}} {{- /* 2) normalize relative paths and retry in page bundle */
+-}} {{- if not $img -}} {{- $normalized := $src | strings.TrimPrefix "./" |
+strings.TrimPrefix "/" -}} {{- with .Page.Resources.GetMatch $normalized -}} {{-
+$img = . -}} {{- end -}} {{- end -}} {{- /* 3) fallback to global assets lookup
+*/ -}} {{- if not $img -}} {{- $global := $src | strings.TrimPrefix "/" -}} {{-
+with resources.Get $global -}} {{- $img = . -}} {{- end -}} {{- end -}} {{- if
+$img -}} {{- $webp := $img.Process "webp q85" -}}
+<img
+    src="{{ $webp.RelPermalink }}"
+    alt="{{ $alt }}"
+    {{-
+    with
+    $title
+    }}
+    title="{{ . }}"
+    {{
+    end
+    -}}
+    loading="lazy"
+    decoding="async"
+    style="max-width: 100%; height: auto"
+/>
+{{- else -}}
+<img
+    src="{{ $src | safeURL }}"
+    alt="{{ $alt }}"
+    {{-
+    with
+    $title
+    }}
+    title="{{ . }}"
+    {{
+    end
+    -}}
+    loading="lazy"
+    decoding="async"
+    style="max-width: 100%; height: auto"
+/>
+{{- end -}} {{- end -}}
