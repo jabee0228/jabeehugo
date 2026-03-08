@@ -25,7 +25,7 @@ $pages "Params.hiddenInHomeList" "ne" true -}} {{- $pages = where $pages "Type"
         max-width: calc(var(--main-width) + var(--gap) * 2);
         margin: 12px auto 8px;
         padding: 0 var(--gap);
-        text-align: left;
+        text-align: center;
     }
 
     .footer-heatmap-title {
@@ -40,6 +40,8 @@ $pages "Params.hiddenInHomeList" "ne" true -}} {{- $pages = where $pages "Type"
         row-gap: 6px;
         overflow-x: auto;
         padding-bottom: 4px;
+        justify-content: center;
+        justify-items: center;
     }
 
     .footer-heatmap-months {
@@ -50,10 +52,12 @@ $pages "Params.hiddenInHomeList" "ne" true -}} {{- $pages = where $pages "Type"
         color: var(--secondary);
         line-height: 1;
         padding-left: 0;
+        justify-content: center;
+        margin: 0 auto;
     }
 
     .footer-heatmap-month {
-        text-align: left;
+        text-align: center;
         white-space: nowrap;
     }
 
@@ -64,6 +68,8 @@ $pages "Params.hiddenInHomeList" "ne" true -}} {{- $pages = where $pages "Type"
         grid-auto-columns: 10px;
         gap: 3px;
         min-width: max-content;
+        justify-content: center;
+        margin: 0 auto;
     }
 
     .footer-heatmap-cell {
@@ -199,7 +205,9 @@ $pages "Params.hiddenInHomeList" "ne" true -}} {{- $pages = where $pages "Type"
 
       const MS_PER_DAY = 24 * 60 * 60 * 1000;
       const WEEKDAY_LABEL_ORDER = 7; // 7 rows (Sun..Sat)
-      const totalDays = 365;
+      const isNarrow = window.matchMedia('(max-width: 699px)').matches;
+      const narrowWeeks = 22;
+      const totalDays = isNarrow ? narrowWeeks * WEEKDAY_LABEL_ORDER : 365;
       const cleanUrl = (url) => (typeof url === 'string' ? url.replace(/^\"|\"$/g, '') : url);
 
       const postsByDate = new Map();
@@ -221,14 +229,29 @@ $pages "Params.hiddenInHomeList" "ne" true -}} {{- $pages = where $pages "Type"
       today.setHours(0, 0, 0, 0);
 
       const dates = [];
-      for (let i = totalDays - 1; i >= 0; i--) {
-        const d = new Date(today.getTime() - i * MS_PER_DAY);
-        dates.push(d);
+      if (isNarrow) {
+        const todayWeekStart = new Date(today);
+        todayWeekStart.setDate(today.getDate() - today.getDay());
+        const startDate = new Date(todayWeekStart.getTime() - (narrowWeeks - 1) * WEEKDAY_LABEL_ORDER * MS_PER_DAY);
+
+        for (let i = 0; i < narrowWeeks * WEEKDAY_LABEL_ORDER; i++) {
+          const d = new Date(startDate.getTime() + i * MS_PER_DAY);
+          if (d > today) {
+            dates.push(null);
+          } else {
+            dates.push(d);
+          }
+        }
+      } else {
+        for (let i = totalDays - 1; i >= 0; i--) {
+          const d = new Date(today.getTime() - i * MS_PER_DAY);
+          dates.push(d);
+        }
       }
 
-      const firstDate = dates[0];
+      const firstDate = dates.find((d) => d) || today;
       const firstWeekday = firstDate.getDay(); // 0 Sun ... 6 Sat
-      const padBefore = firstWeekday;
+      const padBefore = isNarrow ? 0 : firstWeekday;
 
       const cells = [];
       for (let i = 0; i < padBefore; i++) cells.push(null);
