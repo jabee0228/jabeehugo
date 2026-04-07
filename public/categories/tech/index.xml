@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>科技 on Jabee&#39;s Blog</title>
-    <link>http://localhost:51817/categories/tech/</link>
+    <link>https://jabee.net/categories/tech/</link>
     <description>Recent content in 科技 on Jabee&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Tue, 17 Feb 2026 18:39:52 +0800</lastBuildDate><atom:link href="http://localhost:51817/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 Feb 2026 18:39:52 +0800</lastBuildDate><atom:link href="https://jabee.net/categories/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2026的新年新事物：長輩圖也升級成AI版了？</title>
-      <link>http://localhost:51817/notes/260217/</link>
+      <link>https://jabee.net/notes/260217/</link>
       <pubDate>Tue, 17 Feb 2026 18:39:52 +0800</pubDate>
       
-      <guid>http://localhost:51817/notes/260217/</guid>
+      <guid>https://jabee.net/notes/260217/</guid>
       <description>&lt;p&gt;各位讀者新年快樂呀！今年一樣祝各位馬到成功，馬上拿 Offer，馬上自摸？&lt;/p&gt;
 &lt;h1 id=&#34;新一代的長輩圖要出現了&#34;&gt;新一代的長輩圖要出現了？&lt;/h1&gt;
 &lt;p&gt;昨天吃完年夜飯有個有趣的小事情可以和各位讀者分享，我的大伯竟然問我要怎麼用 AI 生成新年卡片，看來今年會出現不少 AI 長輩圖喔哈哈哈哈。&lt;/p&gt;</description>
@@ -27,10 +27,10 @@
     
     <item>
       <title>字節跳動用 Seedence 2.0 給地球帶來震撼性的 AI 新年禮包</title>
-      <link>http://localhost:51817/notes/260212/</link>
+      <link>https://jabee.net/notes/260212/</link>
       <pubDate>Thu, 12 Feb 2026 15:45:43 +0800</pubDate>
       
-      <guid>http://localhost:51817/notes/260212/</guid>
+      <guid>https://jabee.net/notes/260212/</guid>
       <description>&lt;p&gt;最近看了影視颶風介紹了近期的 Seedence 2.0，這東西可不是跟其他 AI 模型一樣，搞個開源假裝很厲害炒個股票這麼簡單而已，而是在 AI 影片生成上有實質上的突破。&lt;/p&gt;</description>
       <content:encoded>&lt;p&gt;最近看了影視颶風介紹了近期的 Seedence 2.0，這東西可不是跟其他 AI 模型一樣，搞個開源假裝很厲害炒個股票這麼簡單而已，而是在 AI 影片生成上有實質上的突破。&lt;/p&gt;
 &lt;h1 id=&#34;解決過去的非連貫性分鏡&#34;&gt;解決過去的非連貫性分鏡&lt;/h1&gt;
@@ -51,10 +51,10 @@
     
     <item>
       <title>Empowering Traditional Industry with AI and Global Connectivity</title>
-      <link>http://localhost:51817/notes/260123/</link>
+      <link>https://jabee.net/notes/260123/</link>
       <pubDate>Fri, 23 Jan 2026 17:39:47 +0800</pubDate>
       
-      <guid>http://localhost:51817/notes/260123/</guid>
+      <guid>https://jabee.net/notes/260123/</guid>
       <description>&lt;p&gt;In the second half of 2025, I participated in the Taoyuan AI University program, an experience that gave me a profound understanding of the critical importance of AI and digitalization in traditional industries.&lt;/p&gt;
 &lt;p&gt;My team and I had the privilege of partnering with Hsuan Jui Co., Ltd. (宣瑞股份有限公司) to spearhead their digital transformation. During this period, I focused on developing and implementing a Digital Quotation System enhanced with AI assistance. This solution successfully saved the company over one hour of processing time per order quotation, drastically improving operational efficiency and allowing the team to focus on high-value tasks.&lt;/p&gt;</description>
       <content:encoded>&lt;p&gt;In the second half of 2025, I participated in the Taoyuan AI University program, an experience that gave me a profound understanding of the critical importance of AI and digitalization in traditional industries.&lt;/p&gt;
@@ -122,13 +122,13 @@
      &#34;viewerGalleryTHeight&#34;: 40
 }&#39;&gt;
     
-&lt;a href=&#34;http://localhost:51817/notes/260123/1_hu12266461274400166648.webp&#34; data-ngThumb=&#34;/notes/260123/1_hu12266461274400166648.webp&#34;
+&lt;a href=&#34;https://jabee.net/notes/260123/1_hu12266461274400166648.webp&#34; data-ngThumb=&#34;/notes/260123/1_hu12266461274400166648.webp&#34;
     &gt;&lt;/a
 &gt;
-&lt;a href=&#34;http://localhost:51817/notes/260123/2_hu3305694126774988820.webp&#34; data-ngThumb=&#34;/notes/260123/2_hu3305694126774988820.webp&#34;
+&lt;a href=&#34;https://jabee.net/notes/260123/2_hu3305694126774988820.webp&#34; data-ngThumb=&#34;/notes/260123/2_hu3305694126774988820.webp&#34;
     &gt;&lt;/a
 &gt;
-&lt;a href=&#34;http://localhost:51817/notes/260123/3_hu12693476018805581299.webp&#34; data-ngThumb=&#34;/notes/260123/3_hu12693476018805581299.webp&#34;
+&lt;a href=&#34;https://jabee.net/notes/260123/3_hu12693476018805581299.webp&#34; data-ngThumb=&#34;/notes/260123/3_hu12693476018805581299.webp&#34;
     &gt;&lt;/a
 &gt;
 
@@ -141,10 +141,10 @@
     
     <item>
       <title>NAS 如何融入我的生活：超過 1200 天的深度使用心得</title>
-      <link>http://localhost:51817/notes/250627/</link>
+      <link>https://jabee.net/notes/250627/</link>
       <pubDate>Fri, 27 Jun 2025 11:18:42 +0800</pubDate>
       
-      <guid>http://localhost:51817/notes/250627/</guid>
+      <guid>https://jabee.net/notes/250627/</guid>
       <description>&lt;p&gt;Jabee我的人生座右銘就是 &lt;strong&gt;資料要備份，Format要謹慎。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;一直以來，我都把資料的儲存看作是使用電腦設備最重要也最需要注意的事情，畢竟資料就像紙本資料一樣，需要整理、存放。不同在於使用電腦儲存資料易存也易消失。&lt;/p&gt;</description>
       <content:encoded>&lt;p&gt;Jabee我的人生座右銘就是 &lt;strong&gt;資料要備份，Format要謹慎。&lt;/strong&gt;&lt;/p&gt;
@@ -227,14 +227,14 @@
     
     <item>
       <title>DDPM paper notes</title>
-      <link>http://localhost:51817/notes/241226/</link>
+      <link>https://jabee.net/notes/241226/</link>
       <pubDate>Thu, 26 Dec 2024 11:41:33 +0800</pubDate>
       
-      <guid>http://localhost:51817/notes/241226/</guid>
+      <guid>https://jabee.net/notes/241226/</guid>
       <description>&lt;p&gt;這篇主要是參考李教授的影片，以及網路上的文章，整理的筆記。&lt;/p&gt;
 &lt;h1 id=&#34;algorithm-1-training&#34;&gt;Algorithm 1: Training&lt;/h1&gt;
 &lt;p&gt;&lt;img
-        src=&#34;http://localhost:51817/notes/241226/DDPM/image_hu9484696610551704771.webp&#34;
+        src=&#34;https://jabee.net/notes/241226/DDPM/image_hu9484696610551704771.webp&#34;
         alt=&#34;image.png&#34;loading=&#34;lazy&#34;
         decoding=&#34;async&#34;
         style=&#34;max-width: 100%; height: auto&#34;
@@ -616,10 +616,10 @@
     
     <item>
       <title>Mac OS 無法連上公共網路的解決方法</title>
-      <link>http://localhost:51817/notes/241224/</link>
+      <link>https://jabee.net/notes/241224/</link>
       <pubDate>Tue, 24 Dec 2024 12:13:34 +0800</pubDate>
       
-      <guid>http://localhost:51817/notes/241224/</guid>
+      <guid>https://jabee.net/notes/241224/</guid>
       <description>&lt;p&gt;今天在桃園圖書館，因為手機訊號不是很好，所以想連 iTaiwan 網路。結果登入的畫面始終就是連不到，相當的納悶。雖然這個情況在 Mac 上面是常態，但我今天怎麼樣就是連不上。查了一下文章，找到簡單的解法如下，以下的方法皆為自己試過可行的。我認為這個可以算是個玄學，因為每個地方 router 設計皆不同，最好的辦法就是多試試。&lt;/p&gt;</description>
       <content:encoded>&lt;p&gt;今天在桃園圖書館，因為手機訊號不是很好，所以想連 iTaiwan 網路。結果登入的畫面始終就是連不到，相當的納悶。雖然這個情況在 Mac 上面是常態，但我今天怎麼樣就是連不上。查了一下文章，找到簡單的解法如下，以下的方法皆為自己試過可行的。我認為這個可以算是個玄學，因為每個地方 router 設計皆不同，最好的辦法就是多試試。&lt;/p&gt;
 &lt;h1 id=&#34;解決不了首先重開機&#34;&gt;解決不了首先重開機&lt;/h1&gt;
@@ -649,10 +649,10 @@
     
     <item>
       <title>解決 Pop OS 的手勢捏合 &amp;&amp; Scaling 的問題</title>
-      <link>http://localhost:51817/notes/241218/</link>
+      <link>https://jabee.net/notes/241218/</link>
       <pubDate>Wed, 18 Dec 2024 13:53:21 +0800</pubDate>
       
-      <guid>http://localhost:51817/notes/241218/</guid>
+      <guid>https://jabee.net/notes/241218/</guid>
       <description>&lt;p&gt;這兩天在重裝 Surface Go 3 的系統，試了幾個，覺得 Pop OS 最符合我的需求，所以開始安裝。&lt;/p&gt;
 &lt;p&gt;裝是裝好了，但遇到的問題還不少。趁這個機會記錄一下。&lt;/p&gt;
 &lt;h1 id=&#34;gnome-長久以來的-scaling-問題&#34;&gt;Gnome 長久以來的 Scaling 問題&lt;/h1&gt;
@@ -681,10 +681,10 @@
     
     <item>
       <title>吵得沸沸揚揚的 Mac mini M4 開機按鍵</title>
-      <link>http://localhost:51817/notes/241119/</link>
+      <link>https://jabee.net/notes/241119/</link>
       <pubDate>Tue, 19 Nov 2024 13:34:08 +0800</pubDate>
       
-      <guid>http://localhost:51817/notes/241119/</guid>
+      <guid>https://jabee.net/notes/241119/</guid>
       <description>&lt;p&gt;最近科技圈鬧得沸沸揚揚的肯定是新 mini 的開機按鍵，大家一直在吵按鍵坐在那邊要確定誒之類的話，但我完全覺得沒什麼。&lt;/p&gt;
 &lt;h1 id=&#34;身為麥金塔老用戶&#34;&gt;身為麥金塔老用戶&lt;/h1&gt;
 &lt;p&gt;身為 Mac 6 年老用戶，從 high sierra、mojave 到現今的 Sonoma （還沒更新，我都穩定了才會更新），從黑蘋果一路用到白蘋果，一路用到現在。我可以肯定是，我一年主動的關機次數真的是沒有，大約就是一隻手手指可以數得出來。&lt;/p&gt;</description>
