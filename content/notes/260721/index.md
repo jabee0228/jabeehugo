@@ -27,7 +27,7 @@ ShowRssButtonInSectionTermList: true
 UseHugoToc: false
 
 cover:
-  image: /images/cover.jpg
+  image: IMG_9230.JPEG
   caption: 
 
 # {{< figure src="/images/cover.jpg" caption="標題" height="400">}}
