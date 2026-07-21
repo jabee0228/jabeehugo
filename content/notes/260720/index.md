@@ -3,7 +3,7 @@ date: '2026-07-20T19:07:05+08:00'
 # draft: true
 draft: false
 title: '感謝那些在大學中很重要的人 && 發一下我的畢業照'
-# lastmod: 2026-07-20
+lastmod: 2026-07-21
 
 categories: ["chat"]
 tags: ["感恩", "照片"]

@@ -18,6 +18,16 @@
     </item>
     
     <item>
+      <title>回顧</title>
+      <link>https://jabee.net/categories/recap/</link>
+      <pubDate>Wed, 17 Jun 2026 12:19:27 +0800</pubDate>
+      
+      <guid>https://jabee.net/categories/recap/</guid>
+      <description>個人年度回顧</description>
+      <content:encoded></content:encoded>
+    </item>
+    
+    <item>
       <title>科技</title>
       <link>https://jabee.net/categories/tech/</link>
       <pubDate>Tue, 17 Feb 2026 18:39:52 +0800</pubDate>
@@ -34,16 +44,6 @@
       
       <guid>https://jabee.net/categories/travel/</guid>
       <description>旅遊攻略分享</description>
-      <content:encoded></content:encoded>
-    </item>
-    
-    <item>
-      <title>回顧</title>
-      <link>https://jabee.net/categories/recap/</link>
-      <pubDate>Wed, 14 Jan 2026 15:43:26 +0800</pubDate>
-      
-      <guid>https://jabee.net/categories/recap/</guid>
-      <description>個人年度回顧</description>
       <content:encoded></content:encoded>
     </item>
     
